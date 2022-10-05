@@ -22,29 +22,6 @@ export default () => html `
     Your Bio:
     <textarea name="message"></textarea>
   </label>
-  <div class="form-group">
-  <input type="street" 
-         class="form-control" 
-         id="autocomplete" 
-         placeholder="Street">
-  
-  <input type="city" 
-         class="form-control" 
-         id="inputCity" 
-         placeholder="City">
-  
-  <input type="state" 
-         class="form-control" 
-         id="inputState" 
-         placeholder="State">
-  
-  <input type="zip" 
-         class="form-control" 
-         id="inputZip" 
-         placeholder="Zip">
-
-</div>
-
   <!-- your other form fields go here -->
   <button type="submit">Send</button>
 </form>
