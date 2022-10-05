@@ -1,4 +1,4 @@
 export default {
     header:"Installer Application",
-    view: "Installer",
+    view: "Installer"
 };

@@ -804,7 +804,14 @@ parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
 exports.default = ()=>(0, _htmlLiteralDefault.default)`
-<footer> Test Footer </footer>
+<footer>
+<p>Contact the author of this page:</p>
+
+<address>
+  <a href="mailto:customersupport@allaboutdoors.com">customersupport@allaboutdoors.com</a><br>
+  <a href="tel:+18162216543">(816) 221-6543</a>
+</address>
+</footer>
 `;
 
 },{"html-literal":"amMXC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2qGmX":[function(require,module,exports) {
@@ -863,6 +870,52 @@ var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
 exports.default = ()=>(0, _htmlLiteralDefault.default)`
 <h1>This is the installer application Page</h1>
+<form
+  action="https://formspree.io/f/mlevnoap"
+  method="POST"
+>
+<label>
+    Your Name:
+    <input type="name" name="name">
+</label>
+<label>
+    Your Phone Number:
+    <input type="tel" name="phone">
+</label>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your Bio:
+    <textarea name="message"></textarea>
+  </label>
+  <div class="form-group">
+  <input type="street" 
+         class="form-control" 
+         id="autocomplete" 
+         placeholder="Street">
+  
+  <input type="city" 
+         class="form-control" 
+         id="inputCity" 
+         placeholder="City">
+  
+  <input type="state" 
+         class="form-control" 
+         id="inputState" 
+         placeholder="State">
+  
+  <input type="zip" 
+         class="form-control" 
+         id="inputZip" 
+         placeholder="Zip">
+
+</div>
+
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
 `;
 
 },{"html-literal":"amMXC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cHLto":[function(require,module,exports) {
@@ -872,6 +925,21 @@ var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
 exports.default = ()=>(0, _htmlLiteralDefault.default)`
 <h1>This is where customers will give feedback</h1>
+<form
+  action="https://formspree.io/f/xaykjlab"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
 `;
 
 },{"html-literal":"amMXC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"71t6G":[function(require,module,exports) {
@@ -912,7 +980,7 @@ exports.default = [
     },
     {
         title: "Installer",
-        text: "Installers Application"
+        text: "Installer Application"
     }
 ];
 
