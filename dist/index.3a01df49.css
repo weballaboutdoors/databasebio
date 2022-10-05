@@ -9,6 +9,58 @@ header > h1 > a {
   background-color: #d3d3d3;
 }
 
+@media (max-width: 669px) {
+  .hidden--mobile {
+    display: none !important;
+  }
+
+  nav > .fas-bars {
+    display: block;
+  }
+
+  nav > ul {
+    flex-direction: column;
+  }
+
+  nav > ul > li {
+    margin: .8em 0;
+  }
+
+  nav > ul > li > a {
+    float: none;
+    width: 100%;
+    text-align: left;
+    display: block;
+  }
+}
+
+#form {
+  width: 75%;
+  background: #912f40;
+  border: 5px solid #000;
+  font-size: 20px;
+}
+
+.formText {
+  border: none;
+  justify-content: center;
+  display: block;
+}
+
+#metricsTable {
+  height: auto;
+  text-align: center;
+  font-size: 18px;
+}
+
+.football {
+  height: auto;
+  width: auto;
+  text-align: center;
+  font-family: Nunito, sans-serif;
+  font-size: 18px;
+}
+
 @media (min-width: 670px) {
   nav {
     width: 100%;
