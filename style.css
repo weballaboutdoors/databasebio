@@ -1,0 +1,41 @@
+
+header > h1 > a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.fun {
+    background-color: lightgray;
+}
+@media (min-width: 670px) {
+    nav{
+      width:100%;
+      background-color: #000000;
+    }
+    nav > .fa-bars {
+      display: none;
+    }
+    nav > ul {
+      display: flex;
+      /* justify-content: space-evenly; */
+      padding: 0 0;
+    }
+
+    nav > ul > li {
+      display: inline-block;
+      text-decoration: none;
+      justify-content: space-evenly;
+    }
+    nav > ul > li > a {
+      float: left;
+      padding: 12px;
+      color: white;
+      text-decoration: none;
+      font-size: 17px;
+      text-align: center;
+    }
+    nav > .fas-bars {
+      display: none;
+    }
+}

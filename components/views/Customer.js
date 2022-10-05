@@ -6,12 +6,16 @@ export default () => html `
   action="https://formspree.io/f/xaykjlab"
   method="POST"
 >
-  <label>
-    Your email:
+<label>
+    Your Name:
+    <input type="name" name="name">
+</label>
+<label>
+    Your E-Mail:
     <input type="email" name="email">
   </label>
   <label>
-    Your message:
+    Your Feedback:
     <textarea name="message"></textarea>
   </label>
   <!-- your other form fields go here -->
