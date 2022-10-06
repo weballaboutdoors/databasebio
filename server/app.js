@@ -3,8 +3,7 @@ const express = require("express");
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
 const alabamas = require("./routers/alabamas");
-// const metrics = require("./routers/metrics");
-// const fscores = require("./routers/fscores");
+const alaskas = require("./routers/alaskas");
 // Initialize the Express application
 const app = express();
 
@@ -57,8 +56,7 @@ app.post("/echo", (request, response) => {
 });
 
  app.use("/alabamas", alabamas);
-// app.use("/metrics", metrics);
-// app.use("/fscores", fscores);
+ app.use("/alaskas", alaskas);
 
 // Tell the Express app to start listening
 // Let the humans know I am running and listening on 4040

@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const alabamaSchema = new mongoose.Schema({
+const alaskaSchema = new mongoose.Schema({
   name: {
     type: String,
     required: true,
@@ -41,6 +41,6 @@ const alabamaSchema = new mongoose.Schema({
   }
 });
 
-const Alabama = mongoose.model("Alabama", alabamaSchema);
+const Alaska = mongoose.model("Alaska", alaskaSchema);
 
-module.exports = Alabama;
+module.exports = Alaska;

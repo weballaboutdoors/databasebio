@@ -1,12 +1,12 @@
 const { Router } = require("express");
-const Alabama = require("../models/Alabama");
+const Alaska = require("../models/Alaska");
 
 const router = Router();
 
 // Create record in MongoDB Atlas using Mongoose.js ORM
 router.post("/", (request, response) => {
-  const newAlabama = new Alabama(request.body);
-  newAlabama.save((error, record) => {
+  const newAlaska = new Alaska(request.body);
+  newAlaska.save((error, record) => {
     if (error) return response.status(500).json(error);
     return response.json(record);
   });
@@ -14,7 +14,7 @@ router.post("/", (request, response) => {
 
 // Get (read) all records from the collection
 router.get("/", (request, response) => {
-  Alabama.find({}, (error, record) => {
+  Alaska.find({}, (error, record) => {
     if (error) return response.status(500).json(error);
     return response.json(record);
   });
@@ -22,14 +22,14 @@ router.get("/", (request, response) => {
 
 // Get a single record by ID using a query parameter
 router.get("/:id", (request, response) => {
-  Alabama.findById(request.params.id, (error, record) => {
+  Alaska.findById(request.params.id, (error, record) => {
     if (error) return response.status(500).json(error);
     return response.json(record);
   });
 });
 
 router.delete("/:id", (request, response) => {
-  Alabama.findByIdAndRemove(request.params.id, {}, (error, record) => {
+  Alaska.findByIdAndRemove(request.params.id, {}, (error, record) => {
     if (error) return response.status(500).json(error);
     return response.json(record);
   });
@@ -37,7 +37,7 @@ router.delete("/:id", (request, response) => {
 
 router.put("/:id", (request, response) => {
   const body = request.body;
-  Alabama.findByIdAndUpdate(
+  Alaska.findByIdAndUpdate(
     request.params.id,
     {
       $set: {
@@ -65,7 +65,7 @@ router.put("/:id", (request, response) => {
 router.get("/:atrib/:value", (request, response) => {
   let filter = {};
   filter[request.params.atrib] = request.params.value;
-  Alabama.find(filter, (error, record) => {
+  Alaska.find(filter, (error, record) => {
     if (error) return response.status(500).json(error);
     return response.json(record);
   });
