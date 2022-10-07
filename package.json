@@ -4,7 +4,9 @@
     "description": "",
     "scripts": {
         "parcel-build": "parcel build index.html && cp _redirects ./dist/",
-        "serve": "parcel index.html"
+        "serve": "parcel index.html",
+        "app:watch": "nodemon --watch ./server -e js ./server/app.js",
+        "start": "node ./server/app.js"
     },
     "keywords": [],
     "author": "Delfino Farfan",
@@ -16,12 +18,13 @@
         "html-literal": "^1.1.0",
         "install": "^0.13.0",
         "lodash": "^4.17.21",
-        "mongoose": "^6.6.4",
+        "mongoose": "^6.6.5",
         "navigo": "^8.11.1",
         "parcel": "^2.7.0",
         "yargs-parser": "^21.1.1"
     },
     "devDependencies": {
+        "nodemon": "^2.0.20",
         "os-browserify": "^0.3.0",
         "path-browserify": "^1.0.1",
         "process": "^0.11.10"
