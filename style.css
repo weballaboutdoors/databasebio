@@ -28,29 +28,6 @@ header > h1 > a {
         text-align: left;
       }
     }
-    #form {
-      width: 75%;
-      border: solid 5px black;
-      background: #912F40;
-      font-size: 20px;
-    }
-     .formText{
-      display: block;
-      justify-content: center;
-      border: none;
-    }
-    #metricsTable {
-      font-size: 18px;
-      height: auto;
-      text-align: center;
-    }
-    .football {
-      font-family: 'Nunito', sans-serif;
-      font-size: 18px;
-      height: auto;
-      width: auto;
-      text-align: center;
-    }
 @media (min-width: 670px) {
     nav{
       width:100%;
