@@ -5,6 +5,9 @@ header > h1 > a {
     display: flex;
     justify-content: center;
 }
+.homePage {
+  border: solid;
+}
 .fun {
     background-color: lightgray;
 }

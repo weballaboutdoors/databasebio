@@ -1,6 +1,7 @@
 import html from "html-literal";
 
 export default () => html `
+<div class="homePage">
 <div class="containter text-center">
 <div class="row justify-content-center">
     <div class="col-6">
@@ -15,6 +16,8 @@ export default () => html `
     </div>
 </div>
 </div>
+</div>
+<div class="homePage">
 <div class="containter text-center">
 <div class="row justify-content-center">
     <div class="col-6">
@@ -75,6 +78,7 @@ export default () => html `
         <ul><a href="./Wyoming">Wyoming</a></ul>
         </div>
     </div>
+</div>
 </div>
 </div>
 `;
