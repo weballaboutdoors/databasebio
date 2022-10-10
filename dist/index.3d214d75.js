@@ -596,7 +596,9 @@ var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
 exports.default = (state)=>(0, _htmlLiteralDefault.default)`
   <header>
-  <h1><a href="/Home">InstallerBio</a></h1>
+    <div class="container justify-content-start">
+  <h1 class><a href="/Home">InstallerBio</a></h1>
+  </div>
     <h2 class="headerClass">${state.header}</h2>
   </header>
 `;
@@ -1033,7 +1035,7 @@ exports.default = ()=>(0, _htmlLiteralDefault.default)`
     <div>
         <h2>Browse Window and Door Installers by State</h2>
         <p>Below are states where installers are available on our site:</p>
-        <div class="container">
+        <div>
             <div class="row align-items-start">
                 <div class="col">
         <ul><a href="./Alabama">Alabama</a></ul>

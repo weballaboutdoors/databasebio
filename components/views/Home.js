@@ -23,7 +23,7 @@ export default () => html `
     <div>
         <h2>Browse Window and Door Installers by State</h2>
         <p>Below are states where installers are available on our site:</p>
-        <div class="container">
+        <div>
             <div class="row align-items-start">
                 <div class="col">
         <ul><a href="./Alabama">Alabama</a></ul>

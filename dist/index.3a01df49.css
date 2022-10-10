@@ -1,12 +1,20 @@
-header > h1 > a {
+header > div > h1 > a {
   color: #000;
-  justify-content: center;
   text-decoration: none;
   display: flex;
 }
 
 .homePage {
   border: solid;
+}
+
+ul > a {
+  color: #000;
+  text-decoration: none;
+}
+
+ul > a:hover {
+  color: red;
 }
 
 .fun {
