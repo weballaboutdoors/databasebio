@@ -9,7 +9,7 @@ header > h1 > a {
   border: solid;
 }
 .fun {
-    background-color: lightgray;
+    background-color: gainsboro;
 }
 @media (max-width: 669px) {
     .hidden--mobile {

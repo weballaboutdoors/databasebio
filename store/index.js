@@ -5,6 +5,7 @@ export { default as Installer } from "./Installer";
 export { default as Alabama } from "./Alabama";
 export { default as Alaska } from "./Alaska";
 export { default as Arizona } from "./Arizona";
+export { default as Arkansas } from "./Arkansas";
 export { default as California } from "./California";
 export { default as Colorado } from "./Colorado";
 export { default as Connecticut } from "./Connecticut";
