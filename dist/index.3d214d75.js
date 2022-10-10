@@ -1030,10 +1030,12 @@ exports.default = ()=>(0, _htmlLiteralDefault.default)`
 <div class="homePage">
 <div class="containter text-center">
 <div class="row justify-content-center">
-    <div class="col-6">
+    <div>
         <h2>Browse Window and Door Installers by State</h2>
         <p>Below are states where installers are available on our site:</p>
-        <div class="row">
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col">
         <ul><a href="./Alabama">Alabama</a></ul>
         <ul><a href="./Alaska">Alaska</a></ul>
         <ul><a href="./Arizona">Arizona</a></ul>
@@ -1044,6 +1046,8 @@ exports.default = ()=>(0, _htmlLiteralDefault.default)`
         <ul><a href="./Delaware">Delaware</a></ul>
         <ul><a href="./Districtofcolumbia">District of Columbia</a></ul>
         <ul><a href="./Florida">Florida</a></ul>
+        </div>
+        <div class="col">
         <ul><a href="./Georgia">Georgia</a></ul>
         <ul><a href="./Hawaii">Hawaii</a></ul>
         <ul><a href="./Idaho">Idaho</a></ul>
@@ -1054,18 +1058,20 @@ exports.default = ()=>(0, _htmlLiteralDefault.default)`
         <ul><a href="./Kentucky">Kentucky</a></ul>
         <ul><a href="./Louisiana">Louisiana</a></ul>
         <ul><a href="./Maine">Maine</a></ul>
+        </div>
+        <div class="col">
         <ul><a href="./Maryland">Maryland</a></ul>
         <ul><a href="./Massachusetts">Massachusetts</a></ul>
         <ul><a href="./Michigan">Michigan</a></ul>
         <ul><a href="./Minnesota">Minnesota</a></ul>
         <ul><a href="./Mississippi">Mississippi</a></ul>
         <ul><a href="./Missouri">Missouri</a></ul>
-        </div>
-        <div class="row">
         <ul><a href="./Montana">Montana</a></ul>
         <ul><a href="./Nebraska">Nebraska</a></ul>
         <ul><a href="./Nevada">Nevada</a></ul>
         <ul><a href="./Newhampshire">New Hampshire</a></ul>
+        </div>
+        <div class="col">
         <ul><a href="./Newjersey">New Jersey</a></ul>
         <ul><a href="./Newmexico">New Mexico</a></ul>
         <ul><a href="./Newyork">New York</a></ul>
@@ -1076,6 +1082,8 @@ exports.default = ()=>(0, _htmlLiteralDefault.default)`
         <ul><a href="./Oregon">Oregon</a></ul>
         <ul><a href="./Pennsylvania">Pennsylvania</a></ul>
         <ul><a href="./Rhodeisland">Rhode Island</a></ul>
+        </div>
+        <div class="col">
         <ul><a href="./Southcarolina">South Carolina</a></ul>
         <ul><a href="./Southdakota">South Dakota</a></ul>
         <ul><a href="./Tennessee">Tennessee</a></ul>
@@ -1087,6 +1095,8 @@ exports.default = ()=>(0, _htmlLiteralDefault.default)`
         <ul><a href="./Westvirginia">West Virginia</a></ul>
         <ul><a href="./Wisconsin">Wisconsin</a></ul>
         <ul><a href="./Wyoming">Wyoming</a></ul>
+        </div>
+        </div>
         </div>
     </div>
 </div>
@@ -1159,7 +1169,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the alabama page</p>
 `;
 
@@ -1168,7 +1178,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the alaska page</p>
 `;
 
@@ -1177,7 +1187,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the arizona page</p>
 `;
 
@@ -1186,7 +1196,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the california page</p>
 `;
 
@@ -1195,7 +1205,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the colorado page</p>
 `;
 
@@ -1204,7 +1214,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the connecticut page</p>
 `;
 
@@ -1213,7 +1223,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the delaware page</p>
 `;
 
@@ -1222,7 +1232,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the district of columbia page</p>
 `;
 
@@ -1231,7 +1241,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the florida page</p>
 `;
 
@@ -1240,7 +1250,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the georgia page</p>
 `;
 
@@ -1249,7 +1259,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the hawaii page</p>
 `;
 
@@ -1258,7 +1268,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the idaho page</p>
 `;
 
@@ -1267,7 +1277,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the illinois page</p>
 `;
 
@@ -1276,7 +1286,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the indiana page</p>
 `;
 
@@ -1285,7 +1295,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the iowa page</p>
 `;
 
@@ -1294,7 +1304,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the kansas page</p>
 `;
 
@@ -1303,7 +1313,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the kentucky page</p>
 `;
 
@@ -1312,7 +1322,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the louisiana page</p>
 `;
 
@@ -1321,7 +1331,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the maine page</p>
 `;
 
@@ -1330,7 +1340,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the maryland page</p>
 `;
 
@@ -1339,7 +1349,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the massachusetts page</p>
 `;
 
@@ -1348,7 +1358,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the michigan page</p>
 `;
 
@@ -1357,7 +1367,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the minnesota page</p>
 `;
 
@@ -1366,7 +1376,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the mississippi page</p>
 `;
 
@@ -1375,7 +1385,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the missouri page</p>
 `;
 
@@ -1384,7 +1394,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the montana page</p>
 `;
 
@@ -1393,7 +1403,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the nevada page</p>
 `;
 
@@ -1402,7 +1412,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the new hampshire page</p>
 `;
 
@@ -1411,7 +1421,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the new jersey page</p>
 `;
 
@@ -1420,7 +1430,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the new mexico page</p>
 `;
 
@@ -1429,7 +1439,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the new york page</p>
 `;
 
@@ -1438,7 +1448,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the north carolina page</p>
 `;
 
@@ -1447,7 +1457,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the north dakota page</p>
 `;
 
@@ -1456,7 +1466,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the ohio page</p>
 `;
 
@@ -1465,7 +1475,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the oklahoma page</p>
 `;
 
@@ -1474,7 +1484,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the oregon page</p>
 `;
 
@@ -1483,7 +1493,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the pennsylvania page</p>
 `;
 
@@ -1492,7 +1502,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the rhode island page</p>
 `;
 
@@ -1501,7 +1511,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the south carolina page</p>
 `;
 
@@ -1510,7 +1520,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the south dakota page</p>
 `;
 
@@ -1519,7 +1529,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the tennessee page</p>
 `;
 
@@ -1528,7 +1538,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the texas page</p>
 `;
 
@@ -1537,7 +1547,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the utah page</p>
 `;
 
@@ -1546,7 +1556,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the vermont page</p>
 `;
 
@@ -1555,7 +1565,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the washington page</p>
 `;
 
@@ -1564,7 +1574,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the west virginia page</p>
 `;
 
@@ -1573,7 +1583,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the wisconsin page</p>
 `;
 
@@ -1582,7 +1592,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the wyoming page</p>
 `;
 
@@ -1591,7 +1601,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the nebraska page</p>
 `;
 
@@ -1600,7 +1610,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the virginia page</p>
 `;
 
@@ -1609,7 +1619,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
-exports.default = ()=>(0, _htmlLiteralDefault.default)`
+exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the arkansas page</p>
 `;
 
