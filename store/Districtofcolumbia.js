@@ -1,4 +1,5 @@
 export default {
     header:"District of Columbia",
-    view: "Districtofcolumbia"
+    view: "Districtofcolumbia",
+    distictofcolumbia: []
 };

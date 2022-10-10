@@ -1,4 +1,5 @@
 export default {
     header:"Delaware",
-    view: "Delaware"
+    view: "Delaware",
+    delaware: []
 };
