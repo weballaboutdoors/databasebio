@@ -2,7 +2,7 @@ import { Header, Nav, Main, Footer } from "./components";
 import * as store from "./store";
 import Navigo from "navigo";
 import { capitalize } from "lodash";
-// import axios from "axios";
+import axios from "axios";
 import dotenv from "dotenv";
 dotenv.config();
 
@@ -33,9 +33,22 @@ router.hooks({
       if (params && params.data && params.data.view) {
         view = capitalize(params.data.view);
       }
+      if (view === "Alabama") {
+        axios
+          .get(`${process.env.ALABAMA_API}`)
+          .then(response => {
+            store.Alabama.alabamas = response.data;
+            done();
+          })
+          .catch(error => {
+            console.log("Alabama not loading", error);
+            done();
+          });
+      } else {
         done();
       }
-    });
+    }
+  });
 
 
 router

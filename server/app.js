@@ -4,6 +4,11 @@ const dotenv = require("dotenv");
 const mongoose = require("mongoose");
 const alabamas = require("./routers/alabamas");
 const alaskas = require("./routers/alaskas");
+const arizonas = require("./routers/arizonas");
+// const arkansass = require("./routers/arkansass");
+const californias = require("./routers/californias");
+const colorados = require("./routers/colorados");
+const connecticuts = require("./routers/connecticuts");
 // Initialize the Express application
 const app = express();
 
@@ -57,6 +62,11 @@ app.post("/echo", (request, response) => {
 
  app.use("/alabamas", alabamas);
  app.use("/alaskas", alaskas);
+ app.use("/arizonas", arizonas);
+//  app.use("/arkansass", arkanass);
+ app.use("/californias", californias);
+ app.use("/colorados", colorados);
+ app.use("/connecticuts", connecticuts);
 
 // Tell the Express app to start listening
 // Let the humans know I am running and listening on 4040
