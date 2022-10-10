@@ -1,4 +1,5 @@
 export default {
     header:"Maine",
-    view: "Maine"
+    view: "Maine",
+    maine: []
 };

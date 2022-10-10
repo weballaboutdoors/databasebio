@@ -1,4 +1,5 @@
 export default {
     header:"New Jersey",
-    view: "Newjersey"
+    view: "Newjersey",
+    newjersey: []
 };
