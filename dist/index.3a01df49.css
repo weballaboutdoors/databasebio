@@ -10,7 +10,7 @@ header > h1 > a {
 }
 
 .fun {
-  background-color: #d3d3d3;
+  background-color: #dcdcdc;
 }
 
 @media (max-width: 669px) {

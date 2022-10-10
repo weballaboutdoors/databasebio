@@ -848,6 +848,7 @@ parcelHelpers.export(exports, "Home", ()=>(0, _homeDefault.default));
 parcelHelpers.export(exports, "Alabama", ()=>(0, _alabamaDefault.default));
 parcelHelpers.export(exports, "Alaska", ()=>(0, _alaskaDefault.default));
 parcelHelpers.export(exports, "Arizona", ()=>(0, _arizonaDefault.default));
+parcelHelpers.export(exports, "Arkansas", ()=>(0, _arkansasDefault.default));
 parcelHelpers.export(exports, "California", ()=>(0, _californiaDefault.default));
 parcelHelpers.export(exports, "Colorado", ()=>(0, _coloradoDefault.default));
 parcelHelpers.export(exports, "Connecticut", ()=>(0, _connecticutDefault.default));
@@ -907,6 +908,8 @@ var _alaska = require("./Alaska");
 var _alaskaDefault = parcelHelpers.interopDefault(_alaska);
 var _arizona = require("./Arizona");
 var _arizonaDefault = parcelHelpers.interopDefault(_arizona);
+var _arkansas = require("./Arkansas");
+var _arkansasDefault = parcelHelpers.interopDefault(_arkansas);
 var _california = require("./California");
 var _californiaDefault = parcelHelpers.interopDefault(_california);
 var _colorado = require("./Colorado");
@@ -1002,7 +1005,7 @@ var _wisconsinDefault = parcelHelpers.interopDefault(_wisconsin);
 var _wyoming = require("./Wyoming");
 var _wyomingDefault = parcelHelpers.interopDefault(_wyoming);
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./Home":"d9WBP","./Installer":"2aH3R","./Customer":"cHLto","./Alabama":"4lbX1","./Alaska":"3KSNu","./Arizona":"i6za1","./California":"fIMQh","./Colorado":"i0FZP","./Connecticut":"5UzRC","./Delaware":"4mzdI","./Districtofcolumbia":"8EtYA","./Florida":"4xKH9","./Georgia":"keRnn","./Hawaii":"hNEwm","./Idaho":"fUTgB","./Illinois":"YbFiR","./Indiana":"gzevk","./Iowa":"2AGyC","./Kansas":"fJVtA","./Kentucky":"2tqL2","./Louisiana":"8ECVV","./Maine":"kLofK","./Maryland":"1TSfo","./Massachusetts":"hOg5E","./Michigan":"3SySL","./Minnesota":"eUE8H","./Mississippi":"8ZMUw","./Missouri":"gQfCy","./Montana":"5qj1O","./Nevada":"kOwZw","./Newhampshire":"dc6Vi","./Newjersey":"9jRSF","./Newmexico":"6fV4g","./Newyork":"bIOOl","./Northcarolina":"dGS63","./Northdakota":"dCpwP","./Ohio":"iRG8m","./Oklahoma":"hmebf","./Oregon":"d3UXy","./Pennsylvania":"hzSgz","./Rhodeisland":"kqOUV","./Southcarolina":"f3rnl","./Southdakota":"2uQpz","./Tennessee":"7xVPv","./Texas":"9cD19","./Utah":"fhvgG","./Vermont":"lSr94","./Washington":"irmS5","./Westvirginia":"7SyW5","./Wisconsin":"6SX19","./Wyoming":"be0uO","./Nebraska.js":"8Prl0","./Virginia":"jryfq"}],"d9WBP":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./Home":"d9WBP","./Installer":"2aH3R","./Customer":"cHLto","./Alabama":"4lbX1","./Alaska":"3KSNu","./Arizona":"i6za1","./California":"fIMQh","./Colorado":"i0FZP","./Connecticut":"5UzRC","./Delaware":"4mzdI","./Districtofcolumbia":"8EtYA","./Florida":"4xKH9","./Georgia":"keRnn","./Hawaii":"hNEwm","./Idaho":"fUTgB","./Illinois":"YbFiR","./Indiana":"gzevk","./Iowa":"2AGyC","./Kansas":"fJVtA","./Kentucky":"2tqL2","./Louisiana":"8ECVV","./Maine":"kLofK","./Maryland":"1TSfo","./Massachusetts":"hOg5E","./Michigan":"3SySL","./Minnesota":"eUE8H","./Mississippi":"8ZMUw","./Missouri":"gQfCy","./Montana":"5qj1O","./Nevada":"kOwZw","./Newhampshire":"dc6Vi","./Newjersey":"9jRSF","./Newmexico":"6fV4g","./Newyork":"bIOOl","./Northcarolina":"dGS63","./Northdakota":"dCpwP","./Ohio":"iRG8m","./Oklahoma":"hmebf","./Oregon":"d3UXy","./Pennsylvania":"hzSgz","./Rhodeisland":"kqOUV","./Southcarolina":"f3rnl","./Southdakota":"2uQpz","./Tennessee":"7xVPv","./Texas":"9cD19","./Utah":"fhvgG","./Vermont":"lSr94","./Washington":"irmS5","./Westvirginia":"7SyW5","./Wisconsin":"6SX19","./Wyoming":"be0uO","./Nebraska.js":"8Prl0","./Virginia":"jryfq","./Arkansas":"dpgTa"}],"d9WBP":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
@@ -1034,6 +1037,7 @@ exports.default = ()=>(0, _htmlLiteralDefault.default)`
         <ul><a href="./Alabama">Alabama</a></ul>
         <ul><a href="./Alaska">Alaska</a></ul>
         <ul><a href="./Arizona">Arizona</a></ul>
+        <ul><a href="./Arkansas">Arkansas</a></ul>
         <ul><a href="./California">California</a></ul>
         <ul><a href="./Colorado">Colorado</a></ul>
         <ul><a href="./Connecticut">Connecticut</a></ul>
@@ -1600,6 +1604,15 @@ exports.default = ()=>(0, _htmlLiteralDefault.default)`
 <p>this is the virginia page</p>
 `;
 
+},{"html-literal":"amMXC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dpgTa":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _htmlLiteral = require("html-literal");
+var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
+exports.default = ()=>(0, _htmlLiteralDefault.default)`
+<p>this is the arkansas page</p>
+`;
+
 },{"html-literal":"amMXC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"71t6G":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
@@ -1610,6 +1623,7 @@ parcelHelpers.export(exports, "Installer", ()=>(0, _installerDefault.default));
 parcelHelpers.export(exports, "Alabama", ()=>(0, _alabamaDefault.default));
 parcelHelpers.export(exports, "Alaska", ()=>(0, _alaskaDefault.default));
 parcelHelpers.export(exports, "Arizona", ()=>(0, _arizonaDefault.default));
+parcelHelpers.export(exports, "Arkansas", ()=>(0, _arkansasDefault.default));
 parcelHelpers.export(exports, "California", ()=>(0, _californiaDefault.default));
 parcelHelpers.export(exports, "Colorado", ()=>(0, _coloradoDefault.default));
 parcelHelpers.export(exports, "Connecticut", ()=>(0, _connecticutDefault.default));
@@ -1671,6 +1685,8 @@ var _alaska = require("./Alaska");
 var _alaskaDefault = parcelHelpers.interopDefault(_alaska);
 var _arizona = require("./Arizona");
 var _arizonaDefault = parcelHelpers.interopDefault(_arizona);
+var _arkansas = require("./Arkansas");
+var _arkansasDefault = parcelHelpers.interopDefault(_arkansas);
 var _california = require("./California");
 var _californiaDefault = parcelHelpers.interopDefault(_california);
 var _colorado = require("./Colorado");
@@ -1766,7 +1782,7 @@ var _wisconsinDefault = parcelHelpers.interopDefault(_wisconsin);
 var _wyoming = require("./Wyoming");
 var _wyomingDefault = parcelHelpers.interopDefault(_wyoming);
 
-},{"./Home":"60R7n","./Links":"jDBjl","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./Customer":"jfK0n","./Installer":"6Tk3W","./Alabama":"30Uax","./Alaska":"kpXeA","./Arizona":"4amCr","./California":"j09Jx","./Colorado":"8D7Zh","./Connecticut":"4c83T","./Delaware":"cMhl1","./Districtofcolumbia":"3qchL","./Florida":"b8esv","./Georgia":"8rQ10","./Hawaii":"aL5c8","./Idaho":"9Trkj","./Illinois":"bblZt","./Indiana":"f78mQ","./Iowa":"5yTbI","./Kansas":"29ovL","./Kentucky":"irjTe","./Louisiana":"i7PXL","./Maine":"6yyzr","./Maryland":"bdO8r","./Massachusetts":"iy4yp","./Michigan":"ibHsm","./Minnesota":"9kOHl","./Mississippi":"7gYfo","./Missouri":"6UKKL","./Montana":"7yBKJ","./Nebraska.js":"aPQID","./Nevada":"6uNFT","./Newhampshire":"aojcC","./Newjersey":"kmgfz","./Newmexico":"3fQQH","./Newyork":"fJHZo","./Northcarolina":"aU28C","./Northdakota":"hIZKt","./Ohio":"gAYwW","./Oklahoma":"c13O6","./Oregon":"gqHHm","./Pennsylvania":"hrsnL","./Rhodeisland":"9uZ1z","./Southcarolina":"6NlDN","./Southdakota":"cmpeQ","./Tennessee":"fMv3z","./Texas":"2emHN","./Utah":"gXYgH","./Vermont":"9gzbf","./Virginia":"gucet","./Washington":"f5bED","./Westvirginia":"MrlAA","./Wisconsin":"7uq6g","./Wyoming":"faVzK"}],"60R7n":[function(require,module,exports) {
+},{"./Home":"60R7n","./Links":"jDBjl","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./Customer":"jfK0n","./Installer":"6Tk3W","./Alabama":"30Uax","./Alaska":"kpXeA","./Arizona":"4amCr","./California":"j09Jx","./Colorado":"8D7Zh","./Connecticut":"4c83T","./Delaware":"cMhl1","./Districtofcolumbia":"3qchL","./Florida":"b8esv","./Georgia":"8rQ10","./Hawaii":"aL5c8","./Idaho":"9Trkj","./Illinois":"bblZt","./Indiana":"f78mQ","./Iowa":"5yTbI","./Kansas":"29ovL","./Kentucky":"irjTe","./Louisiana":"i7PXL","./Maine":"6yyzr","./Maryland":"bdO8r","./Massachusetts":"iy4yp","./Michigan":"ibHsm","./Minnesota":"9kOHl","./Mississippi":"7gYfo","./Missouri":"6UKKL","./Montana":"7yBKJ","./Nebraska.js":"aPQID","./Nevada":"6uNFT","./Newhampshire":"aojcC","./Newjersey":"kmgfz","./Newmexico":"3fQQH","./Newyork":"fJHZo","./Northcarolina":"aU28C","./Northdakota":"hIZKt","./Ohio":"gAYwW","./Oklahoma":"c13O6","./Oregon":"gqHHm","./Pennsylvania":"hrsnL","./Rhodeisland":"9uZ1z","./Southcarolina":"6NlDN","./Southdakota":"cmpeQ","./Tennessee":"fMv3z","./Texas":"2emHN","./Utah":"gXYgH","./Vermont":"9gzbf","./Virginia":"gucet","./Washington":"f5bED","./Westvirginia":"MrlAA","./Wisconsin":"7uq6g","./Wyoming":"faVzK","./Arkansas":"2aYLm"}],"60R7n":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 exports.default = {
@@ -2208,6 +2224,14 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Wyoming",
     view: "Wyoming"
+};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2aYLm":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+exports.default = {
+    header: "Arkansas",
+    view: "Arkansas"
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fuSlc":[function(require,module,exports) {
