@@ -1173,6 +1173,20 @@ var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
 exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the alabama page</p>
+<table id="tables">
+    <tr>
+      <th>Name</th>
+      <th>Company Name</th>
+      <th>City</th>
+      <th>State</th>
+      <th>Zip Code</th>
+      <th>Phone Number</th>
+      <th>E-Mail</th>
+    </tr>
+    ${state.alabamas.map((alabama)=>{
+        return `<tr><td>${alabama.name}</td><td>${alabama.companyName}</td><td>${alabama.address}</td><td>${alabama.city}</td><td>${alabama.state}</td><td>${alabama.zipcode}</td><td>${alabama.phone}</td><td>${alabama.email}</td></tr>`;
+    }).join("")}
+  </table>
 `;
 
 },{"html-literal":"amMXC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3KSNu":[function(require,module,exports) {
@@ -1842,7 +1856,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Alabama",
     view: "Alabama",
-    alabama: []
+    alabamas: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kpXeA":[function(require,module,exports) {
@@ -1860,7 +1874,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Arizona",
     view: "Arizona",
-    arizona: []
+    arizonas: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"j09Jx":[function(require,module,exports) {
@@ -1869,7 +1883,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "California",
     view: "California",
-    california: []
+    californias: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8D7Zh":[function(require,module,exports) {
@@ -1878,7 +1892,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Colorado",
     view: "Colorado",
-    colorado: []
+    colorados: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4c83T":[function(require,module,exports) {
@@ -1887,7 +1901,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Connecticut",
     view: "Connecticut",
-    connecticut: []
+    connecticuts: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cMhl1":[function(require,module,exports) {
@@ -1896,7 +1910,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Delaware",
     view: "Delaware",
-    delaware: []
+    delawares: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3qchL":[function(require,module,exports) {
@@ -1905,7 +1919,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "District of Columbia",
     view: "Districtofcolumbia",
-    distictofcolumbia: []
+    distictofcolumbias: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"b8esv":[function(require,module,exports) {
@@ -1914,7 +1928,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Florida",
     view: "Florida",
-    florida: []
+    floridas: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8rQ10":[function(require,module,exports) {
@@ -1923,7 +1937,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Georgia",
     view: "Georgia",
-    georgia: []
+    georgias: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aL5c8":[function(require,module,exports) {
@@ -1932,7 +1946,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Hawaii",
     view: "Hawaii",
-    hawaii: []
+    hawaiis: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9Trkj":[function(require,module,exports) {
@@ -1941,7 +1955,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Idaho",
     view: "Idaho",
-    idaho: []
+    idahos: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bblZt":[function(require,module,exports) {
@@ -1950,7 +1964,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Illinois",
     view: "Illinois",
-    illinois: []
+    illinoiss: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"f78mQ":[function(require,module,exports) {
@@ -1959,7 +1973,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Indiana",
     view: "Indiana",
-    indiana: []
+    indianas: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5yTbI":[function(require,module,exports) {
@@ -1968,7 +1982,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Iowa",
     view: "Iowa",
-    iowa: []
+    iowas: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"29ovL":[function(require,module,exports) {
@@ -1977,7 +1991,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Kansas",
     view: "Kansas",
-    kansas: []
+    kansass: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"irjTe":[function(require,module,exports) {
@@ -1986,7 +2000,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Kentucky",
     view: "Kentucky",
-    kentucky: []
+    kentuckys: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"i7PXL":[function(require,module,exports) {
@@ -1995,7 +2009,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Louisiana",
     view: "Louisiana",
-    louisiana: []
+    louisianas: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6yyzr":[function(require,module,exports) {
@@ -2004,7 +2018,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Maine",
     view: "Maine",
-    maine: []
+    maines: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bdO8r":[function(require,module,exports) {
@@ -2013,7 +2027,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Maryland",
     view: "Maryland",
-    maryland: []
+    marylands: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iy4yp":[function(require,module,exports) {
@@ -2022,7 +2036,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Massachusetts",
     view: "Massachusetts",
-    massachusetts: []
+    massachusettss: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ibHsm":[function(require,module,exports) {
@@ -2031,7 +2045,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Michigan",
     view: "Michigan",
-    michigan: []
+    michigans: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9kOHl":[function(require,module,exports) {
@@ -2040,7 +2054,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Minnesota",
     view: "Minnesota",
-    minnesota: []
+    minnesotas: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7gYfo":[function(require,module,exports) {
@@ -2049,7 +2063,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Mississippi",
     view: "Mississippi",
-    mississippi: []
+    mississippis: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6UKKL":[function(require,module,exports) {
@@ -2058,7 +2072,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Missouri",
     view: "Missouri",
-    missouri: []
+    missouris: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7yBKJ":[function(require,module,exports) {
@@ -2067,7 +2081,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Montana",
     view: "Montana",
-    montana: []
+    montanas: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aPQID":[function(require,module,exports) {
@@ -2076,7 +2090,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Nebraska",
     view: "Nebraska",
-    nebraska: []
+    nebraskas: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6uNFT":[function(require,module,exports) {
@@ -2085,7 +2099,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Nevada",
     view: "Nevada",
-    nevada: []
+    nevadas: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aojcC":[function(require,module,exports) {
@@ -2094,7 +2108,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "New Hampshire",
     view: "Newhampshire",
-    newhampshire: []
+    newhampshires: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kmgfz":[function(require,module,exports) {
@@ -2103,7 +2117,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "New Jersey",
     view: "Newjersey",
-    newjersey: []
+    newjerseys: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3fQQH":[function(require,module,exports) {
@@ -2112,7 +2126,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "New Mexico",
     view: "Newmexico",
-    newmexico: []
+    newmexicos: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fJHZo":[function(require,module,exports) {
@@ -2121,7 +2135,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "New York",
     view: "Newyork",
-    newyork: []
+    newyorks: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aU28C":[function(require,module,exports) {
@@ -2130,7 +2144,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "North Carolina",
     view: "Northcarolina",
-    northcarolina: []
+    northcarolinas: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hIZKt":[function(require,module,exports) {
@@ -2139,7 +2153,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "North Dakota",
     view: "Northdakota",
-    northdakota: []
+    northdakotas: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gAYwW":[function(require,module,exports) {
@@ -2148,7 +2162,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Ohio",
     view: "Ohio",
-    ohio: []
+    ohios: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"c13O6":[function(require,module,exports) {
@@ -2157,7 +2171,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Oklahoma",
     view: "Oklahoma",
-    oklahoma: []
+    oklahomas: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gqHHm":[function(require,module,exports) {
@@ -2166,7 +2180,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Oregon",
     view: "Oregon",
-    oregon: []
+    oregons: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hrsnL":[function(require,module,exports) {
@@ -2175,7 +2189,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Pennsylvania",
     view: "Pennsylvania",
-    pennsylvania: []
+    pennsylvanias: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9uZ1z":[function(require,module,exports) {
@@ -2184,7 +2198,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Rhode Island",
     view: "Rhodeisland",
-    rhodeisland: []
+    rhodeislands: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6NlDN":[function(require,module,exports) {
@@ -2193,7 +2207,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "South Carolina",
     view: "Southcarolina",
-    southcarolina: []
+    southcarolinas: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cmpeQ":[function(require,module,exports) {
@@ -2202,7 +2216,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "South Dakota",
     view: "Southdakota",
-    southdakota: []
+    southdakotas: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fMv3z":[function(require,module,exports) {
@@ -2211,7 +2225,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Tennessee",
     view: "Tennessee",
-    tennessee: []
+    tennessees: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2emHN":[function(require,module,exports) {
@@ -2220,7 +2234,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Texas",
     view: "Texas",
-    texas: []
+    texass: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gXYgH":[function(require,module,exports) {
@@ -2229,7 +2243,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Utah",
     view: "Utah",
-    utah: []
+    utahs: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9gzbf":[function(require,module,exports) {
@@ -2238,7 +2252,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Vermont",
     view: "Vermont",
-    vermont: []
+    vermonts: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gucet":[function(require,module,exports) {
@@ -2247,7 +2261,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Virginia",
     view: "Virginia",
-    virginia: []
+    virginias: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"f5bED":[function(require,module,exports) {
@@ -2256,7 +2270,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Wahsington",
     view: "Washington",
-    washington: []
+    washingtons: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"MrlAA":[function(require,module,exports) {
@@ -2265,7 +2279,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "West Virginia",
     view: "Westvirginia",
-    westvirginia: []
+    westvirginias: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7uq6g":[function(require,module,exports) {
@@ -2274,7 +2288,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Wisconsin",
     view: "Wisconsin",
-    wisconsin: []
+    wisconsins: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"faVzK":[function(require,module,exports) {
@@ -2283,7 +2297,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Wyoming",
     view: "Wyoming",
-    wyoming: []
+    wyomings: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2aYLm":[function(require,module,exports) {
@@ -2292,7 +2306,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Arkansas",
     view: "Arkansas",
-    arkansas: []
+    arkansass: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fuSlc":[function(require,module,exports) {
