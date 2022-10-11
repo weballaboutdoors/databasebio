@@ -4,6 +4,10 @@ header > div > h1 > a {
   display: flex;
 }
 
+.state {
+  list-style: none;
+}
+
 .homePage {
   border: solid;
 }

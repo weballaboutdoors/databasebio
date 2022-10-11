@@ -4,6 +4,9 @@ header > div > h1 > a {
     color: black;
     display: flex;
 }
+.state{
+  list-style: none;
+}
 .homePage {
   border: solid;
 }
