@@ -20,10 +20,12 @@ export default () => html `
 <div class="homePage">
 <div class="containter text-center">
 <div class="row justify-content-center">
-    <div class="col-6">
+    <div>
         <h2>Browse Window and Door Installers by State</h2>
         <p>Below are states where installers are available on our site:</p>
-        <div class="row">
+        <div>
+            <div class="row align-items-start">
+                <div class="col">
         <ul><a href="./Alabama">Alabama</a></ul>
         <ul><a href="./Alaska">Alaska</a></ul>
         <ul><a href="./Arizona">Arizona</a></ul>
@@ -34,6 +36,8 @@ export default () => html `
         <ul><a href="./Delaware">Delaware</a></ul>
         <ul><a href="./Districtofcolumbia">District of Columbia</a></ul>
         <ul><a href="./Florida">Florida</a></ul>
+        </div>
+        <div class="col">
         <ul><a href="./Georgia">Georgia</a></ul>
         <ul><a href="./Hawaii">Hawaii</a></ul>
         <ul><a href="./Idaho">Idaho</a></ul>
@@ -44,18 +48,20 @@ export default () => html `
         <ul><a href="./Kentucky">Kentucky</a></ul>
         <ul><a href="./Louisiana">Louisiana</a></ul>
         <ul><a href="./Maine">Maine</a></ul>
+        </div>
+        <div class="col">
         <ul><a href="./Maryland">Maryland</a></ul>
         <ul><a href="./Massachusetts">Massachusetts</a></ul>
         <ul><a href="./Michigan">Michigan</a></ul>
         <ul><a href="./Minnesota">Minnesota</a></ul>
         <ul><a href="./Mississippi">Mississippi</a></ul>
         <ul><a href="./Missouri">Missouri</a></ul>
-        </div>
-        <div class="row">
         <ul><a href="./Montana">Montana</a></ul>
         <ul><a href="./Nebraska">Nebraska</a></ul>
         <ul><a href="./Nevada">Nevada</a></ul>
         <ul><a href="./Newhampshire">New Hampshire</a></ul>
+        </div>
+        <div class="col">
         <ul><a href="./Newjersey">New Jersey</a></ul>
         <ul><a href="./Newmexico">New Mexico</a></ul>
         <ul><a href="./Newyork">New York</a></ul>
@@ -66,6 +72,8 @@ export default () => html `
         <ul><a href="./Oregon">Oregon</a></ul>
         <ul><a href="./Pennsylvania">Pennsylvania</a></ul>
         <ul><a href="./Rhodeisland">Rhode Island</a></ul>
+        </div>
+        <div class="col">
         <ul><a href="./Southcarolina">South Carolina</a></ul>
         <ul><a href="./Southdakota">South Dakota</a></ul>
         <ul><a href="./Tennessee">Tennessee</a></ul>
@@ -77,6 +85,8 @@ export default () => html `
         <ul><a href="./Westvirginia">West Virginia</a></ul>
         <ul><a href="./Wisconsin">Wisconsin</a></ul>
         <ul><a href="./Wyoming">Wyoming</a></ul>
+        </div>
+        </div>
         </div>
     </div>
 </div>

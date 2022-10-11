@@ -4,6 +4,20 @@ const dotenv = require("dotenv");
 const mongoose = require("mongoose");
 const alabamas = require("./routers/alabamas");
 const alaskas = require("./routers/alaskas");
+const arizonas = require("./routers/arizonas");
+const arkansass = require("./routers/arkansass");
+const californias = require("./routers/californias");
+const colorados = require("./routers/colorados");
+const connecticuts = require("./routers/connecticuts");
+// const delawares = require("./routers/delawares");
+// const districtofcolumbias = require("./routers/districtofcolumbias");
+// const floridas = require("./routers/floridas");
+// const georgias = require("./routers/georgias");
+// const hawaiis = require("./routers/hawaiis");
+// const idahos = require("./routers/idahos");
+// const illinoiss = require("./routers/illinoiss");
+// const indianas = require("./routers/indianas");
+// const iowas = require("./routers/iowas");
 // Initialize the Express application
 const app = express();
 
@@ -57,6 +71,20 @@ app.post("/echo", (request, response) => {
 
  app.use("/alabamas", alabamas);
  app.use("/alaskas", alaskas);
+ app.use("/arizonas", arizonas);
+app.use("/arkansass", arkansass);
+ app.use("/californias", californias);
+ app.use("/colorados", colorados);
+ app.use("/connecticuts", connecticuts);
+//  app.use("/delawares", delawares);
+//  app.use("/districtofcolumbias", districtofcolumbias);
+//  app.use("/floridas", floridas);
+//  app.use("/georgias", georgias);
+//  app.use("/hawaiis", hawaiis);
+//  app.use("/idahos", idahos);
+//  app.use("/illinoiss", illinoiss);
+//  app.use("/indianas", indianas);
+//  app.use("/iowas", iowas);
 
 // Tell the Express app to start listening
 // Let the humans know I am running and listening on 4040

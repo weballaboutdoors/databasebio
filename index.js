@@ -2,7 +2,7 @@ import { Header, Nav, Main, Footer } from "./components";
 import * as store from "./store";
 import Navigo from "navigo";
 import { capitalize } from "lodash";
-// import axios from "axios";
+import axios from "axios";
 import dotenv from "dotenv";
 dotenv.config();
 
@@ -33,9 +33,82 @@ router.hooks({
       if (params && params.data && params.data.view) {
         view = capitalize(params.data.view);
       }
+      if (view === "Alabama") {
+        axios
+          .get(`${process.env.ALABAMA_API}`)
+          .then(response => {
+            store.Alabama.alabamas = response.data;
+            done();
+          })
+          .catch(error => {
+            console.log("Alabama not loading", error);
+            done();
+          });
+        }
+        else if (view === "Alaska") {
+            axios
+              .get(`${process.env.ALASKA_API}`)
+              .then(response => {
+                store.Alaska.alaskas = response.data;
+                done();
+              })
+              .catch(error => {
+                console.log("Alaska not loading", error);
+                done();
+              });
+            }
+            else if (view === "Arizona") {
+              axios
+              .get(`${process.env.ARIZONA_API}`)
+              .then(response => {
+                  store.Arizona.arizonas = response.data;
+                  done();
+                })
+                .catch(error => {
+                  console.log("Arizona not loading", error);
+                done();
+                });
+                }
+                else if (view === "California") {
+                  axios
+                  .get(`${process.env.CALIFORNIA_API}`)
+                  .then(response => {
+                    store.California.californias = response.data;
+                    done();
+                  })
+                    .catch(error => {
+                      console.log("California not loading", error);
+                      done();
+                    });
+                    }
+                    else if (view === "Colorado") {
+                      axios
+                        .get(`${process.env.COLORADO_API}`)
+                        .then(response => {
+                          store.Colorado.colorados = response.data;
+                          done();
+                        })
+                        .catch(error => {
+                        console.log("Colorado not loading", error);
+                          done();
+                        });
+                        }
+                        else if (view === "Connecticut") {
+                          axios
+                            .get(`${process.env.CONNECTICUT_API}`)
+                            .then(response => {
+                              store.Connecticut.connecticuts = response.data;
+                              done();
+                            })
+                            .catch(error => {
+                            console.log("Connecticut not loading", error);
+                            done();
+                            });
+      } else {
         done();
       }
-    });
+    }
+  });
 
 
 router
