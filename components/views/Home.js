@@ -64,29 +64,29 @@ export default () => html `
         <ul class="state"><a href="./Newhampshire">&#128297; New Hampshire</a></ul>
         </div>
         <div class="col">
-        <ul><a href="./Newjersey">&#128297; New Jersey</a></ul>
-        <ul><a href="./Newmexico">&#128297; New Mexico</a></ul>
-        <ul><a href="./Newyork">&#128297; New York</a></ul>
-        <ul><a href="./Northcarolina">&#128297; North Carolina</a></ul>
-        <ul><a href="./Northdakota">&#128297; North Dakota</a></ul>
-        <ul><a href="./Ohio">&#128297; Ohio</a></ul>
-        <ul><a href="./Oklahoma">&#128297; Oklahoma</a></ul>
-        <ul><a href="./Oregon">&#128297; Oregon</a></ul>
-        <ul><a href="./Pennsylvania">&#128297; Pennsylvania</a></ul>
-        <ul><a href="./Rhodeisland">&#128297; Rhode Island</a></ul>
+        <ul class="state"><a href="./Newjersey">&#128297; New Jersey</a></ul>
+        <ul class="state"><a href="./Newmexico">&#128297; New Mexico</a></ul>
+        <ul class="state"><a href="./Newyork">&#128297; New York</a></ul>
+        <ul class="state"><a href="./Northcarolina">&#128297; North Carolina</a></ul>
+        <ul class="state"><a href="./Northdakota">&#128297; North Dakota</a></ul>
+        <ul class="state"><a href="./Ohio">&#128297; Ohio</a></ul>
+        <ul class="state"><a href="./Oklahoma">&#128297; Oklahoma</a></ul>
+        <ul class="state"><a href="./Oregon">&#128297; Oregon</a></ul>
+        <ul class="state"><a href="./Pennsylvania">&#128297; Pennsylvania</a></ul>
+        <ul class="state"><a href="./Rhodeisland">&#128297; Rhode Island</a></ul>
         </div>
         <div class="col">
-        <ul><a href="./Southcarolina">&#128297; South Carolina</a></ul>
-        <ul><a href="./Southdakota">&#128297; South Dakota</a></ul>
-        <ul><a href="./Tennessee">&#128297; Tennessee</a></ul>
-        <ul><a href="./Texas">&#128297; Texas</a></ul>
-        <ul><a href="./Utah">&#128297; Utah</a></ul>
-        <ul><a href="./Vermont">&#128297; Vermont</a></ul>
-        <ul><a href="./Virginia">&#128297; Virginia</a></ul>
-        <ul><a href="./Washington">&#128297; Washington</a></ul>
-        <ul><a href="./Westvirginia">&#128297; West Virginia</a></ul>
-        <ul><a href="./Wisconsin">&#128297; Wisconsin</a></ul>
-        <ul><a href="./Wyoming">&#128297; Wyoming</a></ul>
+        <ul class="state"><a href="./Southcarolina">&#128297; South Carolina</a></ul>
+        <ul class="state"><a href="./Southdakota">&#128297; South Dakota</a></ul>
+        <ul class="state"><a href="./Tennessee">&#128297; Tennessee</a></ul>
+        <ul class="state"><a href="./Texas">&#128297; Texas</a></ul>
+        <ul class="state"><a href="./Utah">&#128297; Utah</a></ul>
+        <ul class="state"><a href="./Vermont">&#128297; Vermont</a></ul>
+        <ul class="state"><a href="./Virginia">&#128297; Virginia</a></ul>
+        <ul class="state"><a href="./Washington">&#128297; Washington</a></ul>
+        <ul class="state"><a href="./Westvirginia">&#128297; West Virginia</a></ul>
+        <ul class="state"><a href="./Wisconsin">&#128297; Wisconsin</a></ul>
+        <ul class="state"><a href="./Wyoming">&#128297; Wyoming</a></ul>
         </div>
         </div>
         </div>
