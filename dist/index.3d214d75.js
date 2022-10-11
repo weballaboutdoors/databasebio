@@ -1078,11 +1078,13 @@ exports.default = ()=>(0, _htmlLiteralDefault.default)`
     <div>
         <h2>Browse Window and Door Installers by State</h2>
         <p>Below are states where installers are available on our site:</p>
+        <input id="searchbar" onkeyup="search_state()" type="text"
+        name="search" placeholder="Search States..">
         <div>
             <div class="row align-items-start">
                 <div class="col">
-        <ul><a href="./Alabama">&#128297; Alabama</a></ul>
-        <ul><a href="./Alaska">&#128297; Alaska</a></ul>
+        <ul class="state"><a href="./Alabama">&#128297; Alabama</a></ul>
+        <ul class="state"><a href="./Alaska">&#128297; Alaska</a></ul>
         <ul><a href="./Arizona">&#128297; Arizona</a></ul>
         <ul><a href="./Arkansas">&#128297; Arkansas</a></ul>
         <ul><a href="./California">&#128297; California</a></ul>

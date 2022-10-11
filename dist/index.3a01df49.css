@@ -8,6 +8,15 @@ header > div > h1 > a {
   border: solid;
 }
 
+.tables {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.tables > tbody {
+  background: #fffffa;
+}
+
 ul > a {
   color: #000;
   text-decoration: none;
