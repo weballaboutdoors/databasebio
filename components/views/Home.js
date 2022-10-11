@@ -23,6 +23,8 @@ export default () => html `
     <div>
         <h2>Browse Window and Door Installers by State</h2>
         <p>Below are states where installers are available on our site:</p>
+        <input id="searchbar" onkeyup="search_state()" type="text"
+        name="search" placeholder="Search States..">
         <div>
             <div class="row align-items-start">
                 <div class="col">
