@@ -44,6 +44,66 @@ router.hooks({
             console.log("Alabama not loading", error);
             done();
           });
+        }
+        else if (view === "Alaska") {
+            axios
+              .get(`${process.env.ALASKA_API}`)
+              .then(response => {
+                store.Alaska.alaskas = response.data;
+                done();
+              })
+              .catch(error => {
+                console.log("Alaska not loading", error);
+                done();
+              });
+            }
+            else if (view === "Arizona") {
+              axios
+              .get(`${process.env.ARIZONA_API}`)
+              .then(response => {
+                  store.Arizona.arizonas = response.data;
+                  done();
+                })
+                .catch(error => {
+                  console.log("Arizona not loading", error);
+                done();
+                });
+                }
+                else if (view === "California") {
+                  axios
+                  .get(`${process.env.CALIFORNIA_API}`)
+                  .then(response => {
+                    store.California.californias = response.data;
+                    done();
+                  })
+                    .catch(error => {
+                      console.log("California not loading", error);
+                      done();
+                    });
+                    }
+                    else if (view === "Colorado") {
+                      axios
+                        .get(`${process.env.COLORADO_API}`)
+                        .then(response => {
+                          store.Colorado.colorados = response.data;
+                          done();
+                        })
+                        .catch(error => {
+                        console.log("Colorado not loading", error);
+                          done();
+                        });
+                        }
+                        else if (view === "Connecticut") {
+                          axios
+                            .get(`${process.env.CONNECTICUT_API}`)
+                            .then(response => {
+                              store.Connecticut.connecticuts = response.data;
+                              done();
+                            })
+                            .catch(error => {
+                            console.log("Connecticut not loading", error);
+                            done();
+                            });
       } else {
         done();
       }

@@ -569,6 +569,41 @@ router.hooks({
             console.log("Alabama not loading", error);
             done();
         });
+        else if (view === "Alaska") (0, _axiosDefault.default).get(`${"https://installerdatabase.herokuapp.com/alaskas"}`).then((response)=>{
+            _store.Alaska.alaskas = response.data;
+            done();
+        }).catch((error)=>{
+            console.log("Alaska not loading", error);
+            done();
+        });
+        else if (view === "Arizona") (0, _axiosDefault.default).get(`${"https://installerdatabase.herokuapp.com/arizonas"}`).then((response)=>{
+            _store.Arizona.arizonas = response.data;
+            done();
+        }).catch((error)=>{
+            console.log("Arizona not loading", error);
+            done();
+        });
+        else if (view === "California") (0, _axiosDefault.default).get(`${"https://installerdatabase.herokuapp.com/californias"}`).then((response)=>{
+            _store.California.californias = response.data;
+            done();
+        }).catch((error)=>{
+            console.log("California not loading", error);
+            done();
+        });
+        else if (view === "Colorado") (0, _axiosDefault.default).get(`${"https://installerdatabase.herokuapp.com/colorados"}`).then((response)=>{
+            _store.Colorado.colorados = response.data;
+            done();
+        }).catch((error)=>{
+            console.log("Colorado not loading", error);
+            done();
+        });
+        else if (view === "Connecticut") (0, _axiosDefault.default).get(`${"https://installerdatabase.herokuapp.com/connecticuts"}`).then((response)=>{
+            _store.Connecticut.connecticuts = response.data;
+            done();
+        }).catch((error)=>{
+            console.log("Connecticut not loading", error);
+            done();
+        });
         else done();
     }
 });
@@ -1181,7 +1216,7 @@ var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
 exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the alabama page</p>
-<table id="tables">
+<table class="tables">
     <tr>
       <th>Name</th>
       <th>Company Name</th>
@@ -1204,6 +1239,20 @@ var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
 exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the alaska page</p>
+<table class="tables">
+    <tr>
+      <th>Name</th>
+      <th>Company Name</th>
+      <th>City</th>
+      <th>State</th>
+      <th>Zip Code</th>
+      <th>Phone Number</th>
+      <th>E-Mail</th>
+    </tr>
+    ${state.alaskas.map((alaska)=>{
+        return `<tr><td>${alaska.name}</td><td>${alaska.companyName}</td><td>${alaska.address}</td><td>${alaska.city}</td><td>${alaska.state}</td><td>${alaska.zipcode}</td><td>${alaska.phone}</td><td>${alaska.email}</td></tr>`;
+    }).join("")}
+  </table>
 `;
 
 },{"html-literal":"amMXC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"i6za1":[function(require,module,exports) {
@@ -1213,6 +1262,20 @@ var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
 exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the arizona page</p>
+<table class="tables">
+    <tr>
+      <th>Name</th>
+      <th>Company Name</th>
+      <th>City</th>
+      <th>State</th>
+      <th>Zip Code</th>
+      <th>Phone Number</th>
+      <th>E-Mail</th>
+    </tr>
+    ${state.arizonas.map((arizona)=>{
+        return `<tr><td>${arizona.name}</td><td>${arizona.companyName}</td><td>${arizona.address}</td><td>${arizona.city}</td><td>${arizona.state}</td><td>${arizona.zipcode}</td><td>${arizona.phone}</td><td>${arizona.email}</td></tr>`;
+    }).join("")}
+  </table>
 `;
 
 },{"html-literal":"amMXC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fIMQh":[function(require,module,exports) {
@@ -1222,6 +1285,20 @@ var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
 exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the california page</p>
+<table class="tables">
+    <tr>
+      <th>Name</th>
+      <th>Company Name</th>
+      <th>City</th>
+      <th>State</th>
+      <th>Zip Code</th>
+      <th>Phone Number</th>
+      <th>E-Mail</th>
+    </tr>
+    ${state.californias.map((california)=>{
+        return `<tr><td>${california.name}</td><td>${california.companyName}</td><td>${california.address}</td><td>${california.city}</td><td>${california.state}</td><td>${california.zipcode}</td><td>${california.phone}</td><td>${california.email}</td></tr>`;
+    }).join("")}
+  </table>
 `;
 
 },{"html-literal":"amMXC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"i0FZP":[function(require,module,exports) {
@@ -1231,6 +1308,20 @@ var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
 exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the colorado page</p>
+<table class="tables">
+    <tr>
+      <th>Name</th>
+      <th>Company Name</th>
+      <th>City</th>
+      <th>State</th>
+      <th>Zip Code</th>
+      <th>Phone Number</th>
+      <th>E-Mail</th>
+    </tr>
+    ${state.colorados.map((colorado)=>{
+        return `<tr><td>${colorado.name}</td><td>${colorado.companyName}</td><td>${colorado.address}</td><td>${colorado.city}</td><td>${colorado.state}</td><td>${colorado.zipcode}</td><td>${colorado.phone}</td><td>${colorado.email}</td></tr>`;
+    }).join("")}
+  </table>
 `;
 
 },{"html-literal":"amMXC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5UzRC":[function(require,module,exports) {
@@ -1240,6 +1331,20 @@ var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
 exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the connecticut page</p>
+<table class="tables">
+    <tr>
+      <th>Name</th>
+      <th>Company Name</th>
+      <th>City</th>
+      <th>State</th>
+      <th>Zip Code</th>
+      <th>Phone Number</th>
+      <th>E-Mail</th>
+    </tr>
+    ${state.connecticuts.map((connecticut)=>{
+        return `<tr><td>${connecticut.name}</td><td>${connecticut.companyName}</td><td>${connecticut.address}</td><td>${connecticut.city}</td><td>${connecticut.state}</td><td>${connecticut.zipcode}</td><td>${connecticut.phone}</td><td>${connecticut.email}</td></tr>`;
+    }).join("")}
+  </table>
 `;
 
 },{"html-literal":"amMXC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4mzdI":[function(require,module,exports) {
@@ -1645,6 +1750,20 @@ var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
 exports.default = (state)=>(0, _htmlLiteralDefault.default)`
 <p>this is the arkansas page</p>
+<table class="tables">
+    <tr>
+      <th>Name</th>
+      <th>Company Name</th>
+      <th>City</th>
+      <th>State</th>
+      <th>Zip Code</th>
+      <th>Phone Number</th>
+      <th>E-Mail</th>
+    </tr>
+    ${state.arkansass.map((arkansas)=>{
+        return `<tr><td>${arkansas.name}</td><td>${alabama.companyName}</td><td>${arkansas.address}</td><td>${arkansas.city}</td><td>${arkansas.state}</td><td>${arkansas.zipcode}</td><td>${arkansas.phone}</td><td>${arkansas.email}</td></tr>`;
+    }).join("")}
+  </table>
 `;
 
 },{"html-literal":"amMXC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"71t6G":[function(require,module,exports) {

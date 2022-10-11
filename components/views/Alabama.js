@@ -2,7 +2,7 @@ import html from "html-literal";
 
 export default (state) => html `
 <p>this is the alabama page</p>
-<table id="tables">
+<table class="tables">
     <tr>
       <th>Name</th>
       <th>Company Name</th>
