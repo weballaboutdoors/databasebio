@@ -569,35 +569,35 @@ router.hooks({
             console.log("Alabama not loading", error);
             done();
         });
-        else if (view === "Alaska") (0, _axiosDefault.default).get(`${"https://installerdatabase.herokuapp.com/alaskas"}`).then((response)=>{
+        else if (view === "Alaska") (0, _axiosDefault.default).get(`${undefined}`).then((response)=>{
             _store.Alaska.alaskas = response.data;
             done();
         }).catch((error)=>{
             console.log("Alaska not loading", error);
             done();
         });
-        else if (view === "Arizona") (0, _axiosDefault.default).get(`${"https://installerdatabase.herokuapp.com/arizonas"}`).then((response)=>{
+        else if (view === "Arizona") (0, _axiosDefault.default).get(`${undefined}`).then((response)=>{
             _store.Arizona.arizonas = response.data;
             done();
         }).catch((error)=>{
             console.log("Arizona not loading", error);
             done();
         });
-        else if (view === "California") (0, _axiosDefault.default).get(`${"https://installerdatabase.herokuapp.com/californias"}`).then((response)=>{
+        else if (view === "California") (0, _axiosDefault.default).get(`${undefined}`).then((response)=>{
             _store.California.californias = response.data;
             done();
         }).catch((error)=>{
             console.log("California not loading", error);
             done();
         });
-        else if (view === "Colorado") (0, _axiosDefault.default).get(`${"https://installerdatabase.herokuapp.com/colorados"}`).then((response)=>{
+        else if (view === "Colorado") (0, _axiosDefault.default).get(`${undefined}`).then((response)=>{
             _store.Colorado.colorados = response.data;
             done();
         }).catch((error)=>{
             console.log("Colorado not loading", error);
             done();
         });
-        else if (view === "Connecticut") (0, _axiosDefault.default).get(`${"https://installerdatabase.herokuapp.com/connecticuts"}`).then((response)=>{
+        else if (view === "Connecticut") (0, _axiosDefault.default).get(`${undefined}`).then((response)=>{
             _store.Connecticut.connecticuts = response.data;
             done();
         }).catch((error)=>{
