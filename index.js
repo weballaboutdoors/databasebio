@@ -104,6 +104,30 @@ router.hooks({
                             console.log("Connecticut not loading", error);
                             done();
                             });
+                          }
+                            else if (view === "Delaware") {
+                              axios
+                                .get(`${process.env.DELAWARE_API}`)
+                                .then(response => {
+                                  store.Delaware.delawares = response.data;
+                                  done();
+                                })
+                                .catch(error => {
+                                console.log("Delaware not loading", error);
+                                done();
+                                });
+                              }
+                                else if (view === "Districtofcolumbia") {
+                                  axios
+                                    .get(`${process.env.DISTRICTOFCOLUMBIA_API}`)
+                                    .then(response => {
+                                      store.Districtofcolumbia.distictofcolumbias = response.data;
+                                      done();
+                                    })
+                                    .catch(error => {
+                                    console.log("District of Columbia not loading", error);
+                                    done();
+                                    });
       } else {
         done();
       }
