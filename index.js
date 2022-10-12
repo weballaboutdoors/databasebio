@@ -523,6 +523,113 @@ router.hooks({
                                                                                                           console.log("South Dakota not loading", error);
                                                                                                           done();
                                                                                                           });
+                                                                                                        }
+                                                                                                        else if (view === "Tennessee") {
+                                                                                                          axios
+                                                                                                            .get(`${process.env.TENNESSEE_API}`)
+                                                                                                            .then(response => {
+                                                                                                              store.Tennessee.tennessees = response.data;
+                                                                                                              done();
+                                                                                                            })
+                                                                                                            .catch(error => {
+                                                                                                            console.log("Tennessee not loading", error);
+                                                                                                            done();
+                                                                                                            });
+                                                                                                          }
+                                                                                                          else if (view === "Texas") {
+                                                                                                            axios
+                                                                                                              .get(`${process.env.TEXAS_API}`)
+                                                                                                              .then(response => {
+                                                                                                                store.Texas.texass = response.data;
+                                                                                                                done();
+                                                                                                              })
+                                                                                                              .catch(error => {
+                                                                                                              console.log("Texas not loading", error);
+                                                                                                              done();
+                                                                                                              });}
+                                                                                                              else if (view === "Utah") {
+                                                                                                                axios
+                                                                                                                  .get(`${process.env.UTAH_API}`)
+                                                                                                                  .then(response => {
+                                                                                                                    store.Utah.utahs = response.data;
+                                                                                                                    done();
+                                                                                                                  })
+                                                                                                                  .catch(error => {
+                                                                                                                  console.log("Utah not loading", error);
+                                                                                                                  done();
+                                                                                                                  });
+                                                                                                                }
+                                                                                                                else if (view === "Vermont") {
+                                                                                                                  axios
+                                                                                                                    .get(`${process.env.VERMONT_API}`)
+                                                                                                                    .then(response => {
+                                                                                                                      store.Vermont.vermonts = response.data;
+                                                                                                                      done();
+                                                                                                                    })
+                                                                                                                    .catch(error => {
+                                                                                                                    console.log("Vermont not loading", error);
+                                                                                                                    done();
+                                                                                                                    });
+                                                                                                                  }
+                                                                                                                  else if (view === "Virginia") {
+                                                                                                                    axios
+                                                                                                                      .get(`${process.env.VIRGINIA_API}`)
+                                                                                                                      .then(response => {
+                                                                                                                        store.Virginia.virginias = response.data;
+                                                                                                                        done();
+                                                                                                                      })
+                                                                                                                      .catch(error => {
+                                                                                                                      console.log("Virginia not loading", error);
+                                                                                                                      done();
+                                                                                                                      });
+                                                                                                                    }
+                                                                                                                    else if (view === "Washington") {
+                                                                                                                      axios
+                                                                                                                        .get(`${process.env.WASHINGTON_API}`)
+                                                                                                                        .then(response => {
+                                                                                                                          store.Washington.washingtons = response.data;
+                                                                                                                          done();
+                                                                                                                        })
+                                                                                                                        .catch(error => {
+                                                                                                                        console.log("Washington not loading", error);
+                                                                                                                        done();
+                                                                                                                        });
+                                                                                                                      }
+                                                                                                                      else if (view === "Westvirginia") {
+                                                                                                                        axios
+                                                                                                                          .get(`${process.env.WESTVIRGINIA_API}`)
+                                                                                                                          .then(response => {
+                                                                                                                            store.Westvirginia.westvirginias = response.data;
+                                                                                                                            done();
+                                                                                                                          })
+                                                                                                                          .catch(error => {
+                                                                                                                          console.log("West Virginia not loading", error);
+                                                                                                                          done();
+                                                                                                                          });
+                                                                                                                        }
+                                                                                                                        else if (view === "Wisconsin") {
+                                                                                                                          axios
+                                                                                                                            .get(`${process.env.WISCONSIN_API}`)
+                                                                                                                            .then(response => {
+                                                                                                                              store.Wisconsin.wisconsins = response.data;
+                                                                                                                              done();
+                                                                                                                            })
+                                                                                                                            .catch(error => {
+                                                                                                                            console.log("Wisconsin not loading", error);
+                                                                                                                            done();
+                                                                                                                            });
+                                                                                                                          }
+                                                                                                                          else if (view === "Wyoming") {
+                                                                                                                            axios
+                                                                                                                              .get(`${process.env.WYOMING_API}`)
+                                                                                                                              .then(response => {
+                                                                                                                                store.Wyoming.wyomings = response.data;
+                                                                                                                                done();
+                                                                                                                              })
+                                                                                                                              .catch(error => {
+                                                                                                                              console.log("Wyoming not loading", error);
+                                                                                                                              done();
+                                                                                                                              });
       } else {
         done();
       }
