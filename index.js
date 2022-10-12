@@ -152,6 +152,30 @@ router.hooks({
                                         console.log("Georgia not loading", error);
                                         done();
                                         });
+                                      }
+                                      else if (view === "Hawaii") {
+                                        axios
+                                          .get(`${process.env.HAWAII_API}`)
+                                          .then(response => {
+                                            store.Hawaii.hawaiis = response.data;
+                                            done();
+                                          })
+                                          .catch(error => {
+                                          console.log("Hawaii not loading", error);
+                                          done();
+                                          });
+                                        }
+                                        else if (view === "Idaho") {
+                                          axios
+                                            .get(`${process.env.IDAHO_API}`)
+                                            .then(response => {
+                                              store.Idaho.idahos = response.data;
+                                              done();
+                                            })
+                                            .catch(error => {
+                                            console.log("Idaho not loading", error);
+                                            done();
+                                            });
       } else {
         done();
       }
