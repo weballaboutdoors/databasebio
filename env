@@ -1,0 +1,8 @@
+MONGODB=mongodb+srv://webteam:allaboutdoors@cluster0.5xxp1a7.mongodb.net/?retryWrites=true&w=majority
+ALABAMA_API=https://installerdatabase.herokuapp.com/alabamas
+ALASKA_API=https://installerdatabase.herokuapp.com/alaskas
+ARIZONA_API=https://installerdatabase.herokuapp.com/arizonas
+ARKANSAS_API=https://installerdatabase.herokuapp.com/arkansass
+CALIFORNIA_API=https://installerdatabase.herokuapp.com/californias
+COLORADO_API=https://installerdatabase.herokuapp.com/colorados
+CONNECTICUT_API=https://installerdatabase.herokuapp.com/connecticuts
