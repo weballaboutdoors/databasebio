@@ -6,6 +6,7 @@ export default (state) => html `
     <tr>
       <th>Name</th>
       <th>Company Name</th>
+      <th>Address</th>
       <th>City</th>
       <th>State</th>
       <th>Zip Code</th>
