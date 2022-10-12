@@ -41,6 +41,6 @@ const southdakotaSchema = new mongoose.Schema({
   }
 });
 
-const Southdakota = mongoose.model("Southdakota", soutdakotaSchema);
+const Southdakota = mongoose.model("Southdakota", southdakotaSchema);
 
 module.exports = Southdakota;

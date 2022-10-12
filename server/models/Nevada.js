@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const { Nevada } = require("../../store");
+
 
 const nevadaSchema = new mongoose.Schema({
   name: {
