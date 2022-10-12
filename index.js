@@ -439,6 +439,90 @@ router.hooks({
                                                                                             console.log("North Dakota not loading", error);
                                                                                             done();
                                                                                             });
+                                                                                          }
+                                                                                          else if (view === "Ohio") {
+                                                                                            axios
+                                                                                              .get(`${process.env.OHIO_API}`)
+                                                                                              .then(response => {
+                                                                                                store.Ohio.ohios = response.data;
+                                                                                                done();
+                                                                                              })
+                                                                                              .catch(error => {
+                                                                                              console.log("Ohio not loading", error);
+                                                                                              done();
+                                                                                              });
+                                                                                            }
+                                                                                            else if (view === "Oklahoma") {
+                                                                                              axios
+                                                                                                .get(`${process.env.OKLAHOMA_API}`)
+                                                                                                .then(response => {
+                                                                                                  store.Oklahoma.oklahomas = response.data;
+                                                                                                  done();
+                                                                                                })
+                                                                                                .catch(error => {
+                                                                                                console.log("Oklahoma not loading", error);
+                                                                                                done();
+                                                                                                });
+                                                                                              }
+                                                                                              else if (view === "Oregon") {
+                                                                                                axios
+                                                                                                  .get(`${process.env.OREGON_API}`)
+                                                                                                  .then(response => {
+                                                                                                    store.Oregon.oregons = response.data;
+                                                                                                    done();
+                                                                                                  })
+                                                                                                  .catch(error => {
+                                                                                                  console.log("Oregon not loading", error);
+                                                                                                  done();
+                                                                                                  });
+                                                                                                }
+                                                                                                else if (view === "Pennsylvania") {
+                                                                                                  axios
+                                                                                                    .get(`${process.env.PENNSYLVANIA_API}`)
+                                                                                                    .then(response => {
+                                                                                                      store.Pennsylvania.pennsylvanias = response.data;
+                                                                                                      done();
+                                                                                                    })
+                                                                                                    .catch(error => {
+                                                                                                    console.log("Pennsylvania not loading", error);
+                                                                                                    done();
+                                                                                                    });
+                                                                                                  }
+                                                                                                  else if (view === "Rhodeisland") {
+                                                                                                    axios
+                                                                                                      .get(`${process.env.RHODEISLAND_API}`)
+                                                                                                      .then(response => {
+                                                                                                        store.Rhodeisland.rhodeislands = response.data;
+                                                                                                        done();
+                                                                                                      })
+                                                                                                      .catch(error => {
+                                                                                                      console.log("Rhode Island not loading", error);
+                                                                                                      done();
+                                                                                                      });
+                                                                                                    }
+                                                                                                    else if (view === "Southcarolina") {
+                                                                                                      axios
+                                                                                                        .get(`${process.env.SOUTHCAROLINA_API}`)
+                                                                                                        .then(response => {
+                                                                                                          store.Southcarolina.southcarolinas = response.data;
+                                                                                                          done();
+                                                                                                        })
+                                                                                                        .catch(error => {
+                                                                                                        console.log("South Carolina not loading", error);
+                                                                                                        done();
+                                                                                                        });
+                                                                                                      }
+                                                                                                      else if (view === "Southdakota") {
+                                                                                                        axios
+                                                                                                          .get(`${process.env.SOUTHDAKOTA_API}`)
+                                                                                                          .then(response => {
+                                                                                                            store.Southdakota.southdakotas = response.data;
+                                                                                                            done();
+                                                                                                          })
+                                                                                                          .catch(error => {
+                                                                                                          console.log("South Dakota not loading", error);
+                                                                                                          done();
+                                                                                                          });
       } else {
         done();
       }
