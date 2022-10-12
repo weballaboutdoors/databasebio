@@ -223,7 +223,126 @@ router.hooks({
                                                     .catch(error => {
                                                     console.log("Kansas not loading", error);
                                                     done();
-                                                    });
+                                                    });}
+                                                    else if (view === "Kentucky") {
+                                                      axios
+                                                        .get(`${process.env.KENTUCKY_API}`)
+                                                        .then(response => {
+                                                          store.Kentucky.kentuckys = response.data;
+                                                          done();
+                                                        })
+                                                        .catch(error => {
+                                                        console.log("Kentucky not loading", error);
+                                                        done();
+                                                        });
+                                                      }
+                                                      else if (view === "Louisiana") {
+                                                        axios
+                                                          .get(`${process.env.LOUISIANA_API}`)
+                                                          .then(response => {
+                                                            store.Louisiana.louisianas = response.data;
+                                                            done();
+                                                          })
+                                                          .catch(error => {
+                                                          console.log("Louisiana not loading", error);
+                                                          done();
+                                                          });
+                                                        }
+                                                        else if (view === "Maine") {
+                                                          axios
+                                                            .get(`${process.env.MAINE_API}`)
+                                                            .then(response => {
+                                                              store.Maine.maines = response.data;
+                                                              done();
+                                                            })
+                                                            .catch(error => {
+                                                            console.log("Maine not loading", error);
+                                                            done();
+                                                            });
+                                                          }
+                                                            else if (view === "Maryland") {
+                                                              axios
+                                                                .get(`${process.env.MARYLAND_API}`)
+                                                                .then(response => {
+                                                                  store.Maryland.marylands = response.data;
+                                                                  done();
+                                                                })
+                                                                .catch(error => {
+                                                                console.log("Maryland not loading", error);
+                                                                done();
+                                                                });
+                                                              }
+                                                              else if (view === "Massachusetts") {
+                                                                axios
+                                                                  .get(`${process.env.MASSACHUSETTS_API}`)
+                                                                  .then(response => {
+                                                                    store.Massachusetts.massachusettss = response.data;
+                                                                    done();
+                                                                  })
+                                                                  .catch(error => {
+                                                                  console.log("Massachusetts not loading", error);
+                                                                  done();
+                                                                  });
+                                                                }
+                                                                else if (view === "Michigan") {
+                                                                  axios
+                                                                    .get(`${process.env.MICHIGAN_API}`)
+                                                                    .then(response => {
+                                                                      store.Michigan.michigans = response.data;
+                                                                      done();
+                                                                    })
+                                                                    .catch(error => {
+                                                                    console.log("Michigan not loading", error);
+                                                                    done();
+                                                                    });
+                                                                  }
+                                                                  else if (view === "Minnesota") {
+                                                                    axios
+                                                                      .get(`${process.env.MINNESOTA_API}`)
+                                                                      .then(response => {
+                                                                        store.Minnesota.minnesotas = response.data;
+                                                                        done();
+                                                                      })
+                                                                      .catch(error => {
+                                                                      console.log("Minnesota not loading", error);
+                                                                      done();
+                                                                      });
+                                                                    }
+                                                                    else if (view === "Mississippi") {
+                                                                      axios
+                                                                        .get(`${process.env.MISSISSIPPI_API}`)
+                                                                        .then(response => {
+                                                                          store.Mississippi.mississippis = response.data;
+                                                                          done();
+                                                                        })
+                                                                        .catch(error => {
+                                                                        console.log("Mississippi not loading", error);
+                                                                        done();
+                                                                        });
+                                                                      }
+                                                                      else if (view === "Missouri") {
+                                                                        axios
+                                                                          .get(`${process.env.MISSOURI_API}`)
+                                                                          .then(response => {
+                                                                            store.Missouri.missouris = response.data;
+                                                                            done();
+                                                                          })
+                                                                          .catch(error => {
+                                                                          console.log("Missouris not loading", error);
+                                                                          done();
+                                                                          });
+                                                                        }
+                                                                        else if (view === "Montana") {
+                                                                          axios
+                                                                            .get(`${process.env.MONTANA_API}`)
+                                                                            .then(response => {
+                                                                              store.Montana.montanas = response.data;
+                                                                              done();
+                                                                            })
+                                                                            .catch(error => {
+                                                                            console.log("Montana not loading", error);
+                                                                            done();
+                                                                            });
       } else {
         done();
       }
