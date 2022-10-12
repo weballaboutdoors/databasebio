@@ -18,6 +18,7 @@ const connecticuts = require("./routers/connecticuts");
 // const illinoiss = require("./routers/illinoiss");
 // const indianas = require("./routers/indianas");
 // const iowas = require("./routers/iowas");
+const kansass = require("./routers/kansass");
 // Initialize the Express application
 const app = express();
 
@@ -85,6 +86,7 @@ app.use("/arkansass", arkansass);
 //  app.use("/illinoiss", illinoiss);
 //  app.use("/indianas", indianas);
 //  app.use("/iowas", iowas);
+app.use("/kansass", kansass);
 
 // Tell the Express app to start listening
 // Let the humans know I am running and listening on 4040
