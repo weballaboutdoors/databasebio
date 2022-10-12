@@ -176,6 +176,54 @@ router.hooks({
                                             console.log("Idaho not loading", error);
                                             done();
                                             });
+                                          }
+                                          else if (view === "Illinois") {
+                                            axios
+                                              .get(`${process.env.ILLINOIS_API}`)
+                                              .then(response => {
+                                                store.Illinois.illinoiss = response.data;
+                                                done();
+                                              })
+                                              .catch(error => {
+                                              console.log("Illinois not loading", error);
+                                              done();
+                                              });
+                                            }
+                                            else if (view === "Indiana") {
+                                              axios
+                                                .get(`${process.env.INDIANA_API}`)
+                                                .then(response => {
+                                                  store.Indiana.indianas = response.data;
+                                                  done();
+                                                })
+                                                .catch(error => {
+                                                console.log("Indiana not loading", error);
+                                                done();
+                                                });
+                                              }
+                                              else if (view === "Iowa") {
+                                                axios
+                                                  .get(`${process.env.IOWA_API}`)
+                                                  .then(response => {
+                                                    store.Iowa.iowas = response.data;
+                                                    done();
+                                                  })
+                                                  .catch(error => {
+                                                  console.log("Iowa not loading", error);
+                                                  done();
+                                                  });
+                                                }
+                                                else if (view === "Kansas") {
+                                                  axios
+                                                    .get(`${process.env.KANSAS_API}`)
+                                                    .then(response => {
+                                                      store.Kansas.kansass = response.data;
+                                                      done();
+                                                    })
+                                                    .catch(error => {
+                                                    console.log("Kansas not loading", error);
+                                                    done();
+                                                    });
       } else {
         done();
       }
