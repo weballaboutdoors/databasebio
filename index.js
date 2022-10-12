@@ -128,6 +128,30 @@ router.hooks({
                                     console.log("District of Columbia not loading", error);
                                     done();
                                     });
+                                  }
+                                  else if (view === "Florida") {
+                                    axios
+                                      .get(`${process.env.FLORIDA_API}`)
+                                      .then(response => {
+                                        store.Florida.floridas = response.data;
+                                        done();
+                                      })
+                                      .catch(error => {
+                                      console.log("Florida not loading", error);
+                                      done();
+                                      });
+                                    }
+                                    else if (view === "Georgia") {
+                                      axios
+                                        .get(`${process.env.GEORGIA_API}`)
+                                        .then(response => {
+                                          store.Georgia.georgias = response.data;
+                                          done();
+                                        })
+                                        .catch(error => {
+                                        console.log("Georgia not loading", error);
+                                        done();
+                                        });
       } else {
         done();
       }
