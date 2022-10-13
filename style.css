@@ -1,10 +1,9 @@
 *{
   overflow-x: hidden;
 }
-header > div > h1 > a {
+header > h1 > a {
     text-decoration: none;
     color: black;
-    display: flex;
 }
 .state{
   list-style: none;
@@ -12,7 +11,9 @@ header > div > h1 > a {
 .homePage {
   border: solid;
 }
-
+.none{
+  display: none;
+}
 .tables{
   table-layout: fixed;
   width: 100%;
@@ -32,7 +33,7 @@ ul > a:hover, a:active {
   background-color: black;
 }
 .fun {
-    background-color: gainsboro;
+    background-image: url(./assets/img/background1.jpg);;
 }
 @media (max-width: 669px) {
     .hidden--mobile {
