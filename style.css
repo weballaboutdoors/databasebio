@@ -5,6 +5,10 @@ header > h1 > a {
     text-decoration: none;
     color: black;
 }
+.headerClass{
+  display: flex;
+  justify-content: center;
+}
 .state{
   list-style: none;
 }
