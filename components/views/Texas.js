@@ -1,8 +1,11 @@
 import html from "html-literal";
 
 export default (state) => html `
-<p>this is the texas page</p>
-<table class="tables">
+<input id="searchbarCity" onkeyup="search_city()" type="text"
+        name="search" placeholder="Search by City..">
+<input id="searchbarZip" onkeyup="search_zip()" type="text"
+        name="search" placeholder="Search by Zip Code..">
+<table class="tables" id="myTable">
     <tr>
       <th>Name</th>
       <th>Company Name</th>
