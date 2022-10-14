@@ -6,7 +6,7 @@ export default (state) => html `
         name="search" placeholder="Search Names..">
 <input id="searchbarZip" onkeyup="search_zip()" type="text"
         name="search" placeholder="Search by Zip Code..">
-<table class="tables">
+<table class="tables" id="myTable">
     <tr>
       <th>Name</th>
       <th>Company Name</th>

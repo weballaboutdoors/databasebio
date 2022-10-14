@@ -19,6 +19,7 @@ header > h1 > a {
   table-layout: fixed;
   width: 100%;
 }
+
 .tables > tbody {
   background: #fffffa;
 }
