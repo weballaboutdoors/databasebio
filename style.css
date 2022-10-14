@@ -5,6 +5,9 @@ header > h1 > a {
     text-decoration: none;
     color: black;
 }
+footer > address > a {
+  color: black;
+}
 .headerClass{
   display: flex;
   justify-content: center;
@@ -30,7 +33,6 @@ header > h1 > a {
   justify-content:space-around;
   background: lightgray;
   font-size: 25px;
-  /* margin-left: 32%; */
 }
 .formText{
   text-align:justify;
@@ -50,7 +52,11 @@ ul > a:hover, a:active {
   background-color: black;
 }
 .fun {
-    background-image: url(./assets/img/background1.jpg);;
+    background: url(./assets/img/backgroundblue2.jpg) no-repeat center center fixed; ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 @media (max-width: 669px) {
     .hidden--mobile {
