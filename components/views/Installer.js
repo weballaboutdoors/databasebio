@@ -1,15 +1,19 @@
 import html from "html-literal";
 
 export default () => html `
-<div>
+<div class="formPage">
   <form 
   action="https://formspree.io/f/mlevnoap"
   method="POST">
     <label for="name">Name</label>
-    <input type="text" id="name" name="name" placeholder="Your name..">
+    <input type="text" id="name" name="name" placeholder="Your name">
 
     <label for="cname">Company Name</label>
-    <input type="text" id="cname" name="cname" placeholder="Your Company name..">
+    <input type="text" id="cname" name="cname" placeholder="Company name">
+    <label for="address">Address</label>
+    <input type="text" id="address" name="address" placeholder="Your address">
+    <label for="city">City</label>
+    <input type="text" id="city" name="city" placeholder="City">
 
     <label for="state">State</label>
     <select id="state" name="state">
@@ -65,6 +69,12 @@ export default () => html `
       <option value="westvirginia">West Virginia</option>
       <option value="wisconsin">Wisconsin</option>
     </select>
+    <label for="zip">Zip Code</label>
+    <input type="text" id="zip" name="zip" placeholder="Zip Code">
+    <label for="fone">Telephone Number</label>
+    <input type="text" id="fone" name="fone" placeholder="(888)888-8888">
+    <label for="email">E-Mail</label>
+    <input type="text" id="email" name="email" placeholder="jdoe@email.com">
   
     <input type="submit" value="Submit">
   </form>
