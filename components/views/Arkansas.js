@@ -11,21 +11,21 @@ export default (state) => html `
 </div>
 </div>
     <tr>
-      <th>Name</th>
-      <th>Company Name</th>
-      <th>Address</th>
-      <th>City</th>
-      <th>State</th>
-      <th>Zip Code</th>
-      <th>Phone Number</th>
-      <th>E-Mail</th>
+      <th class="priority-7">Name</th>
+      <th class="priority-1">Company Name</th>
+      <th class="priority-6">Address</th>
+      <th class="priority-2">City</th>
+      <th class="priority-8">State</th>
+      <th class="priority-4">Zip Code</th>
+      <th class="priority-3">Phone Number</th>
+      <th class="priority-5">E-Mail</th>
     </tr>
     ${state.arkansass
       .map(arkansas => {
-        return `<tr><td>${arkansas.name}</td><td>${alabama.companyName}</td><td>${arkansas.address}</td><td>${arkansas.city}</td><td>${arkansas.state
-        }</td><td>${arkansas.zipcode
+        return `<tr><td class="priority-7">${arkansas.name}</td><td>${alabama.companyName}</td><td class="priority-6">${arkansas.address}</td><td>${arkansas.city}</td><td class="priority-8">${arkansas.state
+        }</td><td class="priority-4">${arkansas.zipcode
         }</td><td>${arkansas.phone
-        }</td><td>${arkansas.email
+        }</td><td class="priority-5">${arkansas.email
         }</td></tr>`;
       })
       .join("")}

@@ -4,9 +4,13 @@
 header > h1 > a {
     text-decoration: none;
     color: black;
-}
+  }
+
 footer > address > a {
   color: black;
+}
+div > h2 > p > a {
+  color: #000000;
 }
 .headerClass{
   display: flex;
@@ -52,11 +56,34 @@ ul > a:hover, a:active {
   background-color: black;
 }
 .fun {
-    background: url(./assets/img/backgroundblue2.jpg) no-repeat center center fixed; ;
+    background: url(./assets/img/background1.jpg) no-repeat center center fixed; ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+@media (max-width: 1200px) {
+  .priority-8{
+    display: none;
+  }
+}
+@media (max-width: 1050px) {
+  .priority-7{
+    display: none;
+  }
+}
+@media (max-width: 990px) {
+  .priority-6{
+    display: none;
+  }
+  .priority-5{
+    display: none;
+  }
+}
+@media (max-width: 400px) {
+  .priority-4{
+    display: none;
+  }
 }
 @media (max-width: 669px) {
     .hidden--mobile {
@@ -67,15 +94,18 @@ ul > a:hover, a:active {
       }
     nav > ul {
       flex-direction: column;
+      background-color: #fffffa;
       }
     nav >ul > li {
       margin: 0.8em 0;
       }
-      nav > ul > li > a{
+    nav > ul > li > a{
         float:none;
         display: block;
         width:100%;
         text-align: left;
+        color: #000000;
+        text-decoration: none;
       }
     }
 @media (min-width: 670px) {
