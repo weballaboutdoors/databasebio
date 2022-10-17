@@ -1,11 +1,15 @@
 import html from "html-literal";
 
 export default (state) => html `
+<div class="container text-center">
+<div class="justify-content-center">
 <input id="searchbarCity" onkeyup="search_city()" type="text"
         name="search" placeholder="Search by City..">
 <input id="searchbarZip" onkeyup="search_zip()" type="text"
         name="search" placeholder="Search by Zip Code..">
 <table class="tables" id="myTable"></table>
+</div>
+</div>
     <tr>
       <th>Name</th>
       <th>Company Name</th>
