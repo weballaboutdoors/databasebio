@@ -33,16 +33,16 @@ div > h2 > p > a {
 .formLayout{
   width:auto;
   border: solid 5px black;
-  display: block;
-  justify-content:space-around;
+  /* display: block; */
+  /* justify-content:space-around; */
   background: lightgray;
-  font-size: 25px;
+  /* font-size: 25px; */
 }
 .formText{
-  text-align:justify;
+  text-align:center;
   display: flex;
   justify-content: center;
-  margin: 20px;
+  margin: 4px;
 }
 tr:nth-child(2n) {
   background-color: lightgray;
