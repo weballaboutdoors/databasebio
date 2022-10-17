@@ -84,6 +84,9 @@ ul > a:hover, a:active {
   .priority-4{
     display: none;
   }
+  #searchbarZip{
+    display: none;
+  }
 }
 @media (max-width: 669px) {
     .hidden--mobile {

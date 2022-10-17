@@ -11,21 +11,21 @@ export default (state) => html `
 </div>
 </div>
     <tr>
-      <th>Name</th>
-      <th>Company Name</th>
-      <th>Address</th>
-      <th>City</th>
-      <th>State</th>
-      <th>Zip Code</th>
-      <th>Phone Number</th>
-      <th>E-Mail</th>
+      <th class="priority-7">Name</th>
+      <th class="priority-1">Company Name</th>
+      <th class="priority-6">Address</th>
+      <th class="priority-2">City</th>
+      <th class="priority-8">State</th>
+      <th class="priority-4">Zip Code</th>
+      <th class="priority-3">Phone Number</th>
+      <th class="priority-5">E-Mail</th>
     </tr>
     ${state.pennsylvanias
       .map(pennsylvania => {
-        return `<tr><td>${pennsylvania.name}</td><td>${pennsylvania.companyName}</td><td>${pennsylvania.address}</td><td>${pennsylvania.city}</td><td>${pennsylvania.state
-        }</td><td>${pennsylvania.zipcode
+        return `<tr><td class="priority-7">${pennsylvania.name}</td><td>${pennsylvania.companyName}</td><td class="priority-6">${pennsylvania.address}</td><td>${pennsylvania.city}</td><td class="priority-8">${pennsylvania.state
+        }</td><td class="priority-4">${pennsylvania.zipcode
         }</td><td>${pennsylvania.phone
-        }</td><td>${pennsylvania.email
+        }</td><td class="priority-5">${pennsylvania.email
         }</td></tr>`;
       })
       .join("")}

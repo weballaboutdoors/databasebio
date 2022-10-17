@@ -11,21 +11,21 @@ export default (state) => html `
 </div>
 </div>
     <tr>
-      <th>Name</th>
-      <th>Company Name</th>
-      <th>Address</th>
-      <th>City</th>
-      <th>State</th>
-      <th>Zip Code</th>
-      <th>Phone Number</th>
-      <th>E-Mail</th>
+      <th class="priority-7">Name</th>
+      <th class="priority-1">Company Name</th>
+      <th class="priority-6">Address</th>
+      <th class="priority-2">City</th>
+      <th class="priority-8">State</th>
+      <th class="priority-4">Zip Code</th>
+      <th class="priority-3">Phone Number</th>
+      <th class="priority-5">E-Mail</th>
     </tr>
     ${state.southdakotas
       .map(southdakota => {
-        return `<tr><td>${southdakota.name}</td><td>${southdakota.companyName}</td><td>${southdakota.address}</td><td>${southdakota.city}</td><td>${southdakota.state
-        }</td><td>${southdakota.zipcode
+        return `<tr><td class="priority-7">${southdakota.name}</td><td>${southdakota.companyName}</td><td class="priority-6">${southdakota.address}</td><td>${southdakota.city}</td><td class="priority-8">${southdakota.state
+        }</td><td class="priority-4">${southdakota.zipcode
         }</td><td>${southdakota.phone
-        }</td><td>${southdakota.email
+        }</td><td class="priority-5">${southdakota.email
         }</td></tr>`;
       })
       .join("")}

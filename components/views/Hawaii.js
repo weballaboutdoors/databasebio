@@ -11,21 +11,21 @@ export default (state) => html `
 </div>
 </div>
     <tr>
-      <th>Name</th>
-      <th>Company Name</th>
-      <th>Address</th>
-      <th>City</th>
-      <th>State</th>
-      <th>Zip Code</th>
-      <th>Phone Number</th>
-      <th>E-Mail</th>
+      <th class="priority-7">Name</th>
+      <th class="priority-1">Company Name</th>
+      <th class="priority-6">Address</th>
+      <th class="priority-2">City</th>
+      <th class="priority-8">State</th>
+      <th class="priority-4">Zip Code</th>
+      <th class="priority-3">Phone Number</th>
+      <th class="priority-5">E-Mail</th>
     </tr>
     ${state.hawaiis
       .map(hawaii => {
-        return `<tr><td>${hawaii.name}</td><td>${hawaii.companyName}</td><td>${hawaii.address}</td><td>${hawaii.city}</td><td>${hawaii.state
-        }</td><td>${hawaii.zipcode
+        return `<tr><td class="priority-7">${hawaii.name}</td><td>${hawaii.companyName}</td><td class="priority-6">${hawaii.address}</td><td>${hawaii.city}</td><td class="priority-8">${hawaii.state
+        }</td><td class="priority-4">${hawaii.zipcode
         }</td><td>${hawaii.phone
-        }</td><td>${hawaii.email
+        }</td><td class="priority-5">${hawaii.email
         }</td></tr>`;
       })
       .join("")}

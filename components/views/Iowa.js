@@ -11,21 +11,21 @@ export default (state) => html `
 </div>
 </div>
     <tr>
-      <th>Name</th>
-      <th>Company Name</th>
-      <th>Address</th>
-      <th>City</th>
-      <th>State</th>
-      <th>Zip Code</th>
-      <th>Phone Number</th>
-      <th>E-Mail</th>
+      <th class="priority-7">Name</th>
+      <th class="priority-1">Company Name</th>
+      <th class="priority-6">Address</th>
+      <th class="priority-2">City</th>
+      <th class="priority-8">State</th>
+      <th class="priority-4">Zip Code</th>
+      <th class="priority-3">Phone Number</th>
+      <th class="priority-5">E-Mail</th>
     </tr>
     ${state.iowas
       .map(iowa => {
-        return `<tr><td>${iowa.name}</td><td>${iowa.companyName}</td><td>${iowa.address}</td><td>${iowa.city}</td><td>${iowa.state
-        }</td><td>${iowa.zipcode
+        return `<tr><td class="priority-7">${iowa.name}</td><td>${iowa.companyName}</td><td class="priority-6">${iowa.address}</td><td>${iowa.city}</td><td class="priority-8">${iowa.state
+        }</td><td class="priority-4">${iowa.zipcode
         }</td><td>${iowa.phone
-        }</td><td>${iowa.email
+        }</td><td class="priority-5">${iowa.email
         }</td></tr>`;
       })
       .join("")}
