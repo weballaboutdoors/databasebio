@@ -12,6 +12,9 @@ footer > address > a {
 div > h2 > p > a {
   color: #000000;
 }
+div > input {
+  width: 50%;
+}
 .headerClass{
   display: flex;
   justify-content: center;
