@@ -22,11 +22,11 @@ export default (state) => html `
     </tr>
     ${state.newyorks
       .map(newyork => {
-        return `<tr><td class="priority-7">${newoyork.name}</td><td>${newyork.companyName}</td><td class="priority-6">${newyork.address}</td><td>${newyork.city}</td><td class="priority-8">${newyork.state
+        return `<tr><td class="priority-7">${newyork.name}</td><td>${newyork.companyName}</td><td class="priority-6">${newyork.address}</td><td>${newyork.city}</td><td class="priority-8">${newyork.state
         }</td><td class="priority-4">${newyork.zipcode
-        }</td><td>${newyork.phone
-        }</td><td class="priority-5">${newyork.email
-        }</td></tr>`;
+        }</td><td><a href="tel:+1${newyork.phone}">${newyork.phone
+        }</a></td><td class="priority-5"><a href="mailto:${newyork.email}">${newyork.email
+        }</a></td></tr>`;
       })
       .join("")}
   </table>

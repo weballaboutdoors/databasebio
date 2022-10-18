@@ -24,9 +24,9 @@ export default (state) => html `
       .map(southdakota => {
         return `<tr><td class="priority-7">${southdakota.name}</td><td>${southdakota.companyName}</td><td class="priority-6">${southdakota.address}</td><td>${southdakota.city}</td><td class="priority-8">${southdakota.state
         }</td><td class="priority-4">${southdakota.zipcode
-        }</td><td>${southdakota.phone
-        }</td><td class="priority-5">${southdakota.email
-        }</td></tr>`;
+        }</td><td><a href="tel:+1${southdakota.phone}">${southdakota.phone
+        }</a></td><td class="priority-5"><a href="mailto:${southdakota.email}">${southdakota.email
+        }</a></td></tr>`;
       })
       .join("")}
   </table>

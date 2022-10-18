@@ -24,9 +24,9 @@ export default (state) => html `
       .map(utah => {
         return `<tr><td class="priority-7">${utah.name}</td><td>${utah.companyName}</td><td class="priority-6">${utah.address}</td><td>${utah.city}</td><td class="priority-8">${utah.state
         }</td><td class="priority-4">${utah.zipcode
-        }</td><td>${utah.phone
-        }</td><td class="priority-5">${utah.email
-        }</td></tr>`;
+        }</td><td><a href="tel:+1${utah.phone}">${utah.phone
+        }</a></td><td class="priority-5"><a href="mailto:${utah.email}">${utah.email
+        }</a></td></tr>`;
       })
       .join("")}
   </table>
