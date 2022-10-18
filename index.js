@@ -68,6 +68,18 @@ router.hooks({
                   console.log("Arizona not loading", error);
                 done();
                 });
+              }
+              else if (view === "Arkansas") {
+                axios
+                .get(`${process.env.ARKANSAS_API}`)
+                .then(response => {
+                    store.Arkansas.arkansass = response.data;
+                    done();
+                  })
+                  .catch(error => {
+                    console.log("Arkansas not loading", error);
+                  done();
+                  });
                 }
                 else if (view === "California") {
                   axios
@@ -121,7 +133,7 @@ router.hooks({
                                   axios
                                     .get(`${process.env.DISTRICTOFCOLUMBIA_API}`)
                                     .then(response => {
-                                      store.Districtofcolumbia.distictofcolumbias = response.data;
+                                      store.Districtofcolumbia.districtofcolumbias = response.data;
                                       done();
                                     })
                                     .catch(error => {

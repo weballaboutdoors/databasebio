@@ -22,12 +22,12 @@ export default (state) => html `
     </tr>
     ${state.districtofcolumbias
       .map(districtofcolumbia => {
-        return `<tr><td class="priority-7">${districtofcolumbia.name}</td><td>${districtofcolumbia.companyName}</td><td class="priority-6">${districtofcolumbia.address}</td><td>${districtofcolumbia.city}</td><td class="priority-8">${districtofcolumbia.state
-        }</td><td class="priority-4">${districtofcolumbia.zipcode
-        }</td><td>${districtofcolumbia.phone
-        }</td><td class="priority-5">${districtofcolumbia.email
-        }</td></tr>`;
-      })
+  return `<tr><td class="priority-7">${districtofcolumbia.name}</td><td>${districtofcolumbia.companyName}</td><td class="priority-6">${districtofcolumbia.address}</td><td>${districtofcolumbia.city}</td><td class="priority-8">${districtofcolumbia.state
+  }</td><td class="priority-4">${districtofcolumbia.zipcode
+  }</td><td>${districtofcolumbia.phone
+  }</td><td class="priority-5">${districtofcolumbia.email
+  }</td></tr>`;
+})
       .join("")}
   </table>
 `;
