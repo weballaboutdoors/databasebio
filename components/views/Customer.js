@@ -3,7 +3,7 @@ import html from "html-literal";
 export default () => html `
 <div class="formPage">
 <form
-  action="https://formspree.io/f/xaykjlab"
+  action=""
   method="POST"
 >
 <label for="name">Name</label>
