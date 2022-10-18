@@ -24,9 +24,9 @@ export default (state) => html `
       .map(districtofcolumbia => {
   return `<tr><td class="priority-7">${districtofcolumbia.name}</td><td>${districtofcolumbia.companyName}</td><td class="priority-6">${districtofcolumbia.address}</td><td>${districtofcolumbia.city}</td><td class="priority-8">${districtofcolumbia.state
   }</td><td class="priority-4">${districtofcolumbia.zipcode
-  }</td><td>${districtofcolumbia.phone
-  }</td><td class="priority-5">${districtofcolumbia.email
-  }</td></tr>`;
+  }</td><td><a href="tel:+1${districtofcolumbia.phone}">${districtofcolumbia.phone
+  }</a></td><td class="priority-5"><a href="mailto:${districtofcolumbia.email}">${districtofcolumbia.email
+  }</a></td></tr>`;
 })
       .join("")}
   </table>

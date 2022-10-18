@@ -7,7 +7,7 @@ export default (state) => html `
         name="search" placeholder="Search by City..">
 <input id="searchbarZip" onkeyup="search_zip()" type="text"
         name="search" placeholder="Search by Zip Code..">
-<table class="tables" id="myTable"></table>
+<table class="tables" id="myTable">
 </div>
 </div>
     <tr>
@@ -24,9 +24,9 @@ export default (state) => html `
       .map(iowa => {
         return `<tr><td class="priority-7">${iowa.name}</td><td>${iowa.companyName}</td><td class="priority-6">${iowa.address}</td><td>${iowa.city}</td><td class="priority-8">${iowa.state
         }</td><td class="priority-4">${iowa.zipcode
-        }</td><td>${iowa.phone
-        }</td><td class="priority-5">${iowa.email
-        }</td></tr>`;
+        }</td><td><a href="tel:+1${iowa.phone}">${iowa.phone
+        }</a></td><td class="priority-5"><a href="mailto:${iowa.email}">${iowa.email
+        }</a></td></tr>`;
       })
       .join("")}
   </table>

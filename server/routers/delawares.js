@@ -65,7 +65,7 @@ router.put("/:id", (request, response) => {
 router.get("/:atrib/:value", (request, response) => {
   let filter = {};
   filter[request.params.atrib] = request.params.value;
-  Alabama.find(filter, (error, record) => {
+  Delaware.find(filter, (error, record) => {
     if (error) return response.status(500).json(error);
     return response.json(record);
   });

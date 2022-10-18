@@ -24,9 +24,9 @@ export default (state) => html `
       .map(nevada => {
         return `<tr><td class="priority-7">${nevada.name}</td><td>${nevada.companyName}</td><td class="priority-6">${nevada.address}</td><td>${nevada.city}</td><td class="priority-8">${nevada.state
         }</td><td class="priority-4">${nevada.zipcode
-        }</td><td>${nevada.phone
-        }</td><td class="priority-5">${nevada.email
-        }</td></tr>`;
+        }</td><td><a href="tel:+1${nevada.phone}">${nevada.phone
+        }</a></td><td class="priority-5"><a href="mailto:${nevada.email}">${nevada.email
+        }</a></td></tr>`;
       })
       .join("")}
   </table>

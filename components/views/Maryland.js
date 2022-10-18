@@ -21,12 +21,12 @@ export default (state) => html `
       <th class="priority-5">E-Mail</th>
     </tr>
     ${state.marylands
-      .map(mayland => {
+      .map(maryland => {
         return `<tr><td class="priority-7">${maryland.name}</td><td>${maryland.companyName}</td><td class="priority-6">${maryland.address}</td><td>${maryland.city}</td><td class="priority-8">${maryland.state
         }</td><td class="priority-4">${maryland.zipcode
-        }</td><td>${maryland.phone
-        }</td><td class="priority-5">${maryland.email
-        }</td></tr>`;
+        }</td><td><a href="tel:+1${maryland.phone}">${maryland.phone
+        }</a></td><td class="priority-5"><a href="mailto:${maryland.email}">${maryland.email
+        }</a></td></tr>`;
       })
       .join("")}
   </table>
