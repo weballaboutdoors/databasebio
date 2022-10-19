@@ -53,6 +53,8 @@ const washingtons = require("./routers/washingtons");
 const westvirginias = require("./routers/westvirginias");
 const wisconsins = require("./routers/wisconsins");
 const wyomings = require("./routers/wyomings");
+const customers = require("./routers/customers");
+const installers = require("./routers/installers");
 // Initialize the Express application
 const app = express();
 
@@ -155,6 +157,8 @@ app.use("/washingtons", washingtons);
 app.use("/westvirginias", westvirginias);
 app.use("/wisconsins", wisconsins);
 app.use("/wyomings", wyomings);
+app.use("/customers", customers);
+app.use("/installers", installers);
 
 
 // Tell the Express app to start listening
