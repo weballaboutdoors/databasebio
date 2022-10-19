@@ -15,6 +15,9 @@ div > h2 > p > a {
 div > input {
   width: 50%;
 }
+.thislassisntreal{
+  width: auto;
+}
 .headerClass{
   display: flex;
   justify-content: center;
@@ -110,12 +113,12 @@ ul > a:hover, a:active {
   }
 }
 @media (max-width: 400px) {
-  .priority-4{
+      .priority-4{
     display: none;
   }
-  #searchbarZip{
+  #searchbarCity{
     display: none;
-  }
+  } 
 }
 @media (max-width: 669px) {
     .hidden--mobile {

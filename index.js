@@ -22,9 +22,9 @@ function render(state = store.Home) {
 function afterRender() {
     document
       .querySelector(".fa-bars")
-      .addEventListener("click", () =>
+      .addEventListener("click", () => 
         document.querySelector("nav > ul").classList.toggle("hidden--mobile")
-      );
+    );
   }
 
 router.hooks({

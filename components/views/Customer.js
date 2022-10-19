@@ -4,7 +4,7 @@ export default () => html `
 <div class="formPage">
 <form
   action="https://formspree.io/f/xaykjlab"
-  method="POST"
+  method="post"
 >
 <label for="name">Name</label>
 <input type="text" id="name" name="name" placeholder="Your name">
