@@ -56,7 +56,6 @@ const wyomings = require("./routers/wyomings");
 const customers = require("./routers/customers");
 const installers = require("./routers/installers");
 
-const bodyParser = require("body-parser");
 const app = express();
 
 dotenv.config();
@@ -165,7 +164,5 @@ app.use("/customers", customers);
 app.use("/installers", installers);
 
 
-app.listen(3000, function(){
-  console.log("server is running on 3000")
-})
+
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`));

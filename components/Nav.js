@@ -4,6 +4,7 @@ export default links => html`
   <nav>
     <i class="fas fa-bars"></i>
     <ul class="hidden--mobile nav-links">
+    <h1><a href="/Home">InstallerBio</a></h1>
       ${links
         .map(
           link =>
