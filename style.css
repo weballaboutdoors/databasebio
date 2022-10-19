@@ -114,12 +114,12 @@ ul > a:hover, a:active {
   }
 }
 @media (max-width: 400px) {
-  .priority-4{
+      .priority-4{
     display: none;
   }
-  #searchbarZip{
+  #searchbarCity{
     display: none;
-  }
+  } 
 }
 @media (max-width: 669px) {
     .hidden--mobile {
