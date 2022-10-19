@@ -13,7 +13,6 @@ const customerSchema = new mongoose.Schema({
   feedback: {
     type: String,
     required: true,
-    validate: /^[A-Za-z0-9 ]*$/
   }
 });
 

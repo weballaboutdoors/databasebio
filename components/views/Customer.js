@@ -3,8 +3,8 @@ import html from "html-literal";
 export default () => html `
 <div class="formPage">
 <form
-  action=""
-  method="POST"
+  action="https://formspree.io/f/xaykjlab"
+  method="post"
 >
 <label for="name">Name</label>
 <input type="text" id="name" name="name" placeholder="Your name">
