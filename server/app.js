@@ -108,7 +108,7 @@ app.post("/echo", (request, response) => {
 
 
 
-app.use(bodyParser.urlencoded({extended: true}));
+
 app.use("/alabamas", alabamas);
 app.use("/alaskas", alaskas);
 app.use("/arizonas", arizonas);
