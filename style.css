@@ -16,6 +16,9 @@ div > input {
   width: 50%;
 }
 
+td {
+  padding: 5px;
+}
 .headerClass{
   display: flex;
   justify-content: center;
@@ -27,7 +30,8 @@ div > input {
   border: solid;
 }
 .tables{
-  table-layout: fixed;
+  table-layout: auto;
+  border-collapse: collapse;
   width: 100%;
 }
 
@@ -111,9 +115,9 @@ ul > a:hover, a:active {
   }
 }
 @media (max-width: 400px) {
-      .priority-4{
+      /* .priority-4{
     display: none;
-  }
+  } */
   #searchbarCity{
     display: none;
   } 
