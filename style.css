@@ -2,10 +2,15 @@
   overflow-x: hidden;
 }
 
+nav > ul{
+  margin-top: 10px;
+}
 nav > ul > h1 > a {
     text-decoration: none;
   }
-
+footer{
+  margin-top: 30px;
+}
 footer > address > a {
   color: black;
 }
@@ -19,6 +24,19 @@ div > input {
 td {
   padding: 5px;
 }
+#searchbarState{
+  margin:10px;
+  border-radius: 5px;
+}
+#searchbarCity{
+  margin: 15px;
+  border-radius: 5px;
+}
+#searchbarZip{
+  margin: 15px;
+  border-radius: 5px;
+}
+
 .headerClass{
   display: flex;
   justify-content: center;
@@ -131,7 +149,7 @@ ul > a:hover, a:active {
       }
     nav > ul {
       flex-direction: column;
-      background-color: #fffffa;
+      background-color: black;
       }
     nav >ul > li {
       margin: 0.8em 0;
@@ -141,7 +159,7 @@ ul > a:hover, a:active {
         display: block;
         width:100%;
         text-align: left;
-        color: #000000;
+        color: whitesmoke;
         text-decoration: none;
       }
     }
