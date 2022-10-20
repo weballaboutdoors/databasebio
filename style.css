@@ -1,9 +1,9 @@
 *{
   overflow-x: hidden;
 }
-header > h1 > a {
+
+nav > ul > h1 > a {
     text-decoration: none;
-    color: black;
   }
 
 footer > address > a {
@@ -15,9 +15,7 @@ div > h2 > p > a {
 div > input {
   width: 50%;
 }
-.thislassisntreal{
-  width: auto;
-}
+
 .headerClass{
   display: flex;
   justify-content: center;

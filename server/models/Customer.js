@@ -16,6 +16,8 @@ const customerSchema = new mongoose.Schema({
   }
 });
 
-const Customer = mongoose.model("Customer", customerSchema);
+const information = mongoose.connection.useDb('information');
+
+const Customer = information.model("Customer", customerSchema);
 
 module.exports = Customer;

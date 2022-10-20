@@ -41,6 +41,8 @@ const installerSchema = new mongoose.Schema({
   }
 });
 
-const Installer = mongoose.model("Installer", installerSchema);
+const information = mongoose.connection.useDb('information');
+
+const Installer = information.model("Installer", installerSchema);
 
 module.exports = Installer;

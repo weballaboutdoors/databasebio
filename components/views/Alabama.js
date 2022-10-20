@@ -3,9 +3,9 @@ import html from "html-literal";
 export default (state) => html `
 <div class="container text-center">
 <div class="justify-content-center">
-<input id="searchbarCity" onkeyup="search_city()" type="text"
+<input id="searchbarCity" onkeyup="search_city()" type="search"
         name="search" placeholder="Search by City..">
-<input id="searchbarZip" onkeyup="search_zip()" type="text"
+<input id="searchbarZip" onkeyup="search_zip()" type="search"
         name="search" placeholder="Search by Zip Code..">
 <table class="tables" id="myTable">
 </div>
