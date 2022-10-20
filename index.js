@@ -17,14 +17,36 @@ function render(state = store.Home) {
     ${Footer()}
 `;
     router.updatePageLinks();
-    afterRender();
+    afterRender(state);
 }
-function afterRender() {
+function afterRender(state) {
     document
       .querySelector(".fa-bars")
       .addEventListener("click", () => 
         document.querySelector("nav > ul").classList.toggle("hidden--mobile")
     );
+    if (state.view === "Customer"){
+      document.querySelector("form").addEventListener("submit", event => {
+        event.preventDefault();
+
+        const requestData = {
+          name: name.value,
+          email: email.value,
+          feedback: feedback.value
+        };
+
+        axios
+        .post(`${process.env.CUSTOMER_API}`, requestData)
+        .then(response => {
+          console.log(response.data);
+          store.Customer.customers.push(response.data);
+          router.navigate("/Home");
+        })
+        .catch(error => {
+          console.log("it didn't work", error);
+        });
+      });
+    }
   }
 
 router.hooks({

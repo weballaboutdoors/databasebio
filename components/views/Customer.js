@@ -1,9 +1,9 @@
 import html from "html-literal";
 
-export default () => html `
+export default (state) => html `
 <div class="formPage">
 <form
-  action="https://formspree.io/f/xaykjlab"
+  action=""
   method="post"
 >
 <label for="name">Name</label>
