@@ -125,20 +125,20 @@ ul > a:hover, a:active {
 } 
 @media (max-width: 1200px) {
   .priority-8{
-    display: none;
+    display: none !important;
   }
 }
 @media (max-width: 1050px) {
   .priority-7{
-    display: none;
+    display: none !important;
   }
 }
 @media (max-width: 990px) {
   .priority-6{
-    display: none;
+    display: none !important;
   }
   .priority-5{
-    display: none;
+    display: none !important;
   }
 }
 @media (max-width: 400px) {
@@ -146,7 +146,7 @@ ul > a:hover, a:active {
     display: none;
   } */
   #searchbarCity{
-    display: none;
+    display: none !important;
   } 
 }
 @media (max-width: 669px) {
@@ -154,7 +154,9 @@ ul > a:hover, a:active {
       display: none !important;
     }
     nav{
-      padding: 10px;
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
       color: blue;
       background-color: #000000;
     }
