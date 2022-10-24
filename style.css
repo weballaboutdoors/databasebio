@@ -21,7 +21,9 @@ div > h2 > p > a {
 div > input {
   width: 50%;
 }
-
+div > p > a {
+  color: #000000;
+}
 td {
   padding: 5px;
 }
@@ -113,7 +115,6 @@ ul > a {
 }
 ul > a:hover, a:active {
   color: #fffffa;
-  background-color: black;
 }
 .fun {
   background-color: #f8f8ff;
@@ -198,7 +199,9 @@ ul > a:hover, a:active {
       justify-content: space-evenly;
       padding: 0 0;
     }
-
+    nav > ul > li > a {
+     color: white;
+    }
     nav > ul > li {
       display: inline-block;
       text-decoration: none;

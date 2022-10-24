@@ -5,9 +5,8 @@ export default () => html `
 <div class="justify-content-center">
 <div>
         <h2>Welcome to InstallerBio!</h2>
-        <p>All About Doors and Windows, <a href="">Door and Window Parts </a>and <a href="">Locks and Deadbolts</a> we realized that there might be some customers purchasing door or window parts who have no idea how to install them. That's why this site came into existence.
-        It is a place for window and door contractors and installers to list their information. Now when you purchase a door part or a window part, you have a place to find someone who will put them in for you. This is a free service.   
-        As an installer, it costs you nothing to list your name, address, website and other details. If you have a site and want to link back to one of our sites, that would be great. You can sign up for your free account <a href="">here</a></p>
+        <p>At <a href="https://www.allaboutdoors.com/">All About Doors and Windows</a>, we realized that there might be some customers purchasing door or window parts who need some assistance with proper installation of their purchase. This site is a place for window and door contractors and installers to list their information. Now when you purchase a door part or a window part, you have a place to find someone who will assist you with installation. This is a free service website.   
+        As an installer, it costs you nothing to list your name, address, website and other details. You can sign up for your free account <a href="/Installer">here</a></p>
 <div>
 <div class="container text-center">
 <div class="row justify-content-center">
