@@ -5,8 +5,8 @@ export default () => html `
   <form 
   action="https://formspree.io/f/mlevnoap"
   method="POST">
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" placeholder="Your name">
+    <label for="installer">Name</label>
+    <input type="text" id="installer" name="installer" placeholder="Your name">
 
     <label for="cname">Company Name</label>
     <input type="text" id="cname" name="cname" placeholder="Company name">

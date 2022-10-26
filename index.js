@@ -25,6 +25,30 @@ function afterRender(state) {
       .addEventListener("click", () => 
         document.querySelector("nav > ul").classList.toggle("hidden--mobile")
     );
+    if (state.view === "Customer") {
+      document.querySelector("form").addEventListener("submit", event => {
+        event.preventDefault();
+        const inputList = event.target.elements;
+  
+        
+        const requestData = {
+          customer: inputList.customer.value,
+          email: inputList.email.value,
+          feedback: inputList.feedback.value
+        };
+  
+        axios
+          .post(`${process.env.CUSTOMER_API}`, requestData)
+          .then(response => {
+            console.log(response.data);
+            store.Customer.customers.push(response.data);
+            router.navigate("/Home");
+          })
+          .catch(error => {
+            console.log("It puked", error);
+          });
+      });
+    }
   }
 
 router.hooks({
