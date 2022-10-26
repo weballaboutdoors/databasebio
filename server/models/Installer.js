@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const installerSchema = new mongoose.Schema({
-  name: {
+  installer: {
     type: String,
     required: true,
     validate: /^[A-Za-z0-9 ]*$/
@@ -41,8 +41,6 @@ const installerSchema = new mongoose.Schema({
   }
 });
 
-const information = mongoose.connection.useDb('information');
-
-const Installer = information.model("Installer", installerSchema);
+const Installer = mongoose.model("Installer", installerSchema);
 
 module.exports = Installer;

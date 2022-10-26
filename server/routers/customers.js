@@ -11,12 +11,7 @@ router.post("/", (request, response) => {
     return response.json(record);
   });
 });
-// router.post("/", urlencodedParser, function(request, response, next)  {
-//   const Customersave = new Customer({
-//     name,
-//     email,
-//     feedback 
-//   });
+
 
 // Get (read) all records from the collection
 router.get("/", (request, response) => {
@@ -47,7 +42,7 @@ router.put("/:id", (request, response) => {
     request.params.id,
     {
       $set: {
-        name: body.name,
+        customer: body.customer,
         email: body.mail,
         feedback: body.feedback
       }
