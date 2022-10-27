@@ -42,7 +42,7 @@ function afterRender(state) {
           .then(response => {
             console.log(response.data);
             store.Customer.customers.push(response.data);
-            router.navigate("/Home");
+            router.navigate("/Submission");
           })
           .catch(error => {
             console.log("It puked", error);
@@ -70,7 +70,7 @@ function afterRender(state) {
           .then(response => {
             console.log(response.data);
             store.Installer.installers.push(response.data);
-            router.navigate("/Home");
+            router.navigate("/Submission");
           })
           .catch(error => {
             console.log("It puked", error);

@@ -5,16 +5,23 @@ export default () => html `
   <form 
   action="/"
   method="POST">
+  <div>
     <label for="installer">Name</label>
     <input type="text" id="installer" name="installer" placeholder="Your name">
-
+    </div>
+    <div>
     <label for="companyname">Company Name</label>
     <input type="text" id="companyname" name="companyname" placeholder="Company name">
+    </div>
+    <div>
     <label for="address">Address</label>
     <input type="text" id="address" name="address" placeholder="Your address">
+    </div>
+    <div>
     <label for="city">City</label>
     <input type="text" id="city" name="city" placeholder="City">
-
+    </div>
+    <div>
     <label for="state">State</label>
     <select id="state" name="state">
     <option value="">Select A State</option>
@@ -69,13 +76,19 @@ export default () => html `
       <option value="westvirginia">West Virginia</option>
       <option value="wisconsin">Wisconsin</option>
     </select>
+    </div>
+    <div>
     <label for="zipcode">Zip Code</label>
     <input type="text" id="zipcode" name="zipcode" placeholder="Zip Code">
+    </div>
+    <div>
     <label for="phone">Telephone Number</label>
     <input type="text" id="phone" name="phone" placeholder="(888)888-8888">
+    </div>
+    <div>
     <label for="email">E-Mail</label>
     <input type="text" id="email" name="email" placeholder="jdoe@email.com">
-  
+    </div>
     <input type="submit" value="Submit">
   </form>
 </div>
