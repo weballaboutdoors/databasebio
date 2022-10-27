@@ -5,12 +5,71 @@ export default () => html `
 <div class="justify-content-center">
 <div>
         <h2>Welcome to InstallerBio!</h2>
-        <p>At <a href="https://www.allaboutdoors.com/">All About Doors and Windows</a>, we realized that there might be some customers purchasing door or window parts who need some assistance with proper installation of their purchase. This site is a place for window and door contractors and installers to list their information. Now when you purchase a door part or a window part, you have a place to find someone who will assist you with installation. This is a free service website.   
-        As an installer, it costs you nothing to list your name, address, website and other details. You can sign up for your free account <a href="/Installer">here</a></p>
+        <h6>From All About Doors and Windows</h6>
+        <p>Installer Bio is the window and door installation destination, after purchasing new parts search this page for installers local to you! Installers can create their free account <a href="/Installer">here</a></p>
 <div>
 <div class="container text-center">
 <div class="row justify-content-center">
-    <div>
+<div class="cell">
+    <form onchange="la(this.value)">
+<label for="state">Select Your State Below</label>
+    <select id="state" name="state">
+    <option value="">State</option>
+      <option value="/Alabama"><a href="/Alabama">Alabama</a></option>
+      <option value="/Alaska">Alaska</option>
+      <option value="/Arizona">Arizona</option>
+      <option value="/Arkansas">Arkansas</option>
+      <option value="/California">California</option>
+      <option value="/Colorado">Colorado</option>
+      <option value="/Connecticut">Connecticut</option>
+      <option value="/Delaware">Delaware</option>
+      <option value="/Districtofcolumbia">District Of Columbia</option>
+      <option value="/Florida">Florida</option>
+      <option value="/Georgia">Georgia</option>
+      <option value="/Hawaii">Hawaii</option>
+      <option value="/Idaho">Idaho</option>
+      <option value="/Illinois">Illinois</option>
+      <option value="/Indiana">Indiana</option>
+      <option value="/Iowa">Iowa</option>
+      <option value="/Kansas">Kansas</option>
+      <option value="/Kentucky">Kentucky</option>
+      <option value="/Louisiana">Louisiana</option>
+      <option value="/Maine">Maine</option>
+      <option value="/Maryland">Maryland</option>
+      <option value="/Massachusetts">Massachusetts</option>
+      <option value="/Michigan">Michigan</option>
+      <option value="/Minnesota">Minnesota</option>
+      <option value="/Mississippi">Mississippi</option>
+      <option value="/Missouri">Missouri</option>
+      <option value="/Montana">Montana</option>
+      <option value="/Nebraska">Nebraska</option>
+      <option value="/Nevada">Nevada</option>
+      <option value="/Newhampshire">New Hampshire</option>
+      <option value="/Newjersey">New Jersey</option>
+      <option value="/Newmexico">New Mexico</option>
+      <option value="/Newyork">New York</option>
+      <option value="/Northcarolina">North Carolina</option>
+      <option value="/Northdakota">North Dakota</option>
+      <option value="/Ohio">Ohio</option>
+      <option value="/Oklahoma">Oklahoma</option>
+      <option value="/Oregon">Oregon</option>
+      <option value="/Pennsylvania">Pennsylvania</option>
+      <option value="/Rhodeisland">Rhode Island</option>
+      <option value="/Southcarolina">South Carolina</option>
+      <option value="/Southdakota">South Dakota</option>
+      <option value="/Tennessee">Tennessee</option>
+      <option value="/Texas">Texas</option>
+      <option value="/Utah">Utah</option>
+      <option value="/Vermont">Vermont</option>
+      <option value="/Virginia">Virginia</option>
+      <option value="/Washington">Washington</option>
+      <option value="/Westvirginia">West Virginia</option>
+      <option value="/Wisconsin">Wisconsin</option>
+    </select>
+    <input type="submit" value="Submit">
+</form>
+</div>
+    <div class="desktop">
     <input id="searchbarState" onkeyup="search_state()" type="text"
         name="search" placeholder="Search States..">
         <h2>Browse Window and Door Installers by State</h2>

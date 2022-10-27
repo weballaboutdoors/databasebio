@@ -70,7 +70,7 @@ function afterRender(state) {
           .then(response => {
             console.log(response.data);
             store.Installer.installers.push(response.data);
-            router.navigate("/Submission");
+            router.navigate("/");
           })
           .catch(error => {
             console.log("It puked", error);

@@ -204,6 +204,9 @@ ul > a:hover, a:active {
       nav > ul > li > a:hover{
         color: #45a049;
       }
+      .desktop{
+        display: none;
+      }
     }
 @media (min-width: 670px) {
     nav{
@@ -244,6 +247,9 @@ ul > a:hover, a:active {
     text-decoration: none;
    }
     nav > .fas-bars {
+      display: none;
+    }
+    .cell{
       display: none;
     }
 }
