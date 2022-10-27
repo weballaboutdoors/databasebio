@@ -42,12 +42,12 @@ router.put("/:id", (request, response) => {
     {
       $set: {
         installer: body.installer,
-        companyName: body.company,
-        address: body.street,
+        companyname: body.companyname,
+        address: body.address,
         city: body.city,
         state: body.state,
-        zipcode: body.zip,
-        phone: body.fone,
+        zipcode: body.zipcode,
+        phone: body.phone,
         email: body.mail
       }
     },

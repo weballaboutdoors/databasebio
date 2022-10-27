@@ -3,13 +3,13 @@ import html from "html-literal";
 export default () => html `
 <div class="formPage">
   <form 
-  action="https://formspree.io/f/mlevnoap"
+  action="/"
   method="POST">
     <label for="installer">Name</label>
     <input type="text" id="installer" name="installer" placeholder="Your name">
 
-    <label for="cname">Company Name</label>
-    <input type="text" id="cname" name="cname" placeholder="Company name">
+    <label for="companyname">Company Name</label>
+    <input type="text" id="companyname" name="companyname" placeholder="Company name">
     <label for="address">Address</label>
     <input type="text" id="address" name="address" placeholder="Your address">
     <label for="city">City</label>
@@ -69,10 +69,10 @@ export default () => html `
       <option value="westvirginia">West Virginia</option>
       <option value="wisconsin">Wisconsin</option>
     </select>
-    <label for="zip">Zip Code</label>
-    <input type="text" id="zip" name="zip" placeholder="Zip Code">
-    <label for="fone">Telephone Number</label>
-    <input type="text" id="fone" name="fone" placeholder="(888)888-8888">
+    <label for="zipcode">Zip Code</label>
+    <input type="text" id="zipcode" name="zipcode" placeholder="Zip Code">
+    <label for="phone">Telephone Number</label>
+    <input type="text" id="phone" name="phone" placeholder="(888)888-8888">
     <label for="email">E-Mail</label>
     <input type="text" id="email" name="email" placeholder="jdoe@email.com">
   

@@ -49,6 +49,34 @@ function afterRender(state) {
           });
       });
     }
+    if (state.view === "Installer"){
+      document.querySelector("form").addEventListener("submit", event => {
+        event.preventDefault();
+        const installerList = event.target.elements;
+
+        const installerData = {
+          installer: installerList.installer.value,
+          companyname: installerList.companyname.value,
+          address: installerList.address.value,
+          city: installerList.city.value,
+          state: installerList.state.value,
+          zipcode: installerList.zipcode.value,
+          phone: installerList.phone.value,
+          email: installerList.email.value
+        };
+
+        axios
+          .post(`${process.env.INSTALLER_API}`, installerData)
+          .then(response => {
+            console.log(response.data);
+            store.Installer.installers.push(response.data);
+            router.navigate("/Home");
+          })
+          .catch(error => {
+            console.log("It puked", error);
+          });
+      });
+    }
   }
 
 router.hooks({

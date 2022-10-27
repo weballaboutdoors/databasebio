@@ -3,7 +3,7 @@ import html from "html-literal";
 export default () => html `
 <div class="formPage">
 <form
-  action="https://formspree.io/f/xaykjlab"
+  action="/"
   method="post"
 >
 <div>
@@ -22,5 +22,3 @@ export default () => html `
 </form>
 </div>
 `;
-
-// 
