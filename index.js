@@ -45,7 +45,7 @@ function afterRender(state) {
             router.navigate("/Submission");
           })
           .catch(error => {
-            console.log("It puked", error);
+            console.log("It didn't submit", error);
           });
       });
     }
@@ -73,7 +73,7 @@ function afterRender(state) {
             router.navigate("/");
           })
           .catch(error => {
-            console.log("It puked", error);
+            console.log("It didn't submit", error);
           });
       });
     }
