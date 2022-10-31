@@ -10,7 +10,7 @@ export default () => html `
         <p>Installer Bio is the window and door installation destination, after purchasing new parts search this page for installers local to you! Installers can create their free account <a href="/Installer">here</a></p>
         </div>
 </div>
-<button class="homeButton"><a href="/States"><b>Start Your State Search</b></a></button>
-<button class="homeButton"><a href="/Customer"><b>Customer Feedback</b></a></button>
-<button class="homeButton"><a href="/Installer"><b>Installer Application</b></a></button>
+<button class="homeButton"><span class="shadow"></span><span class="edge"></span><a href="/States"><b><span class="homeLayer">Your State Search</span></b></a></button>
+<button class="homeButton"><span class="shadow"></span><span class="edge"></span><a href="/Customer"><b><span class="homeLayer">Customer Feedback</b></a></button>
+<button class="homeButton"><span class="shadow"></span><span class="edge"></span><a href="/Installer"><b><span class="homeLayer">Installer Application</span></b></a></button>
 `;

@@ -25,22 +25,95 @@ td {
   padding: 5px;
 }
 .homeButton{
-  width: 20%;
+  height: 64px;
   display: block;
-  padding: 40px;
+  width: 20%;
+  position: relative;
+  border: none;
+  background: transparent;
+  padding: 0;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10px;
-  background-color: #45a049;
-  border: #000000 2.5px solid;
+  margin-top: 50px;
+  cursor: pointer;
+  outline-offset: 6px;
+  transition: filter 250ms;
 }
 .homeButton > a {
   text-decoration: none;
-  color: #000000;
 }
-.homeButton > a:hover {
-  text-decoration: none;
+.homeButton:hover {
+  filter: brightness(110%);
+}
+.homeButton:hover .homeLayer {
+  transform: translateY(-6px);
+  transition:
+    transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+.homeButton:active .homeLayer {
+  transform: translateY(-2px);
+  transition: transform 34ms;
+}
+.homeButton:hover .shadow {
+  transform: translateY(4px);
+  transition:
+    transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+.homeButton:active .shadow {
+  transform: translateY(1px);
+  transition: transform 34ms;
+}
+.homeButton:focus:not(:focus-visible) {
+  outline: none;
+}
+.shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: hsl(0deg 0% 0% / 0.25);
+  will-change: transform;
+  transform: translateY(2px);
+  transition:
+    transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+.edge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(
+    to left,
+    hsl(123deg 100% 16%) 0%,
+    hsl(123deg 100% 32%) 8%,
+    hsl(123deg 100% 32%) 92%,
+    hsl(123deg 100% 16%) 100%
+  );
+}
+.homeLayer {
+  display: block;
+  position: relative;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-size: 1.25rem;
   color: white;
+  background: hsl(123deg 100% 39%);
+  will-change: transform;
+  transform: translateY(-4px);
+  transition:
+    transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
 }
 .submission {
   padding: 14px 40px;
@@ -51,10 +124,6 @@ td {
   text-decoration: none;
   color: #000000;
 }
-/* button:hover{
-  background-color:#45a050;
-  color: white;
-} */
 #searchbarState{
   margin:10px;
   border-radius: 5px;
@@ -223,12 +292,16 @@ ul > a:hover, a:active {
         color: #45a049;
       }
       .homeButton{
+        height: 65px;
         width: 75%;
-        background-color: #45a049;
-        border: #000000 2.5px solid;
+        overflow-y: hidden;
       }
       .homeButton > a {
         color: white;
+      }
+      .homeButton {
+        user-select: none;
+        outline: none;
       }
     }
 @media (min-width: 670px) {
