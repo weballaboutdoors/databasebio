@@ -54,3 +54,4 @@ export { default as Westvirginia } from "./Westvirginia";
 export { default as Wisconsin } from "./Wisconsin";
 export { default as Wyoming } from "./Wyoming";
 export { default as Submission } from "./Submission";
+export { default as States } from "./States";

@@ -21,25 +21,40 @@ div > h2 > p > a {
 div > input {
   width: 50%;
 }
-div > p > a {
-  /* color: #000000; */
-}
 td {
   padding: 5px;
 }
-button {
+.homeButton{
+  width: 20%;
+  display: block;
+  padding: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  background-color: #45a049;
+  border: #000000 2.5px solid;
+}
+.homeButton > a {
+  text-decoration: none;
+  color: #000000;
+}
+.homeButton > a:hover {
+  text-decoration: none;
+  color: white;
+}
+.submission {
   padding: 14px 40px;
   transition-duration: 0.4s;
   border: 4px solid #45a049;
 }
-button > a {
+.submission > a {
   text-decoration: none;
   color: #000000;
 }
-button:hover{
+/* button:hover{
   background-color:#45a050;
   color: white;
-}
+} */
 #searchbarState{
   margin:10px;
   border-radius: 5px;
@@ -51,20 +66,6 @@ button:hover{
 #searchbarZip{
   margin: 15px;
   border-radius: 5px;
-}
-.collapsible {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-.active, .collapsible:hover {
-  background-color: #ccc;
 }
 .content {
   padding: 0 18px;
@@ -175,9 +176,6 @@ ul > a:hover, a:active {
   }
 }
 @media (max-width: 400px) {
-      /* .priority-4{
-    display: none;
-  } */
   #searchbarCity{
     display: none !important;
   } 
@@ -224,9 +222,14 @@ ul > a:hover, a:active {
       nav > ul > li > a:hover{
         color: #45a049;
       }
-      /* .desktop{
-        display: none;
-      } */
+      .homeButton{
+        width: 75%;
+        background-color: #45a049;
+        border: #000000 2.5px solid;
+      }
+      .homeButton > a {
+        color: white;
+      }
     }
 @media (min-width: 670px) {
     nav{
@@ -267,9 +270,6 @@ ul > a:hover, a:active {
     text-decoration: none;
    }
     nav > .fas-bars {
-      display: none;
-    }
-    .cell{
       display: none;
     }
 }

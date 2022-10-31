@@ -1,3 +1,5 @@
+import { fromPairs } from "lodash";
+
 export { default as Installer } from "./Installer";
 export { default as Customer } from "./Customer";
 export { default as Home } from "./Home";
@@ -53,3 +55,4 @@ export { default as Westvirginia } from "./Westvirginia";
 export { default as Wisconsin } from "./Wisconsin";
 export { default as Wyoming } from "./Wyoming";
 export { default as Submission } from "./Submission";
+export { default as States } from "./States";
