@@ -293,8 +293,8 @@ ul > a:hover, a:active {
         color: #45a049;
       }
       .homeButton{
-        height: 65px;
-        width: 75%;
+        height: 75px;
+        width: 80%;
         overflow-y: hidden;
       }
       .homeButton > a {
