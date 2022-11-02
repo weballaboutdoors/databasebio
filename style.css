@@ -3,6 +3,12 @@
   margin: 0;
   padding: 0;
 }
+h1 {
+  overflow-y: hidden;
+}
+h2 {
+  overflow-y: hidden;
+}
 body{
   padding-top:100px;
  }
