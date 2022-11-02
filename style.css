@@ -9,6 +9,9 @@ h1 {
 h2 {
   overflow-y: hidden;
 }
+h6{
+  overflow-y: hidden;
+}
 body{
   padding-top:100px;
  }
@@ -300,7 +303,7 @@ ul > a:hover, a:active {
       }
       .homeButton{
         height: 75px;
-        width: 80%;
+        width: 92.5%;
         overflow-y: hidden;
       }
       .homeButton > a {
