@@ -9,6 +9,9 @@ h1 {
 h2 {
   overflow-y: hidden;
 }
+h6{
+  overflow-y: hidden;
+}
 body{
   padding-top:100px;
  }
