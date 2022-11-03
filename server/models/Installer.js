@@ -1,11 +1,6 @@
 const mongoose = require("mongoose");
 
 const installerSchema = new mongoose.Schema({
-  installer: {
-    type: String,
-    required: true,
-    validate: /^[A-Za-z0-9 ]*$/
-  },
   companyname: {
     type: String,
     required: true,
