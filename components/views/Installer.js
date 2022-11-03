@@ -5,13 +5,9 @@ export default () => html `
   <form 
   action="/"
   method="POST">
-  <div>
-    <label for="installer">Name</label>
-    <input type="text" id="installer" name="installer" placeholder="Your name">
-    </div>
     <div>
-    <label for="companyname">Company Name</label>
-    <input type="text" id="companyname" name="companyname" placeholder="Company name">
+    <label for="companyname">Name/Company</label>
+    <input type="text" id="companyname" name="companyname" placeholder="Name/Company">
     </div>
     <div>
     <label for="address">Address</label>
