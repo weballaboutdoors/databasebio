@@ -14,7 +14,6 @@ export default (state) => html `
 </div>
 </div>
     <tr>
-      <th class="priority-7">Name</th>
       <th class="priority-1">Company Name</th>
       <th class="priority-6">Address</th>
       <th class="priority-2">City</th>
@@ -25,7 +24,7 @@ export default (state) => html `
     </tr>
     ${state.newyorks
       .map(newyork => {
-        return `<tr><td class="priority-7">${newyork.name}</td><td>${newyork.companyName}</td><td class="priority-6">${newyork.address}</td><td>${newyork.city}</td><td class="priority-8">${newyork.state
+        return `<tr><td><a href="/P${newyork._id}">${newyork.companyName}</a></td><td class="priority-6">${newyork.address}</td><td>${newyork.city}</td><td class="priority-8">${newyork.state
         }</td><td class="priority-4">${newyork.zipcode
         }</td><td><a href="tel:+1${newyork.phone}">${newyork.phone
         }</a></td><td class="priority-5"><a href="mailto:${newyork.email}">${newyork.email

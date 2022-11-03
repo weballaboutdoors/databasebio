@@ -13,8 +13,7 @@ export default (state) => html `
 <table class="tables" id="myTable">
 </div>
     <tr>
-      <th class="priority-7">Name</th>
-      <th class="priority-1">Company Name</th>
+      <th class="priority-1">Name / Company</th>
       <th class="priority-6">Address</th>
       <th class="priority-2">City</th>
       <th class="priority-8">State</th>
@@ -24,7 +23,7 @@ export default (state) => html `
     </tr>
     ${state.southdakotas
       .map(southdakota => {
-        return `<tr><td class="priority-7">${southdakota.name}</td><td>${southdakota.companyName}</td><td class="priority-6">${southdakota.address}</td><td>${southdakota.city}</td><td class="priority-8">${southdakota.state
+        return `<tr><td><a href="/P${southdakota._id}">${southdakota.companyName}</a></td><td class="priority-6">${southdakota.address}</td><td>${southdakota.city}</td><td class="priority-8">${southdakota.state
         }</td><td class="priority-4">${southdakota.zipcode
         }</td><td><a href="tel:+1${southdakota.phone}">${southdakota.phone
         }</a></td><td class="priority-5"><a href="mailto:${southdakota.email}">${southdakota.email
