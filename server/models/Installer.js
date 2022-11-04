@@ -33,7 +33,8 @@ const installerSchema = new mongoose.Schema({
   email: {
     type: String,
     required: true,
-  }
+  },
+  profession: [String]
 });
 
 const Installer = mongoose.model("Installer", installerSchema);

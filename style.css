@@ -205,6 +205,9 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
+input[type=checkbox]{
+  width: auto;
+}
 .formLayout{
   width:auto;
   border: solid 5px black;

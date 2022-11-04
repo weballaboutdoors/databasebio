@@ -84,6 +84,17 @@ export default () => html `
     <div>
     <label for="email">E-Mail</label>
     <input type="text" id="email" name="email" placeholder="jdoe@email.com">
+</div>
+<div>
+      <label for="profession">Choose Your Profession:</label><br>
+      <input type="checkbox" class="items1" id="profession1" name="profession" value="locksmith">
+      <label for="profession1">Locksmith</label><br>
+      <input type="checkbox" class="items1" id="profession2" name="profession" value="doorpart">
+      <label for="profession2">Door Part Installer</label><br>
+      <input type="checkbox" class="items1" id="profession3" name="profession" value="windowpart">
+      <label for="profession3">Window Part Installer</label><br>
+      <input type="checkbox" class="items1" id="profession4" name="profession" value="handyman">
+      <label for="profession4">Handyman</label><br>
     </div>
     <input type="submit" value="Submit">
   </form>

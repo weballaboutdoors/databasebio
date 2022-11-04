@@ -45,6 +45,7 @@ function afterRender(state) {
             router.navigate("/Submission");
           })
           .catch(error => {
+            alert("Please fill out requirements");
             console.log("It didn't submit", error);
           });
       });
@@ -54,15 +55,22 @@ function afterRender(state) {
         event.preventDefault();
         const installerList = event.target.elements;
 
+        const profession = [];
+        for (let input of installerList.profession){
+          if (input.checked) {
+            profession.push(input.value);
+          }
+        }
+
         const installerData = {
-          installer: installerList.installer.value,
           companyname: installerList.companyname.value,
           address: installerList.address.value,
           city: installerList.city.value,
           state: installerList.state.value,
           zipcode: installerList.zipcode.value,
           phone: installerList.phone.value,
-          email: installerList.email.value
+          email: installerList.email.value,
+          profession: profession
         };
 
         axios
@@ -70,9 +78,10 @@ function afterRender(state) {
           .then(response => {
             console.log(response.data);
             store.Installer.installers.push(response.data);
-            router.navigate("/");
+            router.navigate("/Submission");
           })
           .catch(error => {
+            alert("Please fill out requirements");
             console.log("It didn't submit", error);
           });
       });
