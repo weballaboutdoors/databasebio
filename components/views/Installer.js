@@ -5,6 +5,9 @@ export default () => html `
   <form 
   action="/"
   method="POST">
+  <div class="container">
+    <div class="row align-items-start">
+    <div class="col">
     <div>
     <label for="companyname"></label>
     <input type="text" id="companyname" name="companyname" placeholder="Name/Company">
@@ -73,6 +76,8 @@ export default () => html `
       <option value="wisconsin">Wisconsin</option>
     </select>
     </div>
+    </div>
+    <div class="col">
     <div>
     <label for="zipcode"></label>
     <input type="text" id="zipcode" name="zipcode" placeholder="Zip Code">
@@ -85,7 +90,8 @@ export default () => html `
     <label for="email"></label>
     <input type="text" id="email" name="email" placeholder="jdoe@email.com">
 </div>
-<div>
+</div>
+<div class="col">
       <label for="profession">Choose Your Profession:</label><br>
       <input type="checkbox" class="items1" id="profession1" name="profession" value="locksmith">
       <label for="profession1">Locksmith</label><br>
@@ -98,5 +104,7 @@ export default () => html `
     </div>
     <input type="submit" value="Submit">
   </form>
+</div>
+</div>
 </div>
 `;

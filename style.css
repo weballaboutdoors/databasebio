@@ -184,7 +184,7 @@ td {
   width: 100%; 
 }
 input[type=text], select {
-  width: 100%;
+  width: 85%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -193,7 +193,7 @@ input[type=text], select {
   box-sizing: border-box;
 }
 input[type=submit] {
-  width: 100%;
+  /* width: 100%; */
   background-color: #4CAF50;
   color: white;
   padding: 14px 20px;
@@ -255,6 +255,32 @@ ul > a:hover, a:active {
   }
   .priority-5{
     display: none !important;
+  }
+}
+@media (min-width: 775px){
+  input[type=text], select {
+    width: 85%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    /* width: 100%; */
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+}
+@media (max-width: 774px){
+  form > div > div > div.col{
+  display: none;
   }
 }
 @media (max-width: 400px) {
@@ -358,4 +384,5 @@ ul > a:hover, a:active {
     nav > .fas-bars {
       display: none;
     }
+    
 }
