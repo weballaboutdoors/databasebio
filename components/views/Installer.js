@@ -6,19 +6,19 @@ export default () => html `
   action="/"
   method="POST">
     <div>
-    <label for="companyname">Name/Company</label>
+    <label for="companyname"></label>
     <input type="text" id="companyname" name="companyname" placeholder="Name/Company">
     </div>
     <div>
-    <label for="address">Address</label>
+    <label for="address"></label>
     <input type="text" id="address" name="address" placeholder="Your address">
     </div>
     <div>
-    <label for="city">City</label>
+    <label for="city"></label>
     <input type="text" id="city" name="city" placeholder="City">
     </div>
     <div>
-    <label for="state">State</label>
+    <label for="state"></label>
     <select id="state" name="state">
     <option value="">Select A State</option>
       <option value="alabama">Alabama</option>
@@ -74,15 +74,15 @@ export default () => html `
     </select>
     </div>
     <div>
-    <label for="zipcode">Zip Code</label>
+    <label for="zipcode"></label>
     <input type="text" id="zipcode" name="zipcode" placeholder="Zip Code">
     </div>
     <div>
-    <label for="phone">Telephone Number</label>
+    <label for="phone"></label>
     <input type="text" id="phone" name="phone" placeholder="(888)888-8888">
     </div>
     <div>
-    <label for="email">E-Mail</label>
+    <label for="email"></label>
     <input type="text" id="email" name="email" placeholder="jdoe@email.com">
 </div>
 <div>
