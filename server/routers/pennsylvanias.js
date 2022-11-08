@@ -41,14 +41,14 @@ router.put("/:id", (request, response) => {
     request.params.id,
     {
       $set: {
-        name: body.name,
         companyName: body.company,
         address: body.street,
         city: body.city,
         state: body.state,
         zipcode: body.zip,
         phone: body.fone,
-        email: body.mail
+        email: body.mail,
+        profession: body.profession
       }
     },
     {

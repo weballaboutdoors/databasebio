@@ -1,11 +1,6 @@
 const mongoose = require("mongoose");
 
 const kentuckySchema = new mongoose.Schema({
-  name: {
-    type: String,
-    required: true,
-    validate: /^[A-Za-z0-9 ]*$/
-  },
   companyName: {
     type: String,
     required: true,
@@ -38,7 +33,8 @@ const kentuckySchema = new mongoose.Schema({
   email: {
     type: String,
     required: true,
-  }
+  },
+  profession: [String]
 });
 
 const Kentucky = mongoose.model("Kentucky", kentuckySchema);

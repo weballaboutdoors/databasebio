@@ -183,7 +183,19 @@ td {
   z-index: 9999; 
   width: 100%; 
 }
-input[type=text], select {
+.rowz{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.columnz{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+/* input[type=text], select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -191,7 +203,18 @@ input[type=text], select {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+} */
+
+input[type=text], select{
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
 }
+
 input[type=submit] {
   width: 100%;
   background-color: #4CAF50;
@@ -255,6 +278,11 @@ ul > a:hover, a:active {
   }
   .priority-5{
     display: none !important;
+  }
+}
+@media (max-width: 774px){
+  form > div > div > div.col{
+  display: none;
   }
 }
 @media (max-width: 400px) {
@@ -358,4 +386,5 @@ ul > a:hover, a:active {
     nav > .fas-bars {
       display: none;
     }
+    
 }

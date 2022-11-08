@@ -5,6 +5,9 @@ export default () => html `
   <form 
   action="/"
   method="POST">
+  <div class="rowz">
+    <div class="columnz">
+  <div>
     <div>
     <label for="companyname"></label>
     <input type="text" id="companyname" name="companyname" placeholder="Name/Company">
@@ -77,6 +80,13 @@ export default () => html `
     <label for="zipcode"></label>
     <input type="text" id="zipcode" name="zipcode" placeholder="Zip Code">
     </div>
+    </div>
+    </div>
+    <div class="columnz">
+    <div>
+    <label for="web"></label>
+    <input type="text" id="web" name="web" placeholder="www.website.com">
+    </div>
     <div>
     <label for="phone"></label>
     <input type="text" id="phone" name="phone" placeholder="(888)888-8888">
@@ -84,6 +94,10 @@ export default () => html `
     <div>
     <label for="email"></label>
     <input type="text" id="email" name="email" placeholder="jdoe@email.com">
+    <label for "bio"></label>
+    <textarea id="bio" name"bio" rows="10" cols="100%">Write your Bio here</textarea>
+</div>
+</div>
 </div>
 <div>
       <label for="profession">Choose Your Profession:</label><br>
@@ -95,6 +109,7 @@ export default () => html `
       <label for="profession3">Window Part Installer</label><br>
       <input type="checkbox" class="items1" id="profession4" name="profession" value="handyman">
       <label for="profession4">Handyman</label><br>
+    </div>
     </div>
     <input type="submit" value="Submit">
   </form>
