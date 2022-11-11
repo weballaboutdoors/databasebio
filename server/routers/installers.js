@@ -49,6 +49,8 @@ router.put("/:id", (request, response) => {
         zipcode: body.zipcode,
         phone: body.phone,
         email: body.mail,
+        web: body.web,
+        bio: body.bio,
         profession: body.profession
       }
     },
