@@ -14,7 +14,7 @@ export default () => html `
     </div>
     <div>
     <label for="address"></label>
-    <input type="text" id="address" name="address" placeholder="Your address">
+    <input type="text" id="address" name="address" placeholder="Address">
     </div>
     <div>
     <label for="city"></label>
@@ -23,7 +23,7 @@ export default () => html `
     <div>
     <label for="state"></label>
     <select id="state" name="state">
-    <option value="">Select A State</option>
+    <option value="">States</option>
       <option value="alabama">Alabama</option>
       <option value="alaska">Alaska</option>
       <option value="arizona">Arizona</option>
@@ -85,17 +85,17 @@ export default () => html `
     <div class="columnz">
     <div>
     <label for="web"></label>
-    <input type="text" id="web" name="web" placeholder="www.website.com">
+    <input type="text" id="web" name="web" placeholder="Website">
     </div>
     <div>
     <label for="phone"></label>
-    <input type="text" id="phone" name="phone" placeholder="(888)888-8888">
+    <input type="text" id="phone" name="phone" placeholder="Phone">
     </div>
     <div>
     <label for="email"></label>
-    <input type="text" id="email" name="email" placeholder="jdoe@email.com">
-    <label for "bio"></label>
-    <textarea id="bio" name"bio" rows="10" cols="100%">Write your Bio here</textarea>
+    <input type="text" id="email" name="email" placeholder="E-Mail">
+    <label for="bio"></label>
+    <textarea id="bio" name="bio" rows="10" cols="120" style="max-width:100%" placeholder="Write your Bio here"></textarea>
 </div>
 </div>
 </div>
