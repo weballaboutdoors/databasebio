@@ -70,6 +70,8 @@ function afterRender(state) {
           zipcode: installerList.zipcode.value,
           phone: installerList.phone.value,
           email: installerList.email.value,
+          web: installerList.web.value,
+          bio: installerList.bio.value,
           profession: profession
         };
 
