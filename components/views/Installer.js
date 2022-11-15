@@ -2,25 +2,22 @@ import html from "html-literal";
 
 export default () => html `
 <div class="formPage">
-  <form 
+<form
   action="/"
-  method="POST">
-  <div class="rowz">
-    <div class="columnz">
-  <div>
-    <div>
+  method="post"
+  >
     <label for="companyname"></label>
     <input type="text" id="companyname" name="companyname" placeholder="Name/Company">
-    </div>
-    <div>
+    <label for="web"></label>
+    <input type="text" id="web" name="web" placeholder="Website">
+    <label for="phone"></label>
+    <input type="text" id="phone" name="phone" placeholder="Phone">
+    <label for="email"></label>
+    <input type="text" id="email" name="email" placeholder="E-Mail">
     <label for="address"></label>
     <input type="text" id="address" name="address" placeholder="Address">
-    </div>
-    <div>
     <label for="city"></label>
     <input type="text" id="city" name="city" placeholder="City">
-    </div>
-    <div>
     <label for="state"></label>
     <select id="state" name="state">
     <option value="">States</option>
@@ -75,31 +72,10 @@ export default () => html `
       <option value="westvirginia">West Virginia</option>
       <option value="wisconsin">Wisconsin</option>
     </select>
-    </div>
-    <div>
     <label for="zipcode"></label>
     <input type="text" id="zipcode" name="zipcode" placeholder="Zip Code">
-    </div>
-    </div>
-    </div>
-    <div class="columnz">
-    <div>
-    <label for="web"></label>
-    <input type="text" id="web" name="web" placeholder="Website">
-    </div>
-    <div>
-    <label for="phone"></label>
-    <input type="text" id="phone" name="phone" placeholder="Phone">
-    </div>
-    <div>
-    <label for="email"></label>
-    <input type="text" id="email" name="email" placeholder="E-Mail">
     <label for="bio"></label>
     <textarea id="bio" name="bio" rows="10" cols="120" style="max-width:100%" placeholder="Write your Bio here"></textarea>
-</div>
-</div>
-</div>
-<div>
       <label for="profession">Choose Your Profession:</label><br>
       <input type="checkbox" class="items1" id="profession1" name="profession" value="locksmith">
       <label for="profession1">Locksmith</label><br>
@@ -109,9 +85,7 @@ export default () => html `
       <label for="profession3">Window Part Installer</label><br>
       <input type="checkbox" class="items1" id="profession4" name="profession" value="handyman">
       <label for="profession4">Handyman</label><br>
-    </div>
-    </div>
-    <input type="submit" value="Submit">
-  </form>
-</div>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
 `;

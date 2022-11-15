@@ -27,6 +27,7 @@ function afterRender(state) {
     );
     if (state.view === "Customer") {
       document.querySelector("form").addEventListener("submit", event => {
+        console.log(event);
         event.preventDefault();
         const inputList = event.target.elements;
   
@@ -52,6 +53,7 @@ function afterRender(state) {
     }
     if (state.view === "Installer"){
       document.querySelector("form").addEventListener("submit", event => {
+        console.log(event);
         event.preventDefault();
         const installerList = event.target.elements;
 
