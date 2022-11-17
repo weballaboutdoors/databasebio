@@ -6,6 +6,8 @@ export default () => html `
   action="/"
   method="post"
   >
+  <div class="rows">
+  <div class="columns">
     <label for="companyname"></label>
     <input type="text" id="companyname" name="companyname" placeholder="Name/Company">
     <label for="web"></label>
@@ -15,6 +17,8 @@ export default () => html `
     <label for="email"></label>
     <input type="text" id="email" name="email" placeholder="E-Mail">
     <label for="address"></label>
+    </div>
+    <div class="columns">
     <input type="text" id="address" name="address" placeholder="Address">
     <label for="city"></label>
     <input type="text" id="city" name="city" placeholder="City">
@@ -74,8 +78,10 @@ export default () => html `
     </select>
     <label for="zipcode"></label>
     <input type="text" id="zipcode" name="zipcode" placeholder="Zip Code">
-    <label for="bio"></label>
-    <textarea id="bio" name="bio" rows="10" cols="120" style="max-width:100%" placeholder="Write your Bio here"></textarea>
+    </div>
+    </div>
+    <div class="rows">
+      <div id="profession">
       <label for="profession">Choose Your Profession:</label><br>
       <input type="checkbox" class="items1" id="profession1" name="profession" value="locksmith">
       <label for="profession1">Locksmith</label><br>
@@ -85,6 +91,12 @@ export default () => html `
       <label for="profession3">Window Part Installer</label><br>
       <input type="checkbox" class="items1" id="profession4" name="profession" value="handyman">
       <label for="profession4">Handyman</label><br>
+      </div>
+      <div class="columns">
+      <label for="bio"></label>
+    <textarea id="bio" name="bio" rows="10" cols="170" style="max-width:100%" placeholder="Write your Bio here"></textarea>
+      </div>
+      </div>
       <input type="submit" value="Submit">
     </form>
   </div>
