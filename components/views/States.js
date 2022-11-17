@@ -9,6 +9,9 @@ export default () => html `
         name="search" placeholder="Search States..">
         <h2>Browse Window and Door Installers by State</h2>
         <p>Below are states where installers are available on our site:</p>
+        <div class="mobile-col">
+        <div class="rows">
+        <div class="columns">
         <ul class="state"><a href="./Alabama">Alabama</a></ul>
         <ul class="state"><a href="./Alaska">Alaska</a></ul>
         <ul class="state"><a href="./Arizona">Arizona</a></ul>
@@ -26,6 +29,8 @@ export default () => html `
         <ul class="state"><a href="./Indiana">Indiana</a></ul>
         <ul class="state"><a href="./Iowa">Iowa</a></ul>
         <ul class="state"><a href="./Kansas">Kansas</a></ul>
+        </div>
+        <div class="columns">
         <ul class="state"><a href="./Kentucky">Kentucky</a></ul>
         <ul class="state"><a href="./Louisiana">Louisiana</a></ul>
         <ul class="state"><a href="./Maine">Maine</a></ul>
@@ -43,6 +48,8 @@ export default () => html `
         <ul class="state"><a href="./Newmexico">New Mexico</a></ul>
         <ul class="state"><a href="./Newyork">New York</a></ul>
         <ul class="state"><a href="./Northcarolina">North Carolina</a></ul>
+        </div>
+        <div class="columns">
         <ul class="state"><a href="./Northdakota">North Dakota</a></ul>
         <ul class="state"><a href="./Ohio">Ohio</a></ul>
         <ul class="state"><a href="./Oklahoma">Oklahoma</a></ul>
@@ -60,6 +67,9 @@ export default () => html `
         <ul class="state"><a href="./Westvirginia">West Virginia</a></ul>
         <ul class="state"><a href="./Wisconsin">Wisconsin</a></ul>
         <ul class="state"><a href="./Wyoming">Wyoming</a></ul>
+        </div>
+        </div>
+        </div>
     </div>
     </div>
 `;

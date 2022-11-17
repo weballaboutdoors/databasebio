@@ -1,7 +1,7 @@
 import html from "html-literal";
 
 export default () => html `
-<footer>
+<footer class="container text-center">
 <p>Contact the author of this page:</p>
 
 <address>

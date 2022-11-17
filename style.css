@@ -33,6 +33,9 @@ div > input {
 td {
   padding: 5px;
 }
+.practice {
+  background-color: #80bf83;
+}
 .homeButton{
   height: 65px;
   display: block;
@@ -183,19 +186,6 @@ td {
   z-index: 9999; 
   width: 100%; 
 }
-.rowz{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  max-width: 100%;
-}
-.columnz{
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-  padding: 5px;
-}
 
 input[type=text], select{
   padding: 12px 20px;
@@ -236,6 +226,7 @@ input[type=checkbox]{
   justify-content: center;
   margin: 4px;
 }
+
 tr:nth-child(2n) {
   background-color: lightgray;
 }
@@ -246,6 +237,7 @@ ul > a {
 ul > a:hover, a:active {
   color: #45a049;
 }
+
 .fun {
   background-color: white;
     /* background: url(./assets/img/backgroundblue2.jpg) no-repeat center center fixed; ; */
@@ -336,6 +328,9 @@ ul > a:hover, a:active {
         user-select: none;
         outline: none;
       }
+      .mobile-col {
+        margin-right: 35px;
+      }
     }
 @media (min-width: 670px) {
     nav{
@@ -377,6 +372,26 @@ ul > a:hover, a:active {
    }
     nav > .fas-bars {
       display: none;
+    }
+    .rows{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      max-width: 100%;
+    }
+    .columns{
+      display: flex;
+      flex-direction: column;
+      flex-basis: 100%;
+      flex: 1;
+      padding: 5px;
+    }
+    #state {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    #profession{
+      margin-left: 7px;
     }
     
 }
