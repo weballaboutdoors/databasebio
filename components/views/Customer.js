@@ -7,16 +7,16 @@ export default () => html `
   method="post"
 >
 <div>
-<label for="customer">Customer Name</label>
-<input type="text" id="name" name="customer" placeholder="Your name">
+<label for="customer"></label>
+<input type="text" id="name" name="customer" placeholder="Customer Name">
 </div>
 <div>
-<label for="email">E-Mail</label>
-<input type="text" id="email" name="email" placeholder="jdoe@email.com">
+<label for="email"></label>
+<input type="text" id="email" name="email" placeholder="E-Mail">
 </div>
 <div>
-<label for="feedback">Feedback</label>
-<input type="text" id="feedback" name="feedback" placeholder="Your response...">
+<label for="feedback"></label>
+<textarea id="feedback" name="feedback" rows="10" style="width:100%"placeholder="Write your Feedback here"></textarea>
 </div>
     <input type="submit" value="Submit">
 </form>
