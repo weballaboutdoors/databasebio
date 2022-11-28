@@ -7,7 +7,14 @@ export default () => html `
 <h1>Billy Bob</h1>
 <h6>Window Part Installer</h6>
 <p>Billy Can Do It</p>
-<p>Phone:<a href="tel:+15555555555">555-555-5555</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E-Mail:<a href="mailto:bob@installer.com">bob@installer.com</a></p>
+<div class="rows">
+<div class="columns">
+<p>Phone:<a href="tel:+15555555555">555-555-5555</a></p>
+</div>
+<div class="columns">
+<p>E-Mail:<a href="mailto:bob@installer.com">bob@installer.com</a></p>
+</div>
+</div>
 <p>12345 Hwy 45, Anchorage, Alaska 00000</p>
 </div>
 <h4>Installer Bio</h4>
