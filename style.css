@@ -393,5 +393,7 @@ ul > a:hover, a:active {
     #profession{
       margin-left: 7px;
     }
-    
+    #searchbarState {
+      display: none;
+    }
 }
