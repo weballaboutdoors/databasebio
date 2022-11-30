@@ -1,7 +1,7 @@
 export default [
     { title: "Home", text: "Home" },
-    { title: "Customer", text: "Customer Feedback"},
+    { title: "States", text: "Start Search"},
     { title: "Installer", text: "Installer Application"},
-    { title: "States", text: "View States"},
+    { title: "Customer", text: "Customer Feedback"},
     { title: "Terms", text: "Terms"}
   ];
