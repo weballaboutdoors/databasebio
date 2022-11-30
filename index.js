@@ -34,6 +34,7 @@ function afterRender(state) {
         
         const requestData = {
           customer: inputList.customer.value,
+          company: inputList.company.value,
           email: inputList.email.value,
           feedback: inputList.feedback.value
         };

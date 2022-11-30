@@ -9,6 +9,15 @@ h1 {
 h2 {
   overflow-y: hidden;
 }
+h3{
+  overflow-y: hidden;
+}
+h4{
+  overflow-y: hidden;
+}
+h5{
+  overflow-y: hidden;
+}
 h6{
   overflow-y: hidden;
 }
@@ -38,6 +47,9 @@ td {
 }
 .practice2 {
   background-color: #f2f2f2;
+}
+.spacer {
+  border-bottom: 10px solid black;
 }
 .homeButton{
   height: 65px;

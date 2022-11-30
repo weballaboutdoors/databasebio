@@ -6,6 +6,11 @@ const customerSchema = new mongoose.Schema({
     required: true,
     validate: /^[A-Za-z0-9 ]*$/
   },
+  company: {
+    type: String,
+    required: true,
+    validate: /^[A-Za-z0-9 ]*$/
+  },
   email: {
     type: String,
     required: true,
