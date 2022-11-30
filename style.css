@@ -30,7 +30,7 @@ nav > ul{
 footer{
   margin-top: 30px;
 }
-footer > address > a {
+footer > p > a {
   color: black;
 }
 div > h2 > p > a {
