@@ -1,6 +1,9 @@
 import html from "html-literal";
 
 export default () => html `
+ <div class="container text-center">
+  <h6>Please apply to be a listed installer using the form below.</h6>
+  </div>
 <div class="formPage">
 <form
   action="/"
@@ -11,9 +14,9 @@ export default () => html `
     <label for="companyname"></label>
     <input type="text" id="companyname" name="companyname" placeholder="Name/Company">
     <label for="web"></label>
-    <input type="text" id="web" name="web" placeholder="Website">
+    <input type="text" id="web" name="web" placeholder="*Website">
     <label for="phone"></label>
-    <input type="text" id="phone" name="phone" placeholder="Phone">
+    <input type="text" id="phone" name="phone" placeholder="*Phone">
     <label for="email"></label>
     <input type="text" id="email" name="email" placeholder="E-Mail">
     <label for="address"></label>
@@ -82,7 +85,7 @@ export default () => html `
     </div>
     <div class="rows">
       <div id="profession">
-      <label for="profession">Choose Your Profession:</label><br>
+      <label for="profession">Choose Your Profession(s)</label><br>
       <input type="checkbox" class="items1" id="profession1" name="profession" value="locksmith">
       <label for="profession1">Locksmith</label><br>
       <input type="checkbox" class="items1" id="profession2" name="profession" value="doorpart">
@@ -98,6 +101,7 @@ export default () => html `
       </div>
       </div>
       <input type="submit" value="Submit">
+      <h6>*Optional</h6>
     </form>
   </div>
 `;

@@ -43,6 +43,7 @@ router.put("/:id", (request, response) => {
     {
       $set: {
         customer: body.customer,
+        company: body.company,
         email: body.email,
         feedback: body.feedback
       }

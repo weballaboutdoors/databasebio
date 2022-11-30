@@ -7,7 +7,6 @@ export default () => html `
 <div class="row justify-content-center">
     <input id="searchbarState" onkeyup="search_state()" type="text"
         name="search" placeholder="Search States..">
-        <h2>Choose Your State Below</h2>
         <!-- <p>Below are states where installers are available on our site:</p> -->
         <div class="mobile-col">
         <div class="rows">

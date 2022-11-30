@@ -1,6 +1,9 @@
 import html from "html-literal";
 
 export default () => html `
+  <div class="container text-center">
+  <h6>Please give feedback on the company you used to resolve your home repair. This feedback will be shared through the Installer profile page to help future customers make more informed decisions.</h6>
+  </div>
 <div class="formPage">
 <form
   action="/"
@@ -9,6 +12,10 @@ export default () => html `
 <div>
 <label for="customer"></label>
 <input type="text" id="name" name="customer" placeholder="Customer Name">
+</div>
+<div>
+<label for="company"></label>
+<input type="text" id="company" name="company" placeholder="Company Name">
 </div>
 <div>
 <label for="email"></label>
