@@ -7,7 +7,7 @@ export default () => html `
 <!-- Company name -->
 <h1>Billy Can Do It</h1>
 <!-- Company Website -->
-<p><a href="wwww.fakewebsite.com">wwww.fakewebsite.com</a></p>
+<!-- <p><a href="wwww.fakewebsite.com">wwww.fakewebsite.com</a></p> -->
 <!-- Service(s) offered -->
 <h6>Window Part Installer | Door Part Installer | Locksmith</h6>
 <div class="rows">
