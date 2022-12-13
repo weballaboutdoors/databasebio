@@ -36,11 +36,9 @@ const installerSchema = new mongoose.Schema({
   bio: {
     type: String,
     required: true,
-    validate: /^[A-Za-z0-9 ]*$/
   },
   web: {
     type: String,
-    validate: /^[A-Za-z0-9 ]*$/
   },
   profession: [String]
 });

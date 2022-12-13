@@ -16,7 +16,7 @@ export default () => html `
     <label for="web"></label>
     <input type="text" id="web" name="web" placeholder="*Website">
     <label for="phone"></label>
-    <input type="text" id="phone" name="phone" placeholder="*Phone">
+    <input type="text" id="phone" name="phone" placeholder="Phone">
     <label for="email"></label>
     <input type="text" id="email" name="email" placeholder="E-Mail">
     <label for="address"></label>
