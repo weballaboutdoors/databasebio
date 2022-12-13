@@ -17,7 +17,7 @@ const customerSchema = new mongoose.Schema({
   },
   feedback: {
     type: String,
-    required: true,
+    required: true
   }
 });
 
