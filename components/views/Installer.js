@@ -94,6 +94,13 @@ export default () => html `
       <label for="profession3">Window Part Installer</label><br>
       <input type="checkbox" class="items1" id="profession4" name="profession" value="handyman">
       <label for="profession4">Handyman</label><br>
+      <div id="review">
+        <label for="review">Allow reviews on your Installer page?</label><br>
+        <input type="checkbox" class="items2" id="review1" name="review" value="yes">
+        <label for="review1">Yes</label><br>
+        <input type="checkbox" class="items2" id="review2" name="review" value="no">
+        <label for="review2">No</label><br>
+      </div>
       </div>
       <div class="columns">
       <label for="bio"></label>

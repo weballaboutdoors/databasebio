@@ -40,6 +40,11 @@ const installerSchema = new mongoose.Schema({
   web: {
     type: String,
   },
+  review: {
+    type: String,
+    required: true,
+    enum: ["yes", "no"]
+  },
   profession: [String]
 });
 
