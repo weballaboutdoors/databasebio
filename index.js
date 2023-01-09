@@ -75,6 +75,7 @@ function afterRender(state) {
           email: installerList.email.value,
           web: installerList.web.value,
           bio: installerList.bio.value,
+          review: installerList.review.value,
           profession: profession
         };
 
