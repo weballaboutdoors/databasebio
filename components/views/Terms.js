@@ -1,8 +1,8 @@
 import html from "html-literal";
 
 export default () => html `
-<div class="container text-center">
-<h3>CONDITIONS OF USE</h3>
+<div class="container text-left">
+<h3>TERMS OF CONDITIONS</h3>
 
 <p>Welcome to InsallerBio. All services provided by InsallerBio are subject to the following conditions.
 If you visit or aquire services through the InsallerBio website, you accept these conditions.
@@ -10,18 +10,18 @@ Please read the following information carefully.
 
 California Residents: for more information about Proposition 65, please click here.</p>
 
-<h3>PRIVACY</h3>
+<h4>Privacy</h4>
 <p>Please review our <a href="/Privacy">Privacy Notice</a>. This page will help you understand our practices involved with your
 information.</p>
 
-<h3>COMMUNICATIONS</h3>
+<h4>Communications</h4>
 <p>When you visit InsallerBio or submit information to us, you are communicating with us electronically.
 You consent to receive communications from us electronically. We will communicate with you by e-mail
 or by posting notices on this site. You agree that all agreements, notices, disclosures and other
 communications that we provide to you electronically satisfy any legal requirement that such
 communications be in writing.</p>
 
-<h3>LICENSE and SITE ACCESS</h3>
+<h4>License and Site Access</h4>
 <p>InsallerBio grants you a limited license to access and make personal use of this site and not to
 download (other than page caching) or modify it, or any portion of it, except with express written consent
 of InsallerBio. You are granted a limited, revocable, and nonexclusive right to create a hyperlink to the
@@ -29,14 +29,14 @@ home page of InsallerBio so long as the link does not portray InsallerBio, its a
 or services in a false, misleading, derogatory, or otherwise offensive matter. You may not use any InsallerBio
 logo or other proprietary graphic or trademark as part of the link without express written permission.</p>
 
-<h3>YOUR ACCOUNT</h3>
+<h4>Your Account</h4>
 <p>If you use this site, you are responsible for maintaining the confidentiality of your account and password
 and for restricting access to your computer, and you agree to accept responsibility for all activities
 that occur under your account or password. If you are under 18, you may use InsallerBio only with involvement
 of a parent or guardian. InsallerBio reserves the right to refuse service, terminate accounts, remove or edit
 content at their sole discretion.</p>
 
-<h3>COMMENTS, COMMUNICATIONS and OTHER CONTENT</h3>
+<h4>Comments, Communications and Other Content</h4>
 <p>Visitors may post reviews, comments, and other content; send communications; and submit
 suggestions, ideas, comments, questions, or other information, so long as the content is not illegal, obscene,
 threatening, defamatory, or invasive of privacy and does not consist of or contain software viruses, commercial
