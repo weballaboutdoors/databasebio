@@ -2,7 +2,7 @@ import html from "html-literal";
 
 export default () => html `
 <div class="container text-left">
-<h3>TERMS OF CONDITIONS</h3>
+<h3>TERMS AND CONDITIONS</h3>
 
 <p>Welcome to InsallerBio. All services provided by InsallerBio are subject to the following conditions.
 If you visit or aquire services through the InsallerBio website, you accept these conditions.
