@@ -1,4 +1,4 @@
 export default {
-    header:"Privacy",
+    header:"",
     view: "Privacy"
 };

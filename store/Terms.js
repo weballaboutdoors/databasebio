@@ -1,4 +1,4 @@
 export default {
-    header:"Terms",
+    header:"",
     view: "Terms"
 };
