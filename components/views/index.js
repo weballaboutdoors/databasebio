@@ -59,3 +59,4 @@ export { default as States } from "./States";
 export { default as P6348167c997e163f98caa573 } from "./6348167c997e163f98caa573";
 export { default as Terms } from "./Terms";
 export { default as P6348162b997e163f98caa571} from "./6348162b997e163f98caa571";
+export { default as Privacy } from "./Privacy";
