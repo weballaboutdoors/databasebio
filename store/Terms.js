@@ -1,4 +1,4 @@
 export default {
-    header:"InstallerBio Disclaimer",
+    header:"Terms",
     view: "Terms"
 };

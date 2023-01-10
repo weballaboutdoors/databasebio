@@ -3,5 +3,5 @@ export default [
     { title: "States", text: "Start Search"},
     { title: "Installer", text: "Installer Application"},
     { title: "Customer", text: "Customer Feedback"},
-    { title: "Terms", text: "Terms"}
+    // { title: "Terms", text: "Terms"}
   ];

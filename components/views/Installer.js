@@ -85,7 +85,9 @@ export default () => html `
     </div>
     <div class="rows">
       <div id="profession">
-      <label for="profession">Choose Your Profession(s)</label><br>
+        <div class="bold">
+      <label for="profession"><strong>Choose Your Profession(s)</strong></label><br>
+      </div>
       <input type="checkbox" class="items1" id="profession1" name="profession" value="locksmith">
       <label for="profession1">Locksmith</label><br>
       <input type="checkbox" class="items1" id="profession2" name="profession" value="doorpart">
@@ -95,7 +97,7 @@ export default () => html `
       <input type="checkbox" class="items1" id="profession4" name="profession" value="handyman">
       <label for="profession4">Handyman</label><br>
       <div id="review">
-        <label for="review">Allow reviews on your Installer page?</label><br>
+        <label for="review"><strong>Allow reviews on your Installer page?</strong></label><br>
         <input type="checkbox" class="items2" id="review1" name="review" value="yes">
         <label for="review1">Yes</label><br>
         <input type="checkbox" class="items2" id="review2" name="review" value="no">

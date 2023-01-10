@@ -6,7 +6,8 @@ export default () => html `
 <a href="/Home">Home</a> |
 <a href="https://www.allaboutdoors.com/Products" target="_blank" rel="noopener noreferrer">Find Products</a> 
   |
-  <a href="/Terms">Terms</a>
+  <a href="/Terms">Terms of Conditions</a>|
+  <a href="/Privacy">Privacy</a>
   
 </p>
 </footer>
