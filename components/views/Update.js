@@ -2,8 +2,7 @@ import html from "html-literal";
 
 export default () => html `
  <div class="container text-center">
-  <h6>Please apply to be a listed installer using the form below.</h6>
-  <h6>If you would like to update any information on your Bio Page please click <a href="/Update">here</a></h6>
+  <h6>Please fill out the form below with your updated information. Be sure to only fill out this form if you have already submitted an Installer Application.</h6>
   </div>
 <div class="formPage">
 <form

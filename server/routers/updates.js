@@ -1,21 +1,20 @@
 const { Router } = require("express");
-const Customer = require("../models/Customer");
+const Update = require("../models/Update");
 
 const router = Router();
 
 // Create record in MongoDB Atlas using Mongoose.js ORM
 router.post("/", (request, response) => {
-  const newCustomer = new Customer(request.body);
-  newCustomer.save((error, record) => {
+  const newUpdate = new Update(request.body);
+  newUpdate.save((error, record) => {
     if (error) return response.status(500).json(error);
     return response.json(record);
   });
 });
 
-
 // Get (read) all records from the collection
 router.get("/", (request, response) => {
-  Customer.find({}, (error, record) => {
+    Update.find({}, (error, record) => {
     if (error) return response.status(500).json(error);
     return response.json(record);
   });
@@ -23,14 +22,14 @@ router.get("/", (request, response) => {
 
 // Get a single record by ID using a query parameter
 router.get("/:id", (request, response) => {
-    Customer.findById(request.params.id, (error, record) => {
+    Update.findById(request.params.id, (error, record) => {
     if (error) return response.status(500).json(error);
     return response.json(record);
   });
 });
 
 router.delete("/:id", (request, response) => {
-    Customer.findByIdAndRemove(request.params.id, {}, (error, record) => {
+    Update.findByIdAndRemove(request.params.id, {}, (error, record) => {
     if (error) return response.status(500).json(error);
     return response.json(record);
   });
@@ -38,15 +37,23 @@ router.delete("/:id", (request, response) => {
 
 router.put("/:id", (request, response) => {
   const body = request.body;
-  Customer.findByIdAndUpdate(
+  Update.findByIdAndUpdate(
     request.params.id,
     {
       $set: {
-        customer: body.customer,
-        company: body.company,
-        email: body.email,
-        feedback: body.feedback,
-        terms: body.terms
+        installer: body.installer,
+        companyname: body.companyname,
+        address: body.address,
+        city: body.city,
+        state: body.state,
+        zipcode: body.zipcode,
+        phone: body.phone,
+        email: body.mail,
+        web: body.web,
+        bio: body.bio,
+        review: body.review,
+        terms: body.terms,
+        profession: body.profession
       }
     },
     {
@@ -63,7 +70,7 @@ router.put("/:id", (request, response) => {
 router.get("/:atrib/:value", (request, response) => {
   let filter = {};
   filter[request.params.atrib] = request.params.value;
-  Customer.find(filter, (error, record) => {
+  Update.find(filter, (error, record) => {
     if (error) return response.status(500).json(error);
     return response.json(record);
   });

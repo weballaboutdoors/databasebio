@@ -52,6 +52,7 @@ router.put("/:id", (request, response) => {
         web: body.web,
         bio: body.bio,
         review: body.review,
+        terms: body.terms,
         profession: body.profession
       }
     },

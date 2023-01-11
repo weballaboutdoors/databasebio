@@ -36,7 +36,8 @@ function afterRender(state) {
           customer: inputList.customer.value,
           company: inputList.company.value,
           email: inputList.email.value,
-          feedback: inputList.feedback.value
+          feedback: inputList.feedback.value,
+          terms: inputList.terms.value
         };
   
         axios
@@ -76,6 +77,7 @@ function afterRender(state) {
           web: installerList.web.value,
           bio: installerList.bio.value,
           review: installerList.review.value,
+          terms: installerList.review.value,
           profession: profession
         };
 
