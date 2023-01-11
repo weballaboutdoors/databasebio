@@ -94,6 +94,47 @@ function afterRender(state) {
           });
       });
     }
+    if (state.view === "Update"){
+      document.querySelector("form").addEventListener("submit", event => {
+        console.log(event);
+        event.preventDefault();
+        const updateList = event.target.elements;
+
+        const profession = [];
+        for (let input of installerList.profession){
+          if (input.checked) {
+            profession.push(input.value);
+          }
+        }
+
+        const updateData = {
+          companyname: updateList.companyname.value,
+          address: updateList.address.value,
+          city: updateList.city.value,
+          state: updateList.state.value,
+          zipcode: updateList.zipcode.value,
+          phone: updateList.phone.value,
+          email: updateList.email.value,
+          web: updateList.web.value,
+          bio: updateList.bio.value,
+          review: updateList.review.value,
+          terms: updateList.review.value,
+          profession: profession
+        };
+
+        axios
+          .post(`${process.env.INSTALLER_API}`, updateData)
+          .then(response => {
+            console.log(response.data);
+            store.Installer.installers.push(response.data);
+            router.navigate("/Submission");
+          })
+          .catch(error => {
+            alert("Please fill out requirements");
+            console.log("It didn't submit", error);
+          });
+      });
+    }
   }
 
 router.hooks({
