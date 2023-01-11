@@ -18,6 +18,10 @@ const customerSchema = new mongoose.Schema({
   feedback: {
     type: String,
     required: true
+  },
+  terms: {
+    type: String,
+    required: true
   }
 });
 
