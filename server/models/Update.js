@@ -38,10 +38,6 @@ const updateSchema = new mongoose.Schema({
     type: String,
     enum: ["yes", "no"]
   },
-  terms: {
-    type: String,
-    required: true
-  },
   profession: [String]
 });
 
