@@ -117,9 +117,8 @@ export default () => html `
       </div>
       </div>
       <p><strong>By Submitting this form I Agree to the <a href="/Terms">Terms and Conditions</a></strong></p>
-      <input type="submit" value="Submit">
-      
       <h6>*Optional</h6>
+      <input type="submit" value="Submit">
     </form>
   </div>
 `;

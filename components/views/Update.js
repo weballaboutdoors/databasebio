@@ -12,9 +12,9 @@ export default () => html `
   <div class="rows">
   <div class="columns">
     <label for="companyname"></label>
-    <input type="text" id="companyname" name="companyname" placeholder="Name/Company">
+    <input type="text" id="companyname" name="companyname" placeholder="*Name/Company">
     <label for="web"></label>
-    <input type="text" id="web" name="web" placeholder="*Website">
+    <input type="text" id="web" name="web" placeholder="Website">
     <label for="phone"></label>
     <input type="text" id="phone" name="phone" placeholder="Phone">
     <label for="email"></label>
@@ -27,7 +27,7 @@ export default () => html `
     <input type="text" id="city" name="city" placeholder="City">
     <label for="state"></label>
     <select id="state" name="state">
-    <option value="">States</option>
+    <option value="">*States</option>
       <option value="alabama">Alabama</option>
       <option value="alaska">Alaska</option>
       <option value="arizona">Arizona</option>
@@ -112,13 +112,14 @@ export default () => html `
       </div>
       <div class="columns">
       <label for="bio"></label>
-    <textarea id="bio" name="bio" rows="10" cols="170" style="max-width:100%" placeholder="Write your Bio here"></textarea>
+    <textarea id="bio" name="bio" rows="10" cols="170" style="max-width:100%" placeholder="Update Bio, Name, State or anything else here"></textarea>
       </div>
       </div>
       <p><strong>By Submitting this form I Agree to the <a href="/Terms">Terms and Conditions</a></strong></p>
+      <h6>*Required</h6>
       <input type="submit" value="Submit">
       
-      <h6>*Optional</h6>
+      
     </form>
   </div>
 `;

@@ -28,6 +28,7 @@ const installerSchema = new mongoose.Schema({
   },
   phone: {
     type: String,
+    required: true
   },  
   email: {
     type: String,
@@ -42,8 +43,7 @@ const installerSchema = new mongoose.Schema({
   },
   review: {
     type: String,
-    required: true,
-    enum: ["yes", "no"]
+    required: true
   },
   profession: [String]
 });
