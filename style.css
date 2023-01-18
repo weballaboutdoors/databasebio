@@ -154,6 +154,9 @@ td {
   text-decoration: none;
   color: #000000;
 }
+.submission > a:hover {
+  color: #45a049;
+}
 #searchbarState{
   margin:10px;
   border-radius: 5px;
