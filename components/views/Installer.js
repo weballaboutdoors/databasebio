@@ -20,9 +20,9 @@ export default () => html `
     <input type="text" id="phone" name="phone" placeholder="Phone">
     <label for="email"></label>
     <input type="text" id="email" name="email" placeholder="E-Mail">
-    <label for="address"></label>
     </div>
     <div class="columns">
+    <label for="address"></label>
     <input type="text" id="address" name="address" placeholder="Address">
     <label for="city"></label>
     <input type="text" id="city" name="city" placeholder="City">
@@ -98,11 +98,11 @@ export default () => html `
       <input type="checkbox" class="items1" id="profession4" name="profession" value="handyman">
       <label for="profession4">Handyman</label><br>
       <input type="checkbox" class="items1" id="profession5" name="profession" value="glasscontractor">
-      <label for="profession4">Glass Contractor</label><br>
+      <label for="profession5">Glass Contractor</label><br>
       <input type="checkbox" class="items1" id="profession6" name="profession" value="windowrepair">
-      <label for="profession4">Window Repair and Service</label><br>
+      <label for="profession6">Window Repair and Service</label><br>
       <input type="checkbox" class="items1" id="profession7" name="profession" value="doorrepair">
-      <label for="profession4">Door Repair and Service</label><br>
+      <label for="profession7">Door Repair and Service</label><br>
       <div id="review">
         <label for="review"><strong>Allow reviews on your Installer page?</strong></label><br>
         <input type="checkbox" class="items2" id="review1" name="review" value="yes">

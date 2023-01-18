@@ -11,22 +11,22 @@ export default () => html `
   >
   <div class="rows">
   <div class="columns">
-    <label for="companyname"></label>
-    <input type="text" id="companyname" name="companyname" placeholder="*Name/Company">
-    <label for="web"></label>
-    <input type="text" id="web" name="web" placeholder="Website">
-    <label for="phone"></label>
-    <input type="text" id="phone" name="phone" placeholder="Phone">
-    <label for="email"></label>
-    <input type="text" id="email" name="email" placeholder="E-Mail">
-    <label for="address"></label>
+    <label for="companynameUpdate"></label>
+    <input type="text" id="companynameUpdate" name="companynameUpdate" placeholder="*Name/Company">
+    <label for="webUpdate"></label>
+    <input type="text" id="webUpdate" name="webUpdate" placeholder="Website">
+    <label for="phoneUpdate"></label>
+    <input type="text" id="phoneUpdate" name="phoneUpdate" placeholder="Phone">
+    <label for="emailUpdate"></label>
+    <input type="text" id="emailUpdate" name="emailUpdate" placeholder="E-Mail">
     </div>
     <div class="columns">
-    <input type="text" id="address" name="address" placeholder="Address">
-    <label for="city"></label>
-    <input type="text" id="city" name="city" placeholder="City">
-    <label for="state"></label>
-    <select id="state" name="state">
+    <label for="addressUpdate"></label>
+    <input type="text" id="addressUpdate" name="addressUpdate" placeholder="Address">
+    <label for="cityUpdate"></label>
+    <input type="text" id="cityUpdate" name="cityUpdate" placeholder="City">
+    <label for="stateUpdate"></label>
+    <select id="stateUpdate" name="stateUpdate">
     <option value="">*States</option>
       <option value="alabama">Alabama</option>
       <option value="alaska">Alaska</option>
@@ -79,40 +79,40 @@ export default () => html `
       <option value="westvirginia">West Virginia</option>
       <option value="wisconsin">Wisconsin</option>
     </select>
-    <label for="zipcode"></label>
-    <input type="text" id="zipcode" name="zipcode" placeholder="Zip Code">
+    <label for="zipcodeUpdate"></label>
+    <input type="text" id="zipcodeUpdate" name="zipcodeUpdate" placeholder="Zip Code">
     </div>
     </div>
     <div class="rows">
-      <div id="profession">
+      <div id="professionUpdate">
         <div class="bold">
-      <label for="profession"><strong>Choose Your Profession(s)</strong></label><br>
+      <label for="professionUpdate"><strong>Choose Your Profession(s)</strong></label><br>
       </div>
-      <input type="checkbox" class="items1" id="profession1" name="profession" value="locksmith">
+      <input type="checkbox" class="items1" id="profession1" name="professionUpdate" value="locksmith">
       <label for="profession1">Locksmith</label><br>
-      <input type="checkbox" class="items1" id="profession2" name="profession" value="doorinstaller">
+      <input type="checkbox" class="items1" id="profession2" name="professionUpdate" value="doorinstaller">
       <label for="profession2">Door Installer</label><br>
-      <input type="checkbox" class="items1" id="profession3" name="profession" value="windowinstaller">
+      <input type="checkbox" class="items1" id="profession3" name="professionUpdate" value="windowinstaller">
       <label for="profession3">Window Installer</label><br>
-      <input type="checkbox" class="items1" id="profession4" name="profession" value="handyman">
+      <input type="checkbox" class="items1" id="profession4" name="professionUpdate" value="handyman">
       <label for="profession4">Handyman</label><br>
-      <input type="checkbox" class="items1" id="profession5" name="profession" value="glasscontractor">
-      <label for="profession4">Glass Contractor</label><br>
-      <input type="checkbox" class="items1" id="profession6" name="profession" value="windowrepair">
-      <label for="profession4">Window Repair and Service</label><br>
-      <input type="checkbox" class="items1" id="profession7" name="profession" value="doorrepair">
-      <label for="profession4">Door Repair and Service</label><br>
+      <input type="checkbox" class="items1" id="profession5" name="professionUpdate" value="glasscontractor">
+      <label for="profession5">Glass Contractor</label><br>
+      <input type="checkbox" class="items1" id="profession6" name="professionUpdate" value="windowrepair">
+      <label for="profession6">Window Repair and Service</label><br>
+      <input type="checkbox" class="items1" id="profession7" name="professionUpdate" value="doorrepair">
+      <label for="profession7">Door Repair and Service</label><br>
       <div id="review">
-        <label for="review"><strong>Allow reviews on your Installer page?</strong></label><br>
-        <input type="checkbox" class="items2" id="review1" name="review" value="yes">
+        <label for="reviewUpdate"><strong>Allow reviews on your Installer page?</strong></label><br>
+        <input type="checkbox" class="items2" id="review1" name="reviewUpdate" value="yes">
         <label for="review1">Yes</label><br>
-        <input type="checkbox" class="items2" id="review2" name="review" value="no">
+        <input type="checkbox" class="items2" id="review2" name="reviewUpdate" value="no">
         <label for="review2">No</label><br>
       </div>
       </div>
       <div class="columns">
-      <label for="bio"></label>
-    <textarea id="bio" name="bio" rows="10" cols="170" style="max-width:100%" placeholder="Update Bio, Name, State or anything else here"></textarea>
+      <label for="bioUpdate"></label>
+    <textarea id="bioUpdate" name="bioUpdate" rows="10" cols="170" style="max-width:100%" placeholder="Update Bio, Name, State or anything else here"></textarea>
       </div>
       </div>
       <p><strong>By Submitting this form I Agree to the <a href="/Terms">Terms and Conditions</a></strong></p>

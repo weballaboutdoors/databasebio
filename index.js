@@ -106,18 +106,17 @@ function afterRender(state) {
         }
 
         const updateData = {
-          companyname: updateList.companyname.value,
-          address: updateList.address.value,
-          city: updateList.city.value,
-          state: updateList.state.value,
-          zipcode: updateList.zipcode.value,
-          phone: updateList.phone.value,
-          email: updateList.email.value,
-          web: updateList.web.value,
-          bio: updateList.bio.value,
-          review: updateList.review.value,
-          terms: updateList.review.value,
-          profession: profession
+          companynameUpdate: updateList.companynameUpdate.value,
+          addressUpdate: updateList.addressUpdate.value,
+          cityUpdate: updateList.cityUpdate.value,
+          stateUpdate: updateList.stateUpdate.value,
+          zipcodeUpdate: updateList.zipcodeUpdate.value,
+          phoneUpdate: updateList.phoneUpdate.value,
+          emailUpdate: updateList.emailUpdate.value,
+          webUpdate: updateList.webUpdate.value,
+          bioUpdate: updateList.bioUpdate.value,
+          reviewUpdate: updateList.reviewUpdate.value,
+          professionUpdate: profession
         };
 
         axios
