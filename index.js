@@ -99,7 +99,7 @@ function afterRender(state) {
         const updateList = event.target.elements;
 
         const profession = [];
-        for (let input of installerList.profession){
+        for (let input of updateList.profession){
           if (input.checked) {
             profession.push(input.value);
           }
@@ -124,7 +124,7 @@ function afterRender(state) {
           .post(`${process.env.UPDATE_API}`, updateData)
           .then(response => {
             console.log(response.data);
-            store.Installer.installers.push(response.data);
+            store.Update.updates.push(response.data);
             router.navigate("/Submission");
           })
           .catch(error => {

@@ -50,6 +50,8 @@ td {
 }
 .spacer {
   border-bottom: 10px solid black;
+  border-bottom-width: medium;
+  width: 100%;
 }
 .homeButton{
   height: 65px;
