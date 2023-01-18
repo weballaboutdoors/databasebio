@@ -25,9 +25,7 @@ export default () => html `
 <label for="feedback"></label>
 <textarea id="feedback" name="feedback" rows="10" style="width:100%"placeholder="Write your Feedback here"></textarea>
 </div>
-<p><strong>Terms and Conditions</strong></p>
-        <input type="checkbox" class="terms" id="terms" name="terms" value="agree">
-        <label for="terms">I agree to the <a href="/Terms">Terms and Conditions</a></label><br>
+<p><strong>By Submitting this form I Agree to the <a href="/Terms">Terms and Conditions</a></strong></p>
     <input type="submit" value="Submit">
 </form>
 </div>

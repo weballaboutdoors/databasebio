@@ -45,8 +45,7 @@ router.put("/:id", (request, response) => {
         customer: body.customer,
         company: body.company,
         email: body.email,
-        feedback: body.feedback,
-        terms: body.terms
+        feedback: body.feedback
       }
     },
     {

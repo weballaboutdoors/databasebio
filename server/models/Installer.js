@@ -45,10 +45,6 @@ const installerSchema = new mongoose.Schema({
     required: true,
     enum: ["yes", "no"]
   },
-  terms: {
-    type: String,
-    required: true
-  },
   profession: [String]
 });
 

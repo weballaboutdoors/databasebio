@@ -109,9 +109,6 @@ export default () => html `
         <label for="review1">Yes</label><br>
         <input type="checkbox" class="items2" id="review2" name="review" value="no">
         <label for="review2">No</label><br>
-        <p><strong>Terms and Conditions</strong></p>
-        <input type="checkbox" class="terms" id="terms" name="terms" value="agree">
-        <label for="terms">I agree to the <a href="/Terms">Terms and Conditions</a></label><br>
       </div>
       </div>
       <div class="columns">
@@ -119,7 +116,7 @@ export default () => html `
     <textarea id="bio" name="bio" rows="10" cols="170" style="max-width:100%" placeholder="Write your Bio here"></textarea>
       </div>
       </div>
-      
+      <p><strong>By Submitting this form I Agree to the <a href="/Terms">Terms and Conditions</a></strong></p>
       <input type="submit" value="Submit">
       
       <h6>*Optional</h6>

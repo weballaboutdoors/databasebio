@@ -55,6 +55,7 @@ const wisconsins = require("./routers/wisconsins");
 const wyomings = require("./routers/wyomings");
 const customers = require("./routers/customers");
 const installers = require("./routers/installers");
+const updates = require("./routers/updates");
 
 const app = express();
 
@@ -162,6 +163,7 @@ app.use("/wisconsins", wisconsins);
 app.use("/wyomings", wyomings);
 app.use("/customers", customers);
 app.use("/installers", installers);
+app.use("/updates", updates);
 
 
 

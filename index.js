@@ -36,8 +36,7 @@ function afterRender(state) {
           customer: inputList.customer.value,
           company: inputList.company.value,
           email: inputList.email.value,
-          feedback: inputList.feedback.value,
-          terms: inputList.terms.value
+          feedback: inputList.feedback.value
         };
   
         axios
@@ -77,7 +76,6 @@ function afterRender(state) {
           web: installerList.web.value,
           bio: installerList.bio.value,
           review: installerList.review.value,
-          terms: installerList.review.value,
           profession: profession
         };
 
@@ -123,7 +121,7 @@ function afterRender(state) {
         };
 
         axios
-          .post(`${process.env.INSTALLER_API}`, updateData)
+          .post(`${process.env.UPDATE_API}`, updateData)
           .then(response => {
             console.log(response.data);
             store.Installer.installers.push(response.data);
