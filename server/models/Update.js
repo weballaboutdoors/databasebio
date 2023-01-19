@@ -36,7 +36,8 @@ const updateSchema = new mongoose.Schema({
     type: String
   },
   reviewUpdate: {
-    type: String
+    type: String,
+    enum: ["yes", "no"]
   },
   professionUpdate: [String]
 });
