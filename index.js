@@ -58,25 +58,25 @@ function afterRender(state) {
         event.preventDefault();
         const installerList = event.target.elements;
 
-        const profession = [];
-        for (let input of installerList.profession){
+        const professionSubmission = [];
+        for (let input of installerList.professionSubmission){
           if (input.checked) {
-            profession.push(input.value);
+            professionSubmission.push(input.value);
           }
         }
 
         const installerData = {
-          companyname: installerList.companyname.value,
-          address: installerList.address.value,
-          city: installerList.city.value,
-          state: installerList.state.value,
-          zipcode: installerList.zipcode.value,
-          phone: installerList.phone.value,
-          email: installerList.email.value,
-          web: installerList.web.value,
-          bio: installerList.bio.value,
-          review: installerList.review.value,
-          profession: profession
+          companynameSubmission: installerList.companynameSubmission.value,
+          addressSubmission: installerList.addressSubmission.value,
+          citySubmission: installerList.citySubmission.value,
+          stateSubmission: installerList.stateSubmission.value,
+          zipcodeSubmission: installerList.zipcodeSubmission.value,
+          phoneSubmission: installerList.phoneSubmission.value,
+          emailSubmission: installerList.emailSubmission.value,
+          webSubmission: installerList.webSubmission.value,
+          bioSubmission: installerList.bioSubmission.value,
+          reviewSubmission: installerList.reviewSubmission.value,
+          professionSubmission: professionSubmission
         };
 
         axios
@@ -98,10 +98,10 @@ function afterRender(state) {
         event.preventDefault();
         const updateList = event.target.elements;
 
-        const profession = [];
-        for (let input of updateList.profession){
+        const professionUpdate = [];
+        for (let input of updateList.professionUpdate){
           if (input.checked) {
-            profession.push(input.value);
+            professionUpdate.push(input.value);
           }
         }
 
@@ -116,7 +116,7 @@ function afterRender(state) {
           webUpdate: updateList.webUpdate.value,
           bioUpdate: updateList.bioUpdate.value,
           reviewUpdate: updateList.reviewUpdate.value,
-          professionUpdate: profession
+          professionUpdate: professionUpdate
         };
 
         axios
