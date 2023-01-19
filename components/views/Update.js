@@ -103,11 +103,12 @@ export default () => html `
       <input type="checkbox" class="items1" id="profession7" name="professionUpdate" value="doorrepair">
       <label for="profession7">Door Repair and Service</label><br>
       <div id="review">
-        <label for="reviewUpdate"><strong>Allow reviews on your Installer page?</strong></label><br>
-        <input type="checkbox" class="items2" id="review1" name="reviewUpdate" value="yes">
-        <label for="review1">Yes</label><br>
-        <input type="checkbox" class="items2" id="review2" name="reviewUpdate" value="no">
-        <label for="review2">No</label><br>
+      <label for="reviewUpdate"><strong>Allow reviews on your Installer page?</strong></label>
+        <select id="reviewUpdate" name="review">
+          <option value="">Select Option</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
       </div>
       </div>
       <div class="columns">
