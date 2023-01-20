@@ -9,22 +9,10 @@ export default () => html `
   action="/"
   method="post"
   >
-  <div class="rows">
-  <div class="columns">
     <label for="companynameUpdate"></label>
     <input type="text" id="companynameUpdate" name="companynameUpdate" placeholder="*Name/Company">
-    <label for="webUpdate"></label>
-    <input type="text" id="webUpdate" name="webUpdate" placeholder="Website">
-    <label for="phoneUpdate"></label>
-    <input type="text" id="phoneUpdate" name="phoneUpdate" placeholder="Phone">
     <label for="emailUpdate"></label>
-    <input type="text" id="emailUpdate" name="emailUpdate" placeholder="E-Mail">
-    </div>
-    <div class="columns">
-    <label for="addressUpdate"></label>
-    <input type="text" id="addressUpdate" name="addressUpdate" placeholder="Address">
-    <label for="cityUpdate"></label>
-    <input type="text" id="cityUpdate" name="cityUpdate" placeholder="City">
+    <input type="text" id="emailUpdate" name="emailUpdate" placeholder="*E-Mail">
     <label for="stateUpdate"></label>
     <select id="stateUpdate" name="stateUpdate">
     <option value="">*States</option>
@@ -79,10 +67,6 @@ export default () => html `
       <option value="westvirginia">West Virginia</option>
       <option value="wisconsin">Wisconsin</option>
     </select>
-    <label for="zipcodeUpdate"></label>
-    <input type="text" id="zipcodeUpdate" name="zipcodeUpdate" placeholder="Zip Code">
-    </div>
-    </div>
     <div class="rows">
       <div id="professionUpdate">
         <div class="bold">
@@ -102,14 +86,6 @@ export default () => html `
       <label for="profession6">Window Repair and Service</label><br>
       <input type="checkbox" class="items1" id="profession7" name="professionUpdate" value="doorrepair">
       <label for="profession7">Door Repair and Service</label><br>
-      <div id="review">
-      <label for="reviewUpdate"><strong>Allow reviews on your Installer page?</strong></label>
-        <select id="reviewUpdate" name="review">
-          <option value="">Select Option</option>
-          <option value="yes">Yes</option>
-          <option value="no">No</option>
-        </select>
-      </div>
       </div>
       <div class="columns">
       <label for="bioUpdate"></label>

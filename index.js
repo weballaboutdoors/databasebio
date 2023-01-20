@@ -107,15 +107,9 @@ function afterRender(state) {
 
         const updateData = {
           companynameUpdate: updateList.companynameUpdate.value,
-          addressUpdate: updateList.addressUpdate.value,
-          cityUpdate: updateList.cityUpdate.value,
           stateUpdate: updateList.stateUpdate.value,
-          zipcodeUpdate: updateList.zipcodeUpdate.value,
-          phoneUpdate: updateList.phoneUpdate.value,
           emailUpdate: updateList.emailUpdate.value,
-          webUpdate: updateList.webUpdate.value,
           bioUpdate: updateList.bioUpdate.value,
-          reviewUpdate: updateList.reviewUpdate.value,
           professionUpdate: professionUpdate
         };
 
