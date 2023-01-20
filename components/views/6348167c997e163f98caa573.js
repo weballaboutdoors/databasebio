@@ -20,7 +20,7 @@ export default () => html `
 <div class="item1">
 <h4>Contact Info</h4>
 <!-- Company Website -->
-<p><a href="wwww.fakewebsite.com">wwww.fakewebsite.com</a></p>
+<p><a href="wwww.fakewebsite.com">www.fakewebsite.com</a></p>
 <!-- Phone Number -->
 <p>Phone:<a href="tel:+15555555555">(555)555-5555</a></p>
 <!-- Email -->
