@@ -42,15 +42,9 @@ router.put("/:id", (request, response) => {
     {
       $set: {
         companynameUpdate: body.companynameUpdate,
-        addressUpdate: body.addressUpdate,
-        cityUpdate: body.cityUpdate,
         stateUpdate: body.stateUpdate,
-        zipcodeUpdate: body.zipcodeUpdate,
-        phoneUpdate: body.phoneUpdate,
         emailUpdate: body.mailUpdate,
-        webUpdate: body.webUpdate,
         bioUpdate: body.bioUpdate,
-        reviewUpdate: body.reviewUpdate,
         professionUpdate: body.professionUpdate
       }
     },

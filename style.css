@@ -51,7 +51,9 @@ td {
 .spacer {
   border-bottom: 10px solid black;
   border-bottom-width: medium;
-  width: 100%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .homeButton{
   height: 65px;
@@ -266,6 +268,39 @@ ul > a:hover, a:active {
     -o-background-size: cover;
     background-size: cover;
 } 
+.reviewBox{
+  border: #000000 2.5px solid;
+  padding: 5px;
+  margin: 5px;
+  width: fit-content;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  padding: 10px;
+}
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  /* font-size: 30px; */
+}
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.item2 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+.item3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.item4 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
 @media (max-width: 1200px) {
   .priority-8{
     display: none !important;
