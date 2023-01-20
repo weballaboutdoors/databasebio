@@ -26,7 +26,7 @@ export default () => html `
 <!-- Email -->
 <p>E-Mail:<a href="mailto:bob@installer.com">bob@installer.com</a></p>
 <!-- Address -->
-<p>12345 Hwy 45, Anchorage, Alaska 00000</p>
+<p>12345 Hwy 45<br> Anchorage, Alaska<br> 00000<br></p>
 </div>
 <div class="item2">
 <!-- Installer Bio -->
@@ -37,12 +37,25 @@ export default () => html `
 <!-- Cusomer Reviews -->
 <div class="grid-container">
     <div class="item3">
-<p class="reviewBox">"Billy helped me, and now my house is as safe as ever!" - Sam</p>
-<p class="reviewBox">"Billy helped me, and now my house is as safe as ever!" - Sam</p>
+<div class="reviewBox">
+<h6>Sam | 01/20/23</h6>
+<p>"Billy helped me, and now my house is as safe as ever!"</p>
+</div>
+<div class="reviewBox">
+<h6>Sam | 01/20/23</h6>
+<p>"Billy helped me, and now my house is as safe as ever!"</p>
+</div>
+
 </div>
 <div class="item4">
-<p class="reviewBox">"Billy helped me, and now my house is as safe as ever!" - Sam</p>
-<p class="reviewBox">"Billy helped me, and now my house is as safe as ever!" - Sam</p>
+<div class="reviewBox">
+<h6>Sam | 01/20/23</h6>
+<p>"Billy helped me, and now my house is as safe as ever! And this is what it looks like when someone leaves a longer review. Pretty neat right? Peter you like this? Would you like to see what happens when you add more to this review?? Kinda crazy it just keeps going!"</p>
+</div>
+<div class="reviewBox">
+<h6>Sam | 01/20/23</h6>
+<p>"Billy helped me, and now my house is as safe as ever!"</p>
+</div>
 </div>
 </div>
 </div>

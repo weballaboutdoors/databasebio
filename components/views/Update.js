@@ -70,7 +70,7 @@ export default () => html `
     <div class="rows">
       <div id="professionUpdate">
         <div class="bold">
-      <label for="professionUpdate"><strong>Add/Remove Your Profession(s)</strong></label><br>
+      <label for="professionUpdate"><strong>Add Your Profession(s)</strong></label><br>
       </div>
       <input type="checkbox" class="items1" id="profession1" name="professionUpdate" value="addlocksmith">
       <label for="profession1">Add Locksmith</label><br>
@@ -86,6 +86,7 @@ export default () => html `
       <label for="profession6">Add Window Repair and Service</label><br>
       <input type="checkbox" class="items1" id="profession7" name="professionUpdate" value="adddoorrepair">
       <label for="profession7">Add Door Repair and Service</label><br>
+      <p><strong>Remove Your Profession(s)</strong></p>
       <input type="checkbox" class="items1" id="profession8" name="professionUpdate" value="removelocksmith">
       <label for="profession8">Remove Locksmith</label><br>
       <input type="checkbox" class="items1" id="profession9" name="professionUpdate" value="removedoorinstaller">
@@ -103,7 +104,7 @@ export default () => html `
       </div>
       <div class="columns">
       <label for="bioUpdate"></label>
-    <textarea id="bioUpdate" name="bioUpdate" rows="18" cols="170" style="max-width:100%" placeholder="Update Bio, Name, E-Mail, State or anything else here"></textarea>
+    <textarea id="bioUpdate" name="bioUpdate" rows="20" cols="170" style="max-width:100%" placeholder="Update Bio, Name, E-Mail, State or anything else here"></textarea>
       </div>
       </div>
       <div class="container text-center">

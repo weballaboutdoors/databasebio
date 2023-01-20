@@ -272,7 +272,7 @@ ul > a:hover, a:active {
   border: #000000 2.5px solid;
   padding: 5px;
   margin: 5px;
-  width: fit-content;
+  width: auto;
 }
 .grid-container {
   display: grid;
@@ -281,7 +281,7 @@ ul > a:hover, a:active {
   padding: 10px;
 }
 .grid-container > div {
-  text-align: center;
+  text-align: left;
   padding: 20px 0;
   /* font-size: 30px; */
 }
@@ -306,6 +306,9 @@ ul > a:hover, a:active {
 }
 #zipcodeSubmission{
   margin-top: auto;
+}
+#stateUpdate{
+  margin-bottom: 10px;
 }
 @media (max-width: 1200px) {
   .priority-8{
