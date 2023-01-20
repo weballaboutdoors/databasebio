@@ -114,10 +114,12 @@ export default () => html `
       </div>
       <div class="columns">
       <label for="bioSubmission"></label>
-    <textarea id="bioSubmission" name="bioSubmission" rows="10" cols="170" style="max-width:100%" placeholder="Write your Bio here"></textarea>
+    <textarea id="bioSubmission" name="bioSubmission" rows="13" cols="170" style="max-width:100%" placeholder="Write your Bio here"></textarea>
       </div>
       </div>
+      <div class="container text-center">
       <p><strong>By Submitting this form I Agree to the <a href="/Terms">Terms and Conditions</a></strong></p>
+      </div>
       <h6>*Optional</h6>
       <input type="submit" value="Submit">
     </form>
