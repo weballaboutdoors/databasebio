@@ -70,29 +70,45 @@ export default () => html `
     <div class="rows">
       <div id="professionUpdate">
         <div class="bold">
-      <label for="professionUpdate"><strong>Choose Your Profession(s)</strong></label><br>
+      <label for="professionUpdate"><strong>Add/Remove Your Profession(s)</strong></label><br>
       </div>
-      <input type="checkbox" class="items1" id="profession1" name="professionUpdate" value="locksmith">
-      <label for="profession1">Locksmith</label><br>
-      <input type="checkbox" class="items1" id="profession2" name="professionUpdate" value="doorinstaller">
-      <label for="profession2">Door Installer</label><br>
-      <input type="checkbox" class="items1" id="profession3" name="professionUpdate" value="windowinstaller">
-      <label for="profession3">Window Installer</label><br>
-      <input type="checkbox" class="items1" id="profession4" name="professionUpdate" value="handyman">
-      <label for="profession4">Handyman</label><br>
-      <input type="checkbox" class="items1" id="profession5" name="professionUpdate" value="glasscontractor">
-      <label for="profession5">Glass Contractor</label><br>
-      <input type="checkbox" class="items1" id="profession6" name="professionUpdate" value="windowrepair">
-      <label for="profession6">Window Repair and Service</label><br>
-      <input type="checkbox" class="items1" id="profession7" name="professionUpdate" value="doorrepair">
-      <label for="profession7">Door Repair and Service</label><br>
+      <input type="checkbox" class="items1" id="profession1" name="professionUpdate" value="addlocksmith">
+      <label for="profession1">Add Locksmith</label><br>
+      <input type="checkbox" class="items1" id="profession2" name="professionUpdate" value="adddoorinstaller">
+      <label for="profession2">Add Door Installer</label><br>
+      <input type="checkbox" class="items1" id="profession3" name="professionUpdate" value="addwindowinstaller">
+      <label for="profession3">Add Window Installer</label><br>
+      <input type="checkbox" class="items1" id="profession4" name="professionUpdate" value="addhandyman">
+      <label for="profession4">Add Handyman</label><br>
+      <input type="checkbox" class="items1" id="profession5" name="professionUpdate" value="addglasscontractor">
+      <label for="profession5">Add Glass Contractor</label><br>
+      <input type="checkbox" class="items1" id="profession6" name="professionUpdate" value="addwindowrepair">
+      <label for="profession6">Add Window Repair and Service</label><br>
+      <input type="checkbox" class="items1" id="profession7" name="professionUpdate" value="adddoorrepair">
+      <label for="profession7">Add Door Repair and Service</label><br>
+      <input type="checkbox" class="items1" id="profession8" name="professionUpdate" value="removelocksmith">
+      <label for="profession8">Remove Locksmith</label><br>
+      <input type="checkbox" class="items1" id="profession9" name="professionUpdate" value="removedoorinstaller">
+      <label for="profession9">Remove Door Installer</label><br>
+      <input type="checkbox" class="items1" id="profession10" name="professionUpdate" value="removewindowinstaller">
+      <label for="profession10">Remove Window Installer</label><br>
+      <input type="checkbox" class="items1" id="profession11" name="professionUpdate" value="removehandyman">
+      <label for="profession11">Remove Handyman</label><br>
+      <input type="checkbox" class="items1" id="profession12" name="professionUpdate" value="removeglasscontractor">
+      <label for="profession12">Remove Glass Contractor</label><br>
+      <input type="checkbox" class="items1" id="profession13" name="professionUpdate" value="removewindowrepair">
+      <label for="profession13">Remove Window Repair and Service</label><br>
+      <input type="checkbox" class="items1" id="profession7" name="professionUpdate" value="removedoorrepair">
+      <label for="profession7">Remove Door Repair and Service</label><br>
       </div>
       <div class="columns">
       <label for="bioUpdate"></label>
-    <textarea id="bioUpdate" name="bioUpdate" rows="10" cols="170" style="max-width:100%" placeholder="Update Bio, Name, State or anything else here"></textarea>
+    <textarea id="bioUpdate" name="bioUpdate" rows="18" cols="170" style="max-width:100%" placeholder="Update Bio, Name, E-Mail, State or anything else here"></textarea>
       </div>
       </div>
+      <div class="container text-center">
       <p><strong>By Submitting this form I Agree to the <a href="/Terms">Terms and Conditions</a></strong></p>
+      </div>
       <h6>*Required</h6>
       <input type="submit" value="Submit">
       

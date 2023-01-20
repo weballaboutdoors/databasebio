@@ -301,6 +301,12 @@ ul > a:hover, a:active {
   grid-column-start: 3;
   grid-column-end: 5;
 }
+#stateSubmission{
+  margin-top: 10px;
+}
+#zipcodeSubmission{
+  margin-top: auto;
+}
 @media (max-width: 1200px) {
   .priority-8{
     display: none !important;
