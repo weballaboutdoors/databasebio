@@ -51,9 +51,9 @@ td {
 .spacer {
   border-bottom: 10px solid black;
   border-bottom-width: medium;
-  width: 80%;
+  /* width: 80%;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; */
 }
 .homeButton{
   height: 65px;
