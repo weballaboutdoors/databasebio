@@ -25,8 +25,10 @@ export default () => html `
 <label for="feedback"></label>
 <textarea id="feedback" name="feedback" rows="10" style="width:100%"placeholder="Write your Feedback here"></textarea>
 </div>
+<div class="container text-center">
 <p><strong>By Submitting this form I Agree to the <a href="/Terms">Terms and Conditions</a></strong></p>
     <input type="submit" value="Submit">
+    </div>
 </form>
 </div>
 `;
