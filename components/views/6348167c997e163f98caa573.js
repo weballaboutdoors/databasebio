@@ -6,13 +6,16 @@ export default () => html `
 <div class="container text-center">
 <!-- Company name -->
 <h1>Billy Can Do It</h1>
-</div>
 <hr class="spacer">
+</div>
+
 <div class="container text-center">
 <!-- Service(s) offered -->
 <h4>Window Part Installer | Door Part Installer | Locksmith</h4>
-</div>
 <hr class="spacer">
+</div>
+
+<div class="container">
 <div class="grid-container">
 <div class="item1">
 <h4>Contact Info</h4>
@@ -33,13 +36,14 @@ export default () => html `
 <hr class="spacer">
 <!-- Cusomer Reviews -->
 <div class="grid-container">
-    <div class="item1">
+    <div class="item3">
 <p class="reviewBox">"Billy helped me, and now my house is as safe as ever!" - Sam</p>
 <p class="reviewBox">"Billy helped me, and now my house is as safe as ever!" - Sam</p>
 </div>
-<div class="item2">
+<div class="item4">
 <p class="reviewBox">"Billy helped me, and now my house is as safe as ever!" - Sam</p>
 <p class="reviewBox">"Billy helped me, and now my house is as safe as ever!" - Sam</p>
+</div>
 </div>
 </div>
 </div>
