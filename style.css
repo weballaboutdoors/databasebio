@@ -282,16 +282,21 @@ ul > a:hover, a:active {
 }
 .grid-container > div {
   text-align: left;
-  padding: 20px 0;
-  /* font-size: 30px; */
 }
 .item1 {
   grid-column-start: 1;
   grid-column-end: 2;
+  width: max-content;
+}
+.item1Border {
+  border-right: 10px solid #D3D3D3;
+  border-right-width: thick;
+  padding-right: 7.5px;
 }
 .item2 {
   grid-column-start: 3;
   grid-column-end: 5;
+  width: 100%;
 }
 .item3 {
   grid-column-start: 1;
@@ -309,6 +314,18 @@ ul > a:hover, a:active {
 }
 #stateUpdate{
   margin-bottom: 10px;
+}
+#remove {
+  margin-bottom: 7px;
+  padding-top: 15px;
+}
+label {
+  display: block;
+}
+input {
+  vertical-align: bottom;
+  position: relative;
+  top: -11px;
 }
 @media (max-width: 1200px) {
   .priority-8{
@@ -338,7 +355,7 @@ ul > a:hover, a:active {
     display: none !important;
   } 
 }
-@media (max-width: 669px) {
+@media (max-width: 805px) {
     .hidden--mobile {
       display: none !important;
     }
@@ -396,7 +413,7 @@ ul > a:hover, a:active {
         margin-right: 35px;
       }
     }
-@media (min-width: 670px) {
+@media (min-width: 806px) {
     nav{
       width:100%;
       background-color: #000000;
