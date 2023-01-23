@@ -21,6 +21,9 @@ h5{
 h6{
   overflow-y: hidden;
 }
+div{
+  overflow-y: hidden;
+}
 body{
   padding-top:100px;
  }
@@ -408,6 +411,42 @@ input {
         grid-column-end: 5;
         width: 100%;
         text-align: left;
+      }
+      #companynameSubmission {
+        margin-bottom: -15px;
+      }
+      #webSubmission {
+        margin-bottom: -15px;
+      }
+      #phoneSubmission{
+        margin-bottom: -15px;
+      }
+      #emailSubmission {
+        margin-bottom: -15px;
+      }
+      #addressSubmission {
+        margin-bottom: -15px;
+      }
+      #citySubmission {
+        margin-bottom: -15px;
+      }
+      #stateSubmission {
+        margin-top: -5px;
+      }
+      #name {
+        margin-bottom: -10px;
+      }
+      #company {
+        margin-bottom: -10px;
+      }
+      #email {
+        margin-bottom: -10px;
+      }
+      #companynameUpdate {
+        margin-bottom: -10px;
+      }
+      #emailUpdate {
+        margin-bottom: -10px;
       }
     }
 @media (min-width: 806px) {
