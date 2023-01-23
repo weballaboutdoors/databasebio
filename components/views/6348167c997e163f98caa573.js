@@ -28,7 +28,7 @@ export default () => html `
 <!-- Address -->
 <p>12345 Hwy 45<br> Anchorage, Alaska<br> 00000<br></p>
 </div>
-<div class="item2">
+<div class="item2 item2Border">
 <!-- Installer Bio -->
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Laoreet non curabitur gravida arcu. Potenti nullam ac tortor vitae purus faucibus. Etiam tempor orci eu lobortis elementum. Sit amet commodo nulla facilisi. Felis donec et odio pellentesque diam volutpat. In hendrerit gravida rutrum quisque non tellus orci ac auctor.</p>
 </div>
