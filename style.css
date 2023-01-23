@@ -280,24 +280,7 @@ ul > a:hover, a:active {
   gap: 10px;
   padding: 10px;
 }
-.grid-container > div {
-  text-align: left;
-}
-.item1 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  width: max-content;
-}
-.item1Border {
-  border-right: 10px solid #D3D3D3;
-  border-right-width: thick;
-  padding-right: 7.5px;
-}
-.item2 {
-  grid-column-start: 3;
-  grid-column-end: 5;
-  width: 100%;
-}
+
 .item3 {
   grid-column-start: 1;
   grid-column-end: 3;
@@ -305,9 +288,6 @@ ul > a:hover, a:active {
 .item4 {
   grid-column-start: 3;
   grid-column-end: 5;
-}
-#stateSubmission{
-  margin-top: 10px;
 }
 #zipcodeSubmission{
   margin-top: auto;
@@ -412,6 +392,23 @@ input {
       .mobile-col {
         margin-right: 35px;
       }
+      .item1 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        width: 100%;
+        text-align: center;
+      }
+      .item2Border {
+        border-top: 10px solid #D3D3D3;
+        border-top-width: thick;
+        padding-top: 7.5px;
+      }
+      .item2 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        width: 100%;
+        text-align: left;
+      }
     }
 @media (min-width: 806px) {
     nav{
@@ -476,5 +473,22 @@ input {
     }
     #searchbarState {
       display: none;
+    }
+    .item1 {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      width: max-content;
+      text-align: left;
+    }
+    .item1Border {
+      border-right: 10px solid #D3D3D3;
+      border-right-width: thick;
+      padding-right: 7.5px;
+    }
+    .item2 {
+      grid-column-start: 3;
+      grid-column-end: 5;
+      width: 100%;
+      text-align: left;
     }
 }
