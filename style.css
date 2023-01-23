@@ -530,4 +530,22 @@ input {
       width: 100%;
       text-align: left;
     }
+    #companynameUpdate{
+      margin-bottom: -10px;
+    }
+    #emailUpdate {
+      margin-bottom: -10px;
+    }
+    #stateUpdate {
+      margin-bottom: 15px;
+    }
+    #name {
+      margin-bottom: -10px;
+    }
+    #company {
+      margin-bottom: -10px;
+    }
+    #email {
+      margin-bottom: -10px;
+    }
 }
