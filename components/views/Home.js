@@ -7,7 +7,7 @@ export default () => html `
 
         <h2>Welcome to InstallerBio!</h2>
         <h6>From All About Doors and Windows</h6>
-        <p>InstallerBio is the window and door installation destination, after purchasing new parts search this page for installers local to you! Installers can create their free profile page <a href="/Installer">here</a></p>
+        <p>InstallerBio is the window and door installation destination, after purchasing new parts search this page for installers local to you! Create your free <a href="/Installer">InstallerBio profile page</a>!</p>
         </div>
 </div>
 <button class="homeButton"><span class="shadow"></span><span class="edge"></span><a href="/States"><b><span class="homeLayer">Start Your Installer Search</span></b></a></button>
