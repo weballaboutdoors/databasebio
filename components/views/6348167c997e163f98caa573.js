@@ -17,14 +17,14 @@ export default () => html `
 
 <div class="container">
 <div class="grid-container">
-<div class="item1">
+<div class="item1 item1Border">
 <h4>Contact Info</h4>
 <!-- Company Website -->
 <p><a href="wwww.fakewebsite.com">www.fakewebsite.com</a></p>
 <!-- Phone Number -->
-<p>Phone:<a href="tel:+15555555555">(555)555-5555</a></p>
+<p><a href="tel:+15555555555">(555)555-5555</a></p>
 <!-- Email -->
-<p>E-Mail:<a href="mailto:bob@installer.com">bob@installer.com</a></p>
+<p><a href="mailto:bob@installer.com">bob@installer.com</a></p>
 <!-- Address -->
 <p>12345 Hwy 45<br> Anchorage, Alaska<br> 00000<br></p>
 </div>
