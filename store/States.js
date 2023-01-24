@@ -1,4 +1,4 @@
 export default {
-    header:"Choose Your State Below",
+    header:"",
     view: "States"
 };

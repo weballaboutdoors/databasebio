@@ -7,8 +7,9 @@ export default (state) => html `
 <meta name="author" content="Delfino Farfan">
 <title>${state.view}</title>
 </head>
-
 <div class="container">
+<button onclick="history.back()">Go Back</button>
+<h1 class="container text-center">Alaska</h1>
 <div class="row">
 <input class="col" id="searchbarCity" onkeyup="search_city()" type="search"
         name="search" placeholder="Search by City..">

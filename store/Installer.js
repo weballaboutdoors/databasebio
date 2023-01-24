@@ -1,5 +1,5 @@
 export default {
-    header:"Installer Application",
+    header:"",
     view: "Installer",
     installers: []
 };

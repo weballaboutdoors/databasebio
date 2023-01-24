@@ -6,10 +6,11 @@ export default (state) => html `
 <meta name="keywords" content="door installation, window installation, Alabama window, Alabama door">
 <meta name="author" content="Delfino Farfan">
 <title>${state.view}</title>
-
 </head>
-
+<!-- <button onclick="history.back()">Go Back</button> -->
 <div class="container">
+<button onclick="history.back()">Go Back</button>
+<h1 class="container text-center">Alabama</h1>
 <div class="row">
 <input class="col" id="searchbarCity" onkeyup="search_city()" type="search"
         name="search" placeholder="Search by City..">

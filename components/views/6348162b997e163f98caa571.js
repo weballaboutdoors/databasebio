@@ -2,13 +2,13 @@ import html from "html-literal";
 
 export default (state) => html `
 <head>
-<meta name="description" content="Billy Can Do It, installerbio, door repair, window repair, window installer, door installer, window part installer, door part installer, handyman, door help, window help">
+<meta name="description" content="Billy Can Do It, installerbio, door repair, window repair, window installer, door installer, window part installer, door part installer, handyman, door help, window help, search states">
     <meta name="keywords" content="Billy Can Do It, state search installer bio, installerbio, door installation, window installation, window, door">
     <meta name="author" content="Delfino Farfan">
-    <title>${state.view}</title>
+    <title>Billy Can Do It</title>
 </head>
-
-<div>
+<div class="container">
+<button onclick="history.back()">Go Back</button>
 <div class="container text-center">
 <!-- Company name -->
 <h1>Billy Can Do It</h1>
@@ -30,7 +30,7 @@ export default (state) => html `
 <!-- Phone Number -->
 <p><a href="tel:+15555555555">(555)555-5555</a></p>
 <!-- Email -->
-<p><a href="mailto:bob@installer.com">bob@installer45812howlong.com</a></p>
+<p><a href="mailto:bob@installer.com">bob@installer45812howlonlkjdflkjsdfl.com</a></p>
 <!-- Address -->
 <p>12345 Hwy 45<br> Anchorage, Alaska<br> 00000<br></p>
 </div>

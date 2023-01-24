@@ -1,5 +1,5 @@
 export default {
-    header:"Montana",
+    header:"",
     view: "Montana",
     montanas: []
 };

@@ -1,5 +1,5 @@
 export default {
-    header:"Bio Page Update",
+    header:"",
     view: "Update",
     updates: []
 };

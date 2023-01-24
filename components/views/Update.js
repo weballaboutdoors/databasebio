@@ -7,6 +7,10 @@ export default () => html `
     <meta name="author" content="Delfino Farfan">
     <title>Update Bio</title>
 </head>
+<div class="container">
+<button onclick="history.back()">Go Back</button>
+<h1 class="container text-center">Bio Page Update</h1>
+</div>
  <div class="container text-center">
   <h6>Please fill out the form below with your updated information. Be sure to only fill out this form if you have already submitted an Installer Application.</h6>
   </div>

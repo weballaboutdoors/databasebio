@@ -7,7 +7,8 @@ export default (state) => html `
     <meta name="author" content="Delfino Farfan">
     <title>${state.view}</title>
 </head>
-<div>
+<div class="container">
+<button onclick="history.back()">Go Back</button>
 <div class="container text-center">
 <!-- Company name -->
 <h1>Billy Can Do It</h1>
