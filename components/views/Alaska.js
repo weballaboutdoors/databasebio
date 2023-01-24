@@ -1,6 +1,12 @@
 import html from "html-literal";
 
 export default (state) => html `
+<head>
+<meta name="description" content="Alaska installerbio, Alaska door repair, Alaska window repair, Alaska window installer, Alaska door installer, Alaska window part installer, Alaska door part installer, Alaska handyman, Alaska door help, Alaska window help">
+<meta name="keywords" content="door installation, window installation, Alaska window, Alaska door">
+<meta name="author" content="Delfino Farfan">
+</head>
+
 <div class="container">
 <div class="row">
 <input class="col" id="searchbarCity" onkeyup="search_city()" type="search"
