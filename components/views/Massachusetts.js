@@ -1,6 +1,11 @@
 import html from "html-literal";
 
 export default (state) => html `
+<head>
+<meta name="description" content="Massachusetts installerbio, Massachusetts door repair, Massachusetts window repair, Massachusetts window installer, Massachusetts door installer, Massachusetts window part installer, Massachusetts door part installer, Massachusetts handyman, Massachusetts door help, Massachusetts window help">
+<meta name="keywords" content="door installation, window installation, Massachusetts window, Massachusetts door">
+<meta name="author" content="Delfino Farfan">
+</head>
 <div class="container">
 <div class="row">
 <input class="col" id="searchbarCity" onkeyup="search_city()" type="search"

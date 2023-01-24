@@ -1,6 +1,11 @@
 import html from "html-literal";
 
 export default (state) => html `
+<head>
+<meta name="description" content="North Dakota installerbio, North Dakota door repair, North Dakota window repair, North Dakota window installer, North Dakota door installer, North Dakota window part installer, North Dakota door part installer, North Dakota handyman, North Dakota door help, North Dakota window help">
+<meta name="keywords" content="door installation, window installation, North Dakota window, North Dakota door">
+<meta name="author" content="Delfino Farfan">
+</head>
 <div class="container">
 <div class="row">
 <input class="col" id="searchbarCity" onkeyup="search_city()" type="search"

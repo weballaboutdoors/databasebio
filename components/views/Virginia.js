@@ -1,6 +1,11 @@
 import html from "html-literal";
 
 export default (state) => html `
+<head>
+<meta name="description" content="Virginia installerbio, Virginia door repair, Virginia window repair, Virginia window installer, Virginia door installer, Virginia window part installer, Virginia door part installer, Virginia handyman, Virginia door help, Virginia window help">
+<meta name="keywords" content="door installation, window installation, Virginia window, Virginia door">
+<meta name="author" content="Delfino Farfan">
+</head>
 <div class="container">
 <div class="row">
 <input class="col" id="searchbarCity" onkeyup="search_city()" type="search"

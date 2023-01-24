@@ -1,6 +1,11 @@
 import html from "html-literal";
 
 export default (state) => html `
+<head>
+<meta name="description" content="South Carolina installerbio, South Carolina door repair, South Carolina window repair, South Carolina window installer, South Carolina door installer, South Carolina window part installer, South Carolina door part installer, South Carolina handyman, South Carolina door help, South Carolina window help">
+<meta name="keywords" content="door installation, window installation, South Carolina window, South Carolina door">
+<meta name="author" content="Delfino Farfan">
+</head>
 <div class="container">
 <div class="row">
 <input class="col" id="searchbarCity" onkeyup="search_city()" type="search"

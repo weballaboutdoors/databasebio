@@ -1,6 +1,11 @@
 import html from "html-literal";
 
 export default (state) => html `
+<head>
+<meta name="description" content="District of Columbia installerbio, District of Columbia door repair, District of Columbia window repair, District of Columbia window installer, District of Columbia door installer, District of Columbia window part installer, District of Columbia door part installer, District of Columbia handyman, District of Columbia door help, District of Columbia window help">
+<meta name="keywords" content="door installation, window installation, District of Columbia window, District of Columbia door">
+<meta name="author" content="Delfino Farfan">
+</head>
 <div class="container">
 <div class="row">
 <input class="col" id="searchbarCity" onkeyup="search_city()" type="search"

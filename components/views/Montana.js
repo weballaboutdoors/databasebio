@@ -1,6 +1,11 @@
 import html from "html-literal";
 
 export default (state) => html `
+<head>
+<meta name="description" content="Montana installerbio, Montana door repair, Montana window repair, Montana window installer, Montana door installer, Montana window part installer, Montana door part installer, Montana handyman, Montana door help, Montana window help">
+<meta name="keywords" content="door installation, window installation, Montana window, Montana door">
+<meta name="author" content="Delfino Farfan">
+</head>
 <div class="container">
 <div class="row">
 <input class="col" id="searchbarCity" onkeyup="search_city()" type="search"
