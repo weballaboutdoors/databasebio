@@ -8,7 +8,7 @@ export default () => html `
     <title>Terms and Conditions</title>
 </head>
 <div class="container text-left">
-<button style="margin-bottom:20px" onclick="history.back()">Go Back</button>
+<button style="margin-bottom:20px" onclick="history.back()"></button>
 <h3>TERMS AND CONDITIONS</h3>
 
 <p>Welcome to InstallerBio. All services provided by InstallerBio are subject to the following conditions.

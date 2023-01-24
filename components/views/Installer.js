@@ -8,7 +8,7 @@ export default () => html `
     <title>Installer Application</title>
 </head>
 <div class="container">
-<button onclick="history.back()">Go Back</button>
+<button onclick="history.back()"></button>
 <h1 class="container text-center">Installer Application</h1>
 
  <div class="container text-center">

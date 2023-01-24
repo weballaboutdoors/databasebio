@@ -8,7 +8,7 @@ export default (state) => html `
     <title>Privacy</title>
 </head>
 <div class="container text-left">
-<button style="margin-bottom:20px" onclick="history.back()">Go Back</button>
+<button style="margin-bottom:20px" onclick="history.back()"></button>
 <h3>PRIVACY NOTICE</h3>
 <p>By visiting our website and possibly sharing information with us, you are agreeing to our privacy policy as explained here.</p>
 

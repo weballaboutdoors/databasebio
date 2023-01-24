@@ -8,7 +8,7 @@ export default () => html `
     <title>Customer Feedback</title>
 </head>
 <div class="container">
-<button onclick="history.back()">Go Back</button>
+<button onclick="history.back()"></button>
 <h1 class="container text-center">Customer Feedback</h1>
   <div class="container text-center">
   <h6>Please give feedback on the company you used to resolve your home repair. This feedback will be shared through the Installer profile page to help future customers make more informed decisions.</h6>

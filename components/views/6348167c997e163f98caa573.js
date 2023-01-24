@@ -8,7 +8,7 @@ export default (state) => html `
     <title>${state.view}</title>
 </head>
 <div class="container">
-<button onclick="history.back()">Go Back</button>
+<button onclick="history.back()"></button>
 <div class="container text-center">
 <!-- Company name -->
 <h1>Billy Can Do It</h1>
