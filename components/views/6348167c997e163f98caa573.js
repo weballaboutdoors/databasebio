@@ -1,7 +1,12 @@
 import html from "html-literal";
 
-export default () => html `
-
+export default (state) => html `
+<head>
+<meta name="description" content="Billy Can Do It, installerbio, door repair, window repair, window installer, door installer, window part installer, door part installer, handyman, door help, window help">
+    <meta name="keywords" content="Billy Can Do It, state search installer bio, installerbio, door installation, window installation, window, door">
+    <meta name="author" content="Delfino Farfan">
+    <title>${state.view}</title>
+</head>
 <div>
 <div class="container text-center">
 <!-- Company name -->
