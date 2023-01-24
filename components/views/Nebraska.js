@@ -5,6 +5,7 @@ export default (state) => html `
 <meta name="description" content="Nebraska installerbio, Nebraska door repair, Nebraska window repair, Nebraska window installer, Nebraska door installer, Nebraska window part installer, Nebraska door part installer, Nebraska handyman, Nebraska door help, Nebraska window help">
 <meta name="keywords" content="door installation, window installation, Nebraska window, Nebraska door">
 <meta name="author" content="Delfino Farfan">
+<title>${state.view}</title>
 </head>
 <div class="container">
 <div class="row">

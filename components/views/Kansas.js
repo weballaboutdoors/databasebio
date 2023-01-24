@@ -5,6 +5,7 @@ export default (state) => html `
 <meta name="description" content="Kansas installerbio, Kansas door repair, Kansas window repair, Kansas window installer, Kansas door installer, Kansas window part installer, Kansas door part installer, Kansas handyman, Kansas door help, Kansas window help">
 <meta name="keywords" content="door installation, window installation, Kansas window, Kansas door">
 <meta name="author" content="Delfino Farfan">
+<title>${state.view}</title>
 </head>
 <div class="container">
 <div class="row">

@@ -5,6 +5,7 @@ export default (state) => html `
 <meta name="description" content="New Jersey installerbio, New Jersey door repair, New Jersey window repair, New Jersey window installer, New Jersey door installer, New Jersey window part installer, New Jersey door part installer, New Jersey handyman, New Jersey door help, New Jersey window help">
 <meta name="keywords" content="door installation, window installation, New Jersey window, New Jersey door">
 <meta name="author" content="Delfino Farfan">
+<title>New Jersey</title>
 </head>
 <div class="container">
 <div class="row">

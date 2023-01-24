@@ -5,6 +5,7 @@ export default (state) => html `
 <meta name="description" content="New York installerbio, New York door repair, New York window repair, New York window installer, New York door installer, New York window part installer, New York door part installer, New York handyman, New York door help, New York window help">
 <meta name="keywords" content="door installation, window installation, New York window, New York door">
 <meta name="author" content="Delfino Farfan">
+<title>New York</title>
 </head>
 <div class="container">
 <div class="row">

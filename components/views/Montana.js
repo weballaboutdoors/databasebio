@@ -5,6 +5,7 @@ export default (state) => html `
 <meta name="description" content="Montana installerbio, Montana door repair, Montana window repair, Montana window installer, Montana door installer, Montana window part installer, Montana door part installer, Montana handyman, Montana door help, Montana window help">
 <meta name="keywords" content="door installation, window installation, Montana window, Montana door">
 <meta name="author" content="Delfino Farfan">
+<title>${state.view}</title>
 </head>
 <div class="container">
 <div class="row">

@@ -5,6 +5,7 @@ export default (state) => html `
 <meta name="description" content="Oklahoma installerbio, Oklahoma door repair, Oklahoma window repair, Oklahoma window installer, Oklahoma door installer, Oklahoma window part installer, Oklahoma door part installer, Oklahoma handyman, Oklahoma door help, Oklahoma window help">
 <meta name="keywords" content="door installation, window installation, Oklahoma window, Oklahoma door">
 <meta name="author" content="Delfino Farfan">
+<title>${state.view}</title>
 </head>
 <div class="container">
 <div class="row">

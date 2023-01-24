@@ -5,6 +5,7 @@ export default (state) => html `
 <meta name="description" content="North Dakota installerbio, North Dakota door repair, North Dakota window repair, North Dakota window installer, North Dakota door installer, North Dakota window part installer, North Dakota door part installer, North Dakota handyman, North Dakota door help, North Dakota window help">
 <meta name="keywords" content="door installation, window installation, North Dakota window, North Dakota door">
 <meta name="author" content="Delfino Farfan">
+<title>North Dakota</title>
 </head>
 <div class="container">
 <div class="row">

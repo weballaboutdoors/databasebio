@@ -5,6 +5,7 @@ export default (state) => html `
 <meta name="description" content="Pennsylvania installerbio, Pennsylvania door repair, Pennsylvania window repair, Pennsylvania window installer, Pennsylvania door installer, Pennsylvania window part installer, Pennsylvania door part installer, Pennsylvania handyman, Pennsylvania door help, Pennsylvania window help">
 <meta name="keywords" content="door installation, window installation, Pennsylvania window, Pennsylvania door">
 <meta name="author" content="Delfino Farfan">
+<title>${state.view}</title>
 </head>
 <div class="container">
 <div class="row">

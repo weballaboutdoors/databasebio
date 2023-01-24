@@ -5,6 +5,7 @@ export default (state) => html `
 <meta name="description" content="Kentucky installerbio, Kentucky door repair, Kentucky window repair, Kentucky window installer, Kentucky door installer, Kentucky window part installer, Kentucky door part installer, Kentucky handyman, Kentucky door help, Kentucky window help">
 <meta name="keywords" content="door installation, window installation, Kentucky window, Kentucky door">
 <meta name="author" content="Delfino Farfan">
+<title>${state.view}</title>
 </head>
 <div class="container">
 <div class="row">

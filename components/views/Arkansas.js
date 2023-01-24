@@ -5,6 +5,7 @@ export default (state) => html `
 <meta name="description" content="Arkansas installerbio, Arkansas door repair, Arkansas window repair, Arkansas window installer, Arkansas door installer, Arkansas window part installer, Arkansas door part installer, Arkansas handyman, Arkansas door help, Arkansas window help">
 <meta name="keywords" content="door installation, window installation, Arkansas window, Arkansas door">
 <meta name="author" content="Delfino Farfan">
+<title>${state.view}</title>
 </head>
 <div class="container">
 <div class="row">

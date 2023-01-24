@@ -5,6 +5,7 @@ export default (state) => html `
 <meta name="description" content="Missouri installerbio, Missouri door repair, Missouri window repair, Missouri window installer, Missouri door installer, Missouri window part installer, Missouri door part installer, Missouri handyman, Missouri door help, Missouri window help">
 <meta name="keywords" content="door installation, window installation, Missouri window, Missouri door">
 <meta name="author" content="Delfino Farfan">
+<title>${state.view}</title>
 </head>
 <div class="container">
 <div class="row">

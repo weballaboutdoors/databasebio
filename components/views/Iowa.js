@@ -5,6 +5,7 @@ export default (state) => html `
 <meta name="description" content="Iowa installerbio, Iowa door repair, Iowa window repair, Iowa window installer, Iowa door installer, Iowa window part installer, Iowa door part installer, Iowa handyman, Iowa door help, Iowa window help">
 <meta name="keywords" content="door installation, window installation, Iowa window, Iowa door">
 <meta name="author" content="Delfino Farfan">
+<title>${state.view}</title>
 </head>
 <div class="container">
 <div class="row">
