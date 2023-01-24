@@ -1,6 +1,11 @@
 import html from "html-literal";
 
 export default (state) => html `
+<head>
+<meta name="description" content="Arkansas installerbio, Arkansas door repair, Arkansas window repair, Arkansas window installer, Arkansas door installer, Arkansas window part installer, Arkansas door part installer, Arkansas handyman, Arkansas door help, Arkansas window help">
+<meta name="keywords" content="door installation, window installation, Arkansas window, Arkansas door">
+<meta name="author" content="Delfino Farfan">
+</head>
 <div class="container">
 <div class="row">
 <input class="col" id="searchbarCity" onkeyup="search_city()" type="search"
