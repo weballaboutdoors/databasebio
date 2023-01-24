@@ -8,7 +8,7 @@ export default () => html `
     <title>State Search</title>
 </head>
 <div class="container">
-<button onclick="history.back()">Go Back</button>
+<button onclick="history.back()"></button>
 <h1 class="container text-center">Choose Your State Below</h1>
 </div>
 <div class="container text-center">
