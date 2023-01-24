@@ -7,6 +7,10 @@ export default () => html `
     <meta name="author" content="Delfino Farfan">
     <title>State Search</title>
 </head>
+<div class="container">
+<button onclick="history.back()">Go Back</button>
+<h1 class="container text-center">Choose Your State Below</h1>
+</div>
 <div class="container text-center">
 <div class="row justify-content-center">
     <input id="searchbarState" onkeyup="search_state()" type="text"

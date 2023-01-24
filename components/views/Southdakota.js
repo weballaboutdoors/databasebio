@@ -8,6 +8,8 @@ export default (state) => html `
 <title>South Dakota</title>
 </head>
 <div class="container">
+<button onclick="history.back()">Go Back</button>
+<h1 class="container text-center">South Dakota</h1>
 <div class="row">
 <input class="col" id="searchbarCity" onkeyup="search_city()" type="search"
         name="search" placeholder="Search by City..">

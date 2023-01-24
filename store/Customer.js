@@ -1,5 +1,5 @@
 export default {
-    header:"Customer Feedback",
+    header:"",
     view: "Customer",
     customers: []
 };
