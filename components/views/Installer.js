@@ -10,7 +10,7 @@ export default () => html `
 <div class="container">
 <button onclick="history.back()">Go Back</button>
 <h1 class="container text-center">Installer Application</h1>
-</div>
+
  <div class="container text-center">
   <h6>Please apply to be a listed installer using the form below.</h6>
   <h6>If you would like to update any information on your existing Bio Page please click <a href="/Update">here</a></h6>
@@ -133,5 +133,6 @@ export default () => html `
       <h6>*Optional</h6>
       <input type="submit" value="Submit">
     </form>
-  </div>
+    </div>
+    </div>
 `;
