@@ -1,6 +1,12 @@
 import html from "html-literal";
 
-export default () => html `
+export default (state) => html `
+<head>
+<meta name="description" content="installerbio, door repair, window repair, window installer, door installer, window part installer, door part installer, handyman, door help, window help, privacy feedback, privacy">
+    <meta name="keywords" content="privacy, privacy conditions, installer bio, installerbio, door installation, window installation, window, door">
+    <meta name="author" content="Delfino Farfan">
+    <title>Privacy</title>
+</head>
 <div class="container text-left">
 <h3>PRIVACY NOTICE</h3>
 <p>By visiting our website and possibly sharing information with us, you are agreeing to our privacy policy as explained here.</p>

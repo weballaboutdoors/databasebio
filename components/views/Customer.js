@@ -1,6 +1,12 @@
 import html from "html-literal";
 
 export default () => html `
+<head>
+<meta name="description" content="installerbio, door repair, window repair, window installer, door installer, window part installer, door part installer, handyman, door help, window help, customer feedback, customer, customer reply">
+    <meta name="keywords" content="customer, installer bio, installerbio, door installation, window installation, window, door">
+    <meta name="author" content="Delfino Farfan">
+    <title>Customer Feedback</title>
+</head>
   <div class="container text-center">
   <h6>Please give feedback on the company you used to resolve your home repair. This feedback will be shared through the Installer profile page to help future customers make more informed decisions.</h6>
   </div>

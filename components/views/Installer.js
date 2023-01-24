@@ -1,6 +1,12 @@
 import html from "html-literal";
 
 export default () => html `
+<head>
+<meta name="description" content="installerbio, door repair, window repair, window installer, door installer, window part installer, door part installer, handyman, door help, window help, installer feedback, installer">
+    <meta name="keywords" content="installer, installer bio, installerbio, door installation, window installation, window, door">
+    <meta name="author" content="Delfino Farfan">
+    <title>Installer Application</title>
+</head>
  <div class="container text-center">
   <h6>Please apply to be a listed installer using the form below.</h6>
   <h6>If you would like to update any information on your existing Bio Page please click <a href="/Update">here</a></h6>
