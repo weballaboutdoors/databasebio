@@ -263,14 +263,6 @@ ul > a:hover, a:active {
   color: #45a049;
 }
 
-.fun {
-  background-color: white;
-    /* background: url(./assets/img/backgroundblue2.jpg) no-repeat center center fixed; ; */
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-} 
 .reviewBox{
   border: #000000 2.5px solid;
   padding: 5px;
