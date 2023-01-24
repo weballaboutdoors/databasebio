@@ -5,6 +5,8 @@ export default (state) => html `
 <meta name="description" content="Alabama installerbio, Alabama door repair, Alabama window repair, Alabama window installer, Alabama door installer, Alabama window part installer, Alabama door part installer, Alabama handyman, Alabama door help, Alabama window help">
 <meta name="keywords" content="door installation, window installation, Alabama window, Alabama door">
 <meta name="author" content="Delfino Farfan">
+<title>${state.view}</title>
+
 </head>
 
 <div class="container">

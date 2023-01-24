@@ -1,6 +1,12 @@
 import html from "html-literal";
 
 export default (state) => html `
+<head>
+<meta name="description" content="Tennessee installerbio, Tennessee door repair, Tennessee window repair, Tennessee window installer, Tennessee door installer, Tennessee window part installer, Tennessee door part installer, Tennessee handyman, Tennessee door help, Tennessee window help">
+<meta name="keywords" content="door installation, window installation, Tennessee window, Tennessee door">
+<meta name="author" content="Delfino Farfan">
+<title>${state.view}</title>
+</head>
 <div class="container">
 <div class="row">
 <input class="col" id="searchbarCity" onkeyup="search_city()" type="search"

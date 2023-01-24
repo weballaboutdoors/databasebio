@@ -1,6 +1,12 @@
 import html from "html-literal";
 
 export default (state) => html `
+<head>
+<meta name="description" content="Illinois installerbio, Illinois door repair, Illinois window repair, Illinois window installer, Illinois door installer, Illinois window part installer, Illinois door part installer, Illinois handyman, Illinois door help, Illinois window help">
+<meta name="keywords" content="door installation, window installation, Illinois window, Illinois door">
+<meta name="author" content="Delfino Farfan">
+<title>${state.view}</title>
+</head>
 <div class="container">
 <div class="row">
 <input class="col" id="searchbarCity" onkeyup="search_city()" type="search"

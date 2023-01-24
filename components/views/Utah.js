@@ -1,6 +1,12 @@
 import html from "html-literal";
 
 export default (state) => html `
+<head>
+<meta name="description" content="Utah installerbio, Utah door repair, Utah window repair, Utah window installer, Utah door installer, Utah window part installer, Utah door part installer, Utah handyman, Utah door help, Utah window help">
+<meta name="keywords" content="door installation, window installation, Utah window, Utah door">
+<meta name="author" content="Delfino Farfan">
+<title>${state.view}</title>
+</head>
 <div class="container">
 <div class="row">
 <input class="col" id="searchbarCity" onkeyup="search_city()" type="search"
