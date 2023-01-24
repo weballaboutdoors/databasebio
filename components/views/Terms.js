@@ -1,6 +1,12 @@
 import html from "html-literal";
 
 export default () => html `
+<head>
+<meta name="description" content="installerbio, door repair, window repair, window installer, door installer, window part installer, door part installer, handyman, door help, window help, terms, terms and conditions">
+    <meta name="keywords" content="terms, installer bio, installerbio, door installation, window installation, window, door">
+    <meta name="author" content="Delfino Farfan">
+    <title>Terms and Conditions</title>
+</head>
 <div class="container text-left">
 <h3>TERMS AND CONDITIONS</h3>
 
