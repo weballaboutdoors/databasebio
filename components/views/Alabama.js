@@ -6,9 +6,7 @@ export default (state) => html `
 <meta name="keywords" content="door installation, window installation, Alabama window, Alabama door">
 <meta name="author" content="Delfino Farfan">
 <title>${state.view}</title>
-
 </head>
-
 <div class="container">
 <div class="row">
 <input class="col" id="searchbarCity" onkeyup="search_city()" type="search"

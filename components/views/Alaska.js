@@ -7,7 +7,6 @@ export default (state) => html `
 <meta name="author" content="Delfino Farfan">
 <title>${state.view}</title>
 </head>
-
 <div class="container">
 <div class="row">
 <input class="col" id="searchbarCity" onkeyup="search_city()" type="search"
