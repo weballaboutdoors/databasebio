@@ -12,8 +12,7 @@ export default () => html `
 <h1 class="container text-center">Installer Application</h1>
 
  <div class="container text-center">
-  <h6>Please apply to be a listed installer using the form below.</h6>
-  <h6>If you would like to update any information on your existing Bio Page please click <a href="/Update">here</a></h6>
+  <If>Please apply to be a listed installer using the form below. If needed, you are able to <a href="/Update">update</a> your existing Profile Page. Installer Profile page's may take up to 72 hours to be created.</h6>
   </div>
 <div class="formPage">
 <form
@@ -95,6 +94,7 @@ export default () => html `
     </div>
     </div>
     <div class="rows">
+    <div class="columns">
       <div id="profession">
         <div class="bold">
       <label for="profession"><strong>Choose Your Profession(s)</strong></label><br>
@@ -120,6 +120,7 @@ export default () => html `
           <option value="yes">Yes</option>
           <option value="no">No</option>
         </select>
+      </div>
       </div>
       </div>
       <div class="columns">

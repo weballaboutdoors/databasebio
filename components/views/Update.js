@@ -11,7 +11,7 @@ export default () => html `
 <button onclick="history.back()"></button>
 <h1 class="container text-center">Bio Page Update</h1>
  <div class="container text-center">
-  <h6>Please fill out the form below with your updated information. Be sure to only fill out this form if you have already submitted an Installer Application.</h6>
+  <h6>Please fill out the form below with your updated information. Be sure to only fill out this form if you've already submitted an Installer Application or have an existing Profile Page.</h6>
   </div>
 <div class="formPage">
 <form
