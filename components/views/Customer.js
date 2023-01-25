@@ -11,7 +11,7 @@ export default () => html `
 <button onclick="history.back()"></button>
 <h1 class="container text-center">Customer Feedback</h1>
   <div class="container text-center">
-  <h6>Please give feedback on the company you used to resolve your home repair. This feedback will be shared through the Installer profile page to help future customers make more informed decisions.</h6>
+  <h6>Please give feedback on the Installer you used to resolve your home repair. This feedback may be shared through the Installer Profile Page to help future customers make more informed decisions about who they select to resolve their issue. Any feedback that goes against our <a href="/Terms">Terms and Conditions</a> will not be shared. </h6>
   </div>
 <div class="formPage">
 <form
