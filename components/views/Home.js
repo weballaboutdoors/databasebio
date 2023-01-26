@@ -2,6 +2,7 @@ import html from "html-literal";
 
 export default (state) => html `
 <head>
+<meta name="google-site-verification" content="WdLfGegb6llnEPkU-vGOgaNXjITNFZh0B2eudIHwYvI" />
 <meta name="description" content="installerbio, door repair, window repair, window installer, door installer, window part installer, Alabama door part installer, handyman, door help, window help, installation">
 <meta name="keywords" content="door installation, window installation, window parts, door parts">
 <meta name="author" content="Delfino Farfan">
