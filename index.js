@@ -76,6 +76,14 @@ function afterRender(state) {
           webSubmission: installerList.webSubmission.value,
           bioSubmission: installerList.bioSubmission.value,
           reviewSubmission: installerList.reviewSubmission.value,
+          otherSubmission: installerList.otherSubmission.value,
+          yearSubmission: installerList.yearSubmission.value,
+          objSubmission: installerList.objSubmission.value,
+          tradeSubmission: installerList.tradeSubmission.value,
+          insuranceSubmission: installerList.insuranceSubmission.value,
+          instypeSubmission: installerList.instypeSubmission.value,
+          licenseSubmission: installerList.licenseSubmission.value,
+          lictypeSubmission: installerList.lictypeSubmission.value,
           professionSubmission: professionSubmission
         };
 

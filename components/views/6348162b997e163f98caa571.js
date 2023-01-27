@@ -1,6 +1,6 @@
 import html from "html-literal";
 
-export default (state) => html `
+export default () => html `
 <head>
 <meta name="description" content="Billy Can Do It, installerbio, door repair, window repair, window installer, door installer, window part installer, door part installer, handyman, door help, window help, search states">
     <meta name="keywords" content="Billy Can Do It, state search installer bio, installerbio, door installation, window installation, window, door">

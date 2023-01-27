@@ -12,7 +12,7 @@ export default () => html `
 <h1 class="container text-center">Installer Application</h1>
 
  <div class="container text-center">
-  <If>Please apply to be a listed installer using the form below. If needed, you are able to <a href="/Update">update</a> your existing Profile Page. Installer Profile page's may take up to 72 hours to be created.</h6>
+  <If>Please apply to be a listed installer using the form below. Installer Profile page's may take up to 72 hours to be created. If needed, you are able to <a href="/Update">update</a> your existing Profile Page.</h6>
   </div>
 <div class="formPage">
 <form
@@ -29,6 +29,8 @@ export default () => html `
     <input type="text" id="phoneSubmission" name="phoneSubmission" placeholder="Phone">
     <label for="emailSubmission"></label>
     <input type="text" id="emailSubmission" name="emailSubmission" placeholder="E-Mail">
+    <label for="yearSubmission"></label>
+    <input type="text" id="yearSubmission" name="yearSubmission" placeholder="Years of Experience">
     </div>
     <div class="columns">
     <label for="addressSubmission"></label>
@@ -91,13 +93,18 @@ export default () => html `
     </select>
     <label for="zipcodeSubmission"></label>
     <input type="text" id="zipcodeSubmission" name="zipcodeSubmission" placeholder="Zip Code">
+    <label for="objSubmission"></label>
+    <input type="text" id="objSubmission" name="objSubmission" placeholder="Company Objective/Goals">
     </div>
     </div>
     <div class="rows">
     <div class="columns">
+    <label for="tradeSubmission"></label>
+    <input type="text" id="tradeSubmission" name="tradeSubmission" placeholder="
+    Trade Skills">
       <div id="profession">
         <div class="bold">
-      <label for="profession"><strong>Choose Your Profession(s)</strong></label><br>
+      <label for="professionSubmission"><strong>Choose Your Profession(s)</strong></label><br>
       </div>
       <input type="checkbox" class="items1" id="profession1" name="professionSubmission" value="locksmith">
       <label for="profession1">Locksmith</label><br>
@@ -113,8 +120,11 @@ export default () => html `
       <label for="profession6">Window Repair and Service</label><br>
       <input type="checkbox" class="items1" id="profession7" name="professionSubmission" value="doorrepair">
       <label for="profession7">Door Repair and Service</label><br>
+      <label for="otherSubmission"></label>
+    <input type="text" id="otherSubmission" name="otherSubmission" placeholder="Other">
+    <hr class="spacer">
       <div id="review">
-        <label for="reviewSubmission"><strong>Allow reviews on your Installer page?</strong></label>
+        <label for="reviewSubmission"><strong>Allow reviews on Profile page?</strong></label>
         <select id="reviewSubmission" name="review">
           <option value="">Select Option</option>
           <option value="yes">Yes</option>
@@ -124,8 +134,24 @@ export default () => html `
       </div>
       </div>
       <div class="columns">
-      <label for="bioSubmission"></label>
-    <textarea id="bioSubmission" name="bioSubmission" rows="13" cols="170" style="max-width:100%" placeholder="Write your Bio here"></textarea>
+      <label for="insuranceSubmission"><strong>Does your business have insurance?</strong></label>
+        <select id="insuranceSubmission" name="review">
+          <option value="">Select Option</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+        <label for="instypeSubmission"></label>
+    <input type="text" id="instypeSubmission" name="instypeSubmission" placeholder="*Type of Insurance">
+        <label for="licenseSubmission"><strong>Does your business have a License/Certification?</strong></label>
+        <select id="licenseSubmission" name="review">
+          <option value="">Select Option</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+        <label for="lictypeSubmission"></label>
+    <input type="text" id="lictypeSubmission" name="lictypeSubmission" placeholder="*Type of License/Certification">
+    <label for="bioSubmission"></label>
+    <textarea id="bioSubmission" name="bioSubmission" rows="11" cols="170" style="max-width:100%" placeholder="Additional Information"></textarea>
       </div>
       </div>
       <div class="container text-center">

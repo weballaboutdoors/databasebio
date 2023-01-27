@@ -1,11 +1,11 @@
 import html from "html-literal";
 
-export default (state) => html `
+export default () => html `
 <head>
 <meta name="description" content="Billy Can Do It, installerbio, door repair, window repair, window installer, door installer, window part installer, door part installer, handyman, door help, window help">
     <meta name="keywords" content="Billy Can Do It, state search installer bio, installerbio, door installation, window installation, window, door">
     <meta name="author" content="Delfino Farfan">
-    <title>${state.view}</title>
+    <title>Billy Can Do It</title>
 </head>
 <div class="container">
 <button onclick="history.back()"></button>

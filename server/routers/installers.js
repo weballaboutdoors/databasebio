@@ -51,6 +51,14 @@ router.put("/:id", (request, response) => {
         webSubmission: body.webSubmission,
         bioSubmission: body.bioSubmission,
         reviewSubmission: body.reviewSubmission,
+        otherSubmission: body.otherSubmission,
+        yearSubmission: body.yearSubmission,
+        objSubmission: body.objSubmission,
+        tradeSubmission: body.tradeSubmission,
+        insuranceSubmission: body.insuranceSubmission,
+        instypeSubmission: body.instypeSubmission,
+        licenseSubmission: body.licenseSubmission,
+        lictypeSubmission: body.lictypeSubmission,
         professionSubmission: body.professionSubmission
       }
     },
