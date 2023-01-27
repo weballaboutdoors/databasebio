@@ -300,6 +300,12 @@ ul > a:hover, a:active {
   margin-bottom: 7px;
   padding-top: 15px;
 }
+#bioSubmission {
+  margin-top: -10px;
+}
+#tradeSubmission {
+  margin-top: 15px;
+}
 label {
   display: block;
 }

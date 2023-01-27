@@ -36,10 +36,41 @@ const installerSchema = new mongoose.Schema({
   },
   bioSubmission: {
     type: String,
-    required: true
+  },
+  otherSubmission: {
+    type: String,
   },
   webSubmission: {
     type: String,
+  },
+  yearSubmission: {
+    type: String,
+    required: true
+  },
+  objSubmission: {
+    type: String,
+    required: true
+  },
+  tradeSubmission: {
+    type: String,
+    required: true,
+    validate: /^[A-Za-z0-9 ]*$/
+  },
+  instypeSubmission: {
+    type: String
+  },
+  lictypeSubmission: {
+    type: String
+  },
+  insuranceSubmission: {
+    type: String,
+    required: true,
+    enum: ["yes", "no"]
+  },
+  licenseSubmission: {
+    type: String,
+    required: true,
+    enum: ["yes", "no"]
   },
   reviewSubmission: {
     type: String,
