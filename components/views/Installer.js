@@ -144,7 +144,7 @@ export default () => html `
       <label for="bioSubmission"></label>
     <textarea id="bioSubmission" name="bioSubmission" rows="11" cols="170" style="max-width:100%" placeholder="Company Description & Goals"></textarea>
     <div id="review">
-        <label for="reviewSubmission"><strong>Allow reviews on Profile page?</strong></label>
+        <label for="reviewSubmission"><strong>Allow customer reviews on Profile page?</strong></label>
         <select id="reviewSubmission" name="review">
           <option value="">Select Option</option>
           <option value="yes">Yes</option>
