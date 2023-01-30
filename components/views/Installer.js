@@ -97,7 +97,7 @@ export default () => html `
     <div class="columns">
     <label for="yearSubmission"></label>
     <input type="text" id="yearSubmission" name="yearSubmission" placeholder="Years of Experience">
-    <label for="insuranceSubmission"><strong>Does your business have insurance?</strong></label>
+    <label for="insuranceSubmission"><strong>Does your business have Insurance?</strong></label>
         <select id="insuranceSubmission" name="review">
           <option value="">Select Option</option>
           <option value="yes">Yes</option>
@@ -134,7 +134,7 @@ export default () => html `
       <input type="checkbox" class="items1" id="profession7" name="professionSubmission" value="doorrepair">
       <label for="profession7">Door Repair and Service</label><br>
       <input type="checkbox" class="items1" id="profession8" name="professionSubmission" value="other">
-      <label for="profession8">Other</label><br>
+      <label for="profession8">Other Trade Skill</label><br>
       <label for="otherSubmission"></label>
     <input type="text" id="otherSubmission" name="otherSubmission" placeholder="">
       </div>
