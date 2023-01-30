@@ -97,7 +97,7 @@ export default () => html `
     <div class="columns">
     <label for="yearSubmission"></label>
     <input type="text" id="yearSubmission" name="yearSubmission" placeholder="Years of Experience">
-    <label for="insuranceSubmission"><strong>Does your business have insurance?</strong></label>
+    <label for="insuranceSubmission"><strong>Does your business have Insurance?</strong></label>
         <select id="insuranceSubmission" name="review">
           <option value="">Select Option</option>
           <option value="yes">Yes</option>
