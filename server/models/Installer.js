@@ -47,15 +47,6 @@ const installerSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  objSubmission: {
-    type: String,
-    required: true
-  },
-  tradeSubmission: {
-    type: String,
-    required: true,
-    validate: /^[A-Za-z0-9 ]*$/
-  },
   instypeSubmission: {
     type: String
   },

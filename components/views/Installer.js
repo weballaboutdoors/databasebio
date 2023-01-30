@@ -29,8 +29,6 @@ export default () => html `
     <input type="text" id="phoneSubmission" name="phoneSubmission" placeholder="Phone">
     <label for="emailSubmission"></label>
     <input type="text" id="emailSubmission" name="emailSubmission" placeholder="E-Mail">
-    <label for="yearSubmission"></label>
-    <input type="text" id="yearSubmission" name="yearSubmission" placeholder="Years of Experience">
     </div>
     <div class="columns">
     <label for="addressSubmission"></label>
@@ -93,15 +91,30 @@ export default () => html `
     </select>
     <label for="zipcodeSubmission"></label>
     <input type="text" id="zipcodeSubmission" name="zipcodeSubmission" placeholder="Zip Code">
-    <label for="objSubmission"></label>
-    <input type="text" id="objSubmission" name="objSubmission" placeholder="Company Objective/Goals">
     </div>
     </div>
     <div class="rows">
     <div class="columns">
-    <label for="tradeSubmission"></label>
-    <input type="text" id="tradeSubmission" name="tradeSubmission" placeholder="
-    Trade Skills">
+    <label for="yearSubmission"></label>
+    <input type="text" id="yearSubmission" name="yearSubmission" placeholder="Years of Experience">
+    <label for="insuranceSubmission"><strong>Does your business have insurance?</strong></label>
+        <select id="insuranceSubmission" name="review">
+          <option value="">Select Option</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+        <label for="instypeSubmission"></label>
+    <input type="text" id="instypeSubmission" name="instypeSubmission" placeholder="*Type of Insurance">
+        <label for="licenseSubmission"><strong>Does your business have a License/Certification?</strong></label>
+        <select id="licenseSubmission" name="review">
+          <option value="">Select Option</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+        <label for="lictypeSubmission"></label>
+    <input type="text" id="lictypeSubmission" name="lictypeSubmission" placeholder="*Type of License/Certification">
+      </div>
+      <div class="columns">
       <div id="profession">
         <div class="bold">
       <label for="professionSubmission"><strong>Choose Your Profession(s)</strong></label><br>
@@ -120,39 +133,23 @@ export default () => html `
       <label for="profession6">Window Repair and Service</label><br>
       <input type="checkbox" class="items1" id="profession7" name="professionSubmission" value="doorrepair">
       <label for="profession7">Door Repair and Service</label><br>
+      <input type="checkbox" class="items1" id="profession8" name="professionSubmission" value="other">
+      <label for="profession8">Other</label><br>
       <label for="otherSubmission"></label>
-    <input type="text" id="otherSubmission" name="otherSubmission" placeholder="Other">
-    <hr class="spacer">
-      <div id="review">
+    <input type="text" id="otherSubmission" name="otherSubmission" placeholder="">
+      </div>
+      </div>
+      </div>
+      
+      <label for="bioSubmission"></label>
+    <textarea id="bioSubmission" name="bioSubmission" rows="11" cols="170" style="max-width:100%" placeholder="Company Description & Goals"></textarea>
+    <div id="review">
         <label for="reviewSubmission"><strong>Allow reviews on Profile page?</strong></label>
         <select id="reviewSubmission" name="review">
           <option value="">Select Option</option>
           <option value="yes">Yes</option>
           <option value="no">No</option>
         </select>
-      </div>
-      </div>
-      </div>
-      <div class="columns">
-      <label for="insuranceSubmission"><strong>Does your business have insurance?</strong></label>
-        <select id="insuranceSubmission" name="review">
-          <option value="">Select Option</option>
-          <option value="yes">Yes</option>
-          <option value="no">No</option>
-        </select>
-        <label for="instypeSubmission"></label>
-    <input type="text" id="instypeSubmission" name="instypeSubmission" placeholder="*Type of Insurance">
-        <label for="licenseSubmission"><strong>Does your business have a License/Certification?</strong></label>
-        <select id="licenseSubmission" name="review">
-          <option value="">Select Option</option>
-          <option value="yes">Yes</option>
-          <option value="no">No</option>
-        </select>
-        <label for="lictypeSubmission"></label>
-    <input type="text" id="lictypeSubmission" name="lictypeSubmission" placeholder="*Type of License/Certification">
-    <label for="bioSubmission"></label>
-    <textarea id="bioSubmission" name="bioSubmission" rows="11" cols="170" style="max-width:100%" placeholder="Additional Information"></textarea>
-      </div>
       </div>
       <div class="container text-center">
       <p><strong>By Submitting this form I Agree to the <a href="/Terms">Terms and Conditions</a></strong></p>

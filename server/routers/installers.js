@@ -53,8 +53,6 @@ router.put("/:id", (request, response) => {
         reviewSubmission: body.reviewSubmission,
         otherSubmission: body.otherSubmission,
         yearSubmission: body.yearSubmission,
-        objSubmission: body.objSubmission,
-        tradeSubmission: body.tradeSubmission,
         insuranceSubmission: body.insuranceSubmission,
         instypeSubmission: body.instypeSubmission,
         licenseSubmission: body.licenseSubmission,
