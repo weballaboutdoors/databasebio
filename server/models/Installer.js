@@ -36,6 +36,7 @@ const installerSchema = new mongoose.Schema({
   },
   bioSubmission: {
     type: String,
+    required: true
   },
   otherSubmission: {
     type: String,
