@@ -134,7 +134,7 @@ export default () => html `
       <input type="checkbox" class="items1" id="profession7" name="professionSubmission" value="doorrepair">
       <label for="profession7">Door Repair and Service</label><br>
       <input type="checkbox" class="items1" id="profession8" name="professionSubmission" value="other">
-      <label for="profession8">Other</label><br>
+      <label for="profession8">Other Trade Skill</label><br>
       <label for="otherSubmission"></label>
     <input type="text" id="otherSubmission" name="otherSubmission" placeholder="">
       </div>
