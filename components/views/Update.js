@@ -14,6 +14,7 @@ export default () => html `
   <h6>Please fill out the form below with your updated information. Be sure to only fill out this form if you've already submitted an Installer Application or have an existing Profile Page.</h6>
   </div>
 <div class="formPage">
+<h6>*Required</h6>
 <form
   action="/"
   method="post"
@@ -124,7 +125,6 @@ export default () => html `
       <div class="container text-center">
       <p><strong>By Submitting this form I Agree to the <a href="/Terms">Terms and Conditions</a></strong></p>
       </div>
-      <h6>*Required</h6>
       <input type="submit" value="Submit">
       </div>
       </div>
