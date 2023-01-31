@@ -17,10 +17,10 @@ const updateSchema = new mongoose.Schema({
   bioUpdate: {
     type: String
   },
-  removeotherUpdate: {
+  removeUpdate: {
     type: String
   },
-  addotherUpdate: {
+  addUpdate: {
     type: String
   },
   professionUpdate: [String]
