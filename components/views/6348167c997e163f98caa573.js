@@ -41,8 +41,9 @@ export default () => html `
 </div>
 <hr class="spacer">
 <!-- Cusomer Reviews -->
-<h4 style="padding-left: 10px;">Customer Reviews</h4>
+
 <div class="grid-container">
+<h4>Customer Reviews</h4>
     <div class="item3">
 <div class="reviewBox">
 <h6>Sam | 01/20/23</h6>

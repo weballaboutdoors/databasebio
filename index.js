@@ -116,6 +116,8 @@ function afterRender(state) {
           stateUpdate: updateList.stateUpdate.value,
           emailUpdate: updateList.emailUpdate.value,
           bioUpdate: updateList.bioUpdate.value,
+          addotherUpdate: updateList.addotherUpdate.value,
+          removeotherUpdate: updateList.removeotherUpdate.value,
           professionUpdate: professionUpdate
         };
 
