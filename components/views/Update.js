@@ -100,8 +100,8 @@ export default () => html `
       <label for="profession6">Add Window Repair and Service</label><br>
       <input type="checkbox" class="items1" id="profession7" name="professionUpdate" value="adddoorrepair">
       <label for="profession7">Add Door Repair and Service</label><br>
-      <label for="addotherSubmission"></label>
-    <input type="text" id="addotherSubmission" name="addotherSubmission" placeholder="Add Other Skill">
+      <label for="addotherUpdate"></label>
+    <input type="text" id="addotherUpdate" name="addotherUpdate" placeholder="Add Other Skill">
       <p id="remove"><strong>Remove Your Profession(s)</strong></p>
       <input type="checkbox" class="items1" id="profession8" name="professionUpdate" value="removelocksmith">
       <label for="profession8">Remove Locksmith</label><br>
