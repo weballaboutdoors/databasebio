@@ -45,6 +45,8 @@ router.put("/:id", (request, response) => {
         stateUpdate: body.stateUpdate,
         emailUpdate: body.mailUpdate,
         bioUpdate: body.bioUpdate,
+        removeotherUpdate: body.removeotherUpdate,
+        addotherUpdate: body.addotherUpdate,
         professionUpdate: body.professionUpdate
       }
     },

@@ -17,6 +17,12 @@ const updateSchema = new mongoose.Schema({
   bioUpdate: {
     type: String
   },
+  removeotherUpdate: {
+    type: String
+  },
+  addotherUpdate: {
+    type: String
+  },
   professionUpdate: [String]
 });
 

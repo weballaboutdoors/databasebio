@@ -77,8 +77,13 @@ export default () => html `
       <option value="wisconsin">Wisconsin</option>
     </select>
     <div class="rows">
+    <div class="columns">
+    <label for="bioUpdate"></label>
+    <textarea id="bioUpdate" name="bioUpdate" rows="27" cols="170" style="max-width:100%" placeholder="Update Description, Name, E-Mail, State or anything else here"></textarea>
+    </div>
+      <div class="columns">
       <div id="professionUpdate">
-        <div class="bold">
+      <div class="bold">
       <label for="professionUpdate"><strong>Add Your Profession(s)</strong></label><br>
       </div>
       <input type="checkbox" class="items1" id="profession1" name="professionUpdate" value="addlocksmith">
@@ -95,6 +100,8 @@ export default () => html `
       <label for="profession6">Add Window Repair and Service</label><br>
       <input type="checkbox" class="items1" id="profession7" name="professionUpdate" value="adddoorrepair">
       <label for="profession7">Add Door Repair and Service</label><br>
+      <label for="addotherSubmission"></label>
+    <input type="text" id="addotherSubmission" name="addotherSubmission" placeholder="Add Other Skill">
       <p id="remove"><strong>Remove Your Profession(s)</strong></p>
       <input type="checkbox" class="items1" id="profession8" name="professionUpdate" value="removelocksmith">
       <label for="profession8">Remove Locksmith</label><br>
@@ -108,12 +115,10 @@ export default () => html `
       <label for="profession12">Remove Glass Contractor</label><br>
       <input type="checkbox" class="items1" id="profession13" name="professionUpdate" value="removewindowrepair">
       <label for="profession13">Remove Window Repair and Service</label><br>
-      <input type="checkbox" class="items1" id="profession7" name="professionUpdate" value="removedoorrepair">
-      <label for="profession7">Remove Door Repair and Service</label><br>
-      </div>
-      <div class="columns">
-      <label for="bioUpdate"></label>
-    <textarea id="bioUpdate" name="bioUpdate" rows="20" cols="170" style="max-width:100%" placeholder="Update Bio, Name, E-Mail, State or anything else here"></textarea>
+      <input type="checkbox" class="items1" id="profession14" name="professionUpdate" value="removedoorrepair">
+      <label for="profession14">Remove Door Repair and Service</label><br>
+      <label for="removeotherUpdate"></label>
+    <input type="text" id="removeotherUpdate" name="removeotherUpdate" placeholder="Remove Other Skill">
       </div>
       </div>
       <div class="container text-center">

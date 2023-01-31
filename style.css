@@ -54,6 +54,9 @@ div > button {
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
 }
+.bold {
+  margin-top: -5px;
+}
 .profileHeader {
   background-color: #80bf83;
 }
