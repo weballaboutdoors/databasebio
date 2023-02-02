@@ -14,7 +14,7 @@ export default () => html `
   <h6>Please fill out the form below with your updated information. Be sure to only fill out this form if you've already submitted an Installer Application or have an existing Profile Page.</h6>
   </div>
 <div class="formPage">
-<h6>*Required</h6>
+<h6><strong>*Required</strong></h6>
 <form
   action="/"
   method="post"
