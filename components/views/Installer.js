@@ -15,7 +15,7 @@ export default () => html `
   <If>Please apply to be a listed installer using the form below. Installer Profile page's may take up to 72 hours to be created. If needed, you are able to <a href="/Update">update</a> your existing Profile Page.</h6>
   </div>
 <div class="formPage">
-<h6>*Optional</h6>
+<h6><strong>*Optional</strong></h6>
 <form
   action="/"
   method="post"
