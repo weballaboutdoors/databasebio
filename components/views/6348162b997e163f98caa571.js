@@ -26,11 +26,11 @@ export default () => html `
 <div class="item1 item1Border">
 <h4>Contact Info</h4>
 <!-- Company Website -->
-<!-- <p><a href="wwww.fakewebsite.com">www.fakewebsite.com</a></p> -->
+<p><a href="wwww.fakewebsite.com">www.fakewebsite.com</a></p>
 <!-- Phone Number -->
 <p><a href="tel:+15555555555">(555)555-5555</a></p>
 <!-- Email -->
-<p><a href="mailto:bob@installer.com">bob@installer45812howlonlkjdflkjsdfl.com</a></p>
+<p><a href="mailto:bob@installer.com">bob@installer.com</a></p>
 <!-- Address -->
 <p>12345 Hwy 45<br> Anchorage, Alaska<br> 00000<br></p>
 </div>
@@ -47,22 +47,22 @@ export default () => html `
     <div class="item3">
 <div class="reviewBox">
 <h6>Sam | 01/20/23</h6>
-<p>"Billy helped me, and now my house is as safe as ever!"</p>
+<p>" Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
 </div>
 <div class="reviewBox">
 <h6>Sam | 01/20/23</h6>
-<p>"Billy helped me, and now my house is as safe as ever! And this is what it looks like when someone leaves a longer review. Pretty neat right? Peter you like this? Would you like to see what happens when you add more to this review?? Kinda crazy it just keeps going! And this one is even longer than the next one!"</p>
+<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
 </div>
 
 </div>
 <div class="item4">
 <div class="reviewBox">
 <h6>Sam | 01/20/23</h6>
-<p>"Billy helped me, and now my house is as safe as ever! And this is what it looks like when someone leaves a longer review. Pretty neat right? Peter you like this? Would you like to see what happens when you add more to this review?? Kinda crazy it just keeps going!"</p>
+<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
 </div>
 <div class="reviewBox">
 <h6>Sam | 01/20/23</h6>
-<p>"Billy helped me, and now my house is as safe as ever!"</p>
+<p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
 </div>
 </div>
 </div>
