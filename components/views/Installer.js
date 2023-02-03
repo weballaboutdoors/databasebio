@@ -24,12 +24,12 @@ export default () => html `
   <div class="columns">
     <label for="companynameSubmission"></label>
     <input type="text" id="companynameSubmission" name="companynameSubmission" placeholder="Name/Company">
-    <label for="webSubmission"></label>
-    <input type="text" id="webSubmission" name="webSubmission" placeholder="*Website">
     <label for="phoneSubmission"></label>
     <input type="text" id="phoneSubmission" name="phoneSubmission" placeholder="Phone">
     <label for="emailSubmission"></label>
     <input type="text" id="emailSubmission" name="emailSubmission" placeholder="E-Mail">
+    <label for="webSubmission"></label>
+    <input type="text" id="webSubmission" name="webSubmission" placeholder="*Website">
     </div>
     <div class="columns">
     <label for="addressSubmission"></label>
