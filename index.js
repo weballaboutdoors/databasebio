@@ -54,7 +54,7 @@ function afterRender(state) {
     }
     if (state.view === "Installer"){
       document.querySelector("form").addEventListener("submit", event => {
-        console.log(event);
+        // console.log(event);
         event.preventDefault();
         const installerList = event.target.elements;
 
