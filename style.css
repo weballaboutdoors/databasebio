@@ -309,6 +309,12 @@ ul > a:hover, a:active {
 #tradeSubmission {
   margin-top: 15px;
 }
+#instypeSubmission{
+  margin-top: 15px;
+}
+#lictypeSubmission{
+  margin-top: 15px;
+}
 label {
   display: block;
 }
