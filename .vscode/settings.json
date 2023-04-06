@@ -4,5 +4,6 @@
         "companyname",
         "removeother",
         "zipcode"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }
