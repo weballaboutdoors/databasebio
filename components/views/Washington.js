@@ -8,7 +8,7 @@ export default (state) => html `
 <title>${state.view}</title>
 </head>
 <div class="container">
-<button onclick="history.back()">Go Back</button>
+<button onclick="history.back()"></button>
 <h1 class="container text-center">Washington</h1>
 <div class="row">
 <input class="col" id="searchbarCity" onkeyup="search_city()" type="search"
