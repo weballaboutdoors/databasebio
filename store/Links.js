@@ -4,5 +4,5 @@ export default [
     { title: "Installer", text: "Installer Application"},
     { title: "Update", text: "Bio Page Update"},
     { title: "Customer", text: "Customer Feedback"},
-    { title: "Feedback", text: "Installer Feedback"}
+    // { title: "Feedback", text: "Installer Feedback"}
   ];

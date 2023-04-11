@@ -9,7 +9,7 @@ export default () => html `
 </head>
 <div class="container">
 <button onclick="history.back()"></button>
-<h1 class="container text-center">Choose Your State</h1>
+<h1 class="container text-center">Search Your State</h1>
 </div>
 <div class="container text-center">
 <div class="row justify-content-center">
