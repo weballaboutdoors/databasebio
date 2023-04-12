@@ -12,7 +12,7 @@ export default () => html `
 <h1 class="container text-center">Installer Application</h1>
 
  <div class="container text-center">
-  <If>Please apply to be a listed installer using the form below. Installer Profile page's may take up to 72 hours to be created. If needed, you are able to <a href="/Update">update</a> your existing Profile Page.</h6>
+  <h6>Please apply to be a listed installer using the form below. Installer Profile page's may take up to 72 hours to be created. If needed, you are able to <a href="/Update">update</a> your existing Profile Page.</h6>
   </div>
 <div class="formPage">
 <h6><strong>*Optional</strong></h6>
@@ -155,6 +155,6 @@ export default () => html `
       </div>
       <input type="submit" value="Submit">
     </form>
-    </div>
-    </div>
+</div>
+</div>
 `;
