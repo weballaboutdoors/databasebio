@@ -24,9 +24,6 @@ h6{
 div{
   overflow-y: hidden;
 }
-body{
-  padding-top:100px;
- }
 nav > ul{
   margin-top: 10px;
 }
@@ -359,6 +356,9 @@ input {
     .hidden--mobile {
       display: none !important;
     }
+    body {
+      padding-top: 20%;
+    }
     nav{
       padding-top: 10px;
       padding-left: 10px;
@@ -468,7 +468,8 @@ input {
     }
 @media (min-width: 806px) {
   body {
-    padding-bottom: 150px;
+    padding-top: 10%;
+    padding-bottom: 14%;
   }
     nav{
       width:100%;
