@@ -10,6 +10,4 @@ export default () => html `
 <div class="container">
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfr5Tls0x_vT8Z-khEwWtVAnegcuJyESn6CugTumC1ZLJUxMw/viewform?embedded=true" width="700" height="1150" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 </div>
-
-
 `;
