@@ -54,6 +54,10 @@ div > button {
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
 }
+/* ::placeholder{
+  content: " *";
+  color: red;
+} */
 .bold {
   margin-top: -5px;
 }

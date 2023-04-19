@@ -14,6 +14,7 @@ export default () => html `
   <h6>Please give feedback on the Installer you used to resolve your home repair. This feedback may be shared through the Installer Profile Page to help future customers make more informed decisions about who they select to resolve their issue. Any feedback that goes against our <a href="/Terms">Terms and Conditions</a> will not be shared. </h6>
   </div>
 <div class="formPage">
+<h6><strong>All fields required</strong></h6>
 <form
   action="/"
   method="post"

@@ -15,7 +15,7 @@ export default () => html `
   <h6>Please apply to be a listed installer using the form below. Installer Profile page's may take up to 72 hours to be created. If needed, you are able to <a href="/Update">update</a> your existing Profile Page.</h6>
   </div>
 <div class="formPage">
-<h6><strong>*Optional</strong></h6>
+<h6><strong>* Indicates a required field</strong></h6>
 <form
   action="/"
   method="post"
@@ -23,22 +23,22 @@ export default () => html `
   <div class="rows">
   <div class="columns">
     <label for="companynameSubmission"></label>
-    <input type="text" id="companynameSubmission" name="companynameSubmission" placeholder="Name/Company">
+    <input type="text" id="companynameSubmission" name="companynameSubmission" placeholder="Name/Company *">
     <label for="phoneSubmission"></label>
-    <input type="text" id="phoneSubmission" name="phoneSubmission" placeholder="Phone">
+    <input type="text" id="phoneSubmission" name="phoneSubmission" placeholder="Phone *">
     <label for="emailSubmission"></label>
-    <input type="text" id="emailSubmission" name="emailSubmission" placeholder="E-Mail">
+    <input type="text" id="emailSubmission" name="emailSubmission" placeholder="E-Mail *">
     <label for="webSubmission"></label>
-    <input type="text" id="webSubmission" name="webSubmission" placeholder="*Website">
+    <input type="text" id="webSubmission" name="webSubmission" placeholder="Website">
     </div>
     <div class="columns">
     <label for="addressSubmission"></label>
-    <input type="text" id="addressSubmission" name="addressSubmission" placeholder="Address">
+    <input type="text" id="addressSubmission" name="addressSubmission" placeholder="Address *">
     <label for="citySubmission"></label>
-    <input type="text" id="citySubmission" name="citySubmission" placeholder="City">
+    <input type="text" id="citySubmission" name="citySubmission" placeholder="City *">
     <label for="stateSubmission"></label>
     <select id="stateSubmission" name="state">
-    <option value="">States</option>
+    <option value="empty">States *</option>
       <option value="alabama">Alabama</option>
       <option value="alaska">Alaska</option>
       <option value="arizona">Arizona</option>
@@ -91,34 +91,34 @@ export default () => html `
       <option value="wisconsin">Wisconsin</option>
     </select>
     <label for="zipcodeSubmission"></label>
-    <input type="text" id="zipcodeSubmission" name="zipcodeSubmission" placeholder="Zip Code">
+    <input type="text" id="zipcodeSubmission" name="zipcodeSubmission" placeholder="Zip Code *">
     </div>
     </div>
     <div class="rows">
     <div class="columns">
     <label for="yearSubmission"></label>
-    <input type="text" id="yearSubmission" name="yearSubmission" placeholder="Years of Experience">
-    <label for="insuranceSubmission"><strong>Does your business have Insurance?</strong></label>
+    <input type="text" id="yearSubmission" name="yearSubmission" placeholder="Years of Experience *">
+    <label for="insuranceSubmission"><strong>Does your business have Insurance? *</strong></label>
         <select id="insuranceSubmission" name="review">
-          <option value="">Select Option</option>
+          <option value="empty">Select Option *</option>
           <option value="yes">Yes</option>
           <option value="no">No</option>
         </select>
         <label for="instypeSubmission"></label>
-    <input type="text" id="instypeSubmission" name="instypeSubmission" placeholder="*Type of Insurance">
-        <label for="licenseSubmission"><strong>Does your business have a License/Certification?</strong></label>
+    <input type="text" id="instypeSubmission" name="instypeSubmission" placeholder="Type of Insurance">
+        <label for="licenseSubmission"><strong>Does your business have a License/Certification? *</strong></label>
         <select id="licenseSubmission" name="review">
-          <option value="">Select Option</option>
+          <option value="empty">Select Option *</option>
           <option value="yes">Yes</option>
           <option value="no">No</option>
         </select>
         <label for="lictypeSubmission"></label>
-    <input type="text" id="lictypeSubmission" name="lictypeSubmission" placeholder="*Type of License/Certification">
+    <input type="text" id="lictypeSubmission" name="lictypeSubmission" placeholder="Type of License/Certification">
       </div>
       <div class="columns">
       <div id="profession">
         <div class="bold">
-      <label for="professionSubmission"><strong>Choose Your Profession(s)</strong></label><br>
+      <label for="professionSubmission"><strong>Choose Your Profession(s) *</strong></label><br>
       </div>
       <input type="checkbox" class="items1" id="profession1" name="professionSubmission" value="locksmith">
       <label for="profession1">Locksmith</label><br>
@@ -141,11 +141,11 @@ export default () => html `
       </div>
       
       <label for="bioSubmission"></label>
-    <textarea id="bioSubmission" name="bioSubmission" rows="11" cols="170" style="max-width:100%" placeholder="Company Description & Goals"></textarea>
+    <textarea id="bioSubmission" name="bioSubmission" rows="11" cols="170" style="max-width:100%" placeholder="Company Description & Goals *"></textarea>
     <div id="review">
-        <label for="reviewSubmission"><strong>Allow customer reviews on Profile page?</strong></label>
+        <label for="reviewSubmission"><strong>Allow customer reviews on Profile page? *</strong></label>
         <select id="reviewSubmission" name="review">
-          <option value="">Select Option</option>
+          <option value="empty">Select Option *</option>
           <option value="yes">Yes</option>
           <option value="no">No</option>
         </select>
