@@ -14,18 +14,18 @@ export default () => html `
   <h6>Please fill out the form below with your updated information. Be sure to only fill out this form if you've already submitted an Installer Application or have an existing Profile Page.</h6>
   </div>
 <div class="formPage">
-<h6><strong>*Required</strong></h6>
+<h6><strong>* Indicates a required field</strong></h6>
 <form
   action="/"
   method="post"
   >
     <label for="companynameUpdate"></label>
-    <input type="text" id="companynameUpdate" name="companynameUpdate" placeholder="*Name/Company">
+    <input type="text" id="companynameUpdate" name="companynameUpdate" placeholder="Name/Company *">
     <label for="emailUpdate"></label>
-    <input type="text" id="emailUpdate" name="emailUpdate" placeholder="*E-Mail">
+    <input type="text" id="emailUpdate" name="emailUpdate" placeholder="E-Mail *">
     <label for="stateUpdate"></label>
     <select id="stateUpdate" name="stateUpdate">
-    <option value="">*States</option>
+    <option value="empty">States *</option>
       <option value="alabama">Alabama</option>
       <option value="alaska">Alaska</option>
       <option value="arizona">Arizona</option>
