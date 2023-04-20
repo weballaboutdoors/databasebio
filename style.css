@@ -54,6 +54,9 @@ div > button {
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
 }
+iframe{
+  overflow-y: hidden;
+}
 /* ::placeholder{
   content: " *";
   color: red;
