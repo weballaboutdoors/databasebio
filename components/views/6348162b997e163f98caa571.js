@@ -41,7 +41,7 @@ export default () => html `
 </div>
 <hr class="spacer">
 <!-- Cusomer Reviews -->
-<h4>Customer Reviews</h4>
+<!-- <h4>Customer Reviews</h4>
 <div class="grid-container">
 
     <div class="item3">
@@ -63,7 +63,7 @@ export default () => html `
 <div class="reviewBox">
 <h6>Sam | 01/20/23</h6>
 <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-</div>
+</div> -->
 </div>
 </div>
 </div>
