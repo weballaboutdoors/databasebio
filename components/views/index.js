@@ -59,4 +59,5 @@ export { default as Terms } from "./Terms";
 export { default as Privacy } from "./Privacy";
 export { default as Update } from "./Update";
 export { default as Feedback } from "./Feedback";
-export {default as P6475f92fac17a20d9c911e6d } from "./6475f92fac17a20d9c911e6d";
+export { default as P6475f92fac17a20d9c911e6d } from "./6475f92fac17a20d9c911e6d";
+export { default as P64429857055bfd617330f85a } from "./64429857055bfd617330f85a";
