@@ -32,7 +32,7 @@ export default () => html `
 <!-- Email -->
 <p><a href="mailto:starwindowssolutions@gmail.com">starwindowssolutions@gmail.com</a></p>
 <!-- Address -->
-<p>1751 NW 38th St Unit 400<br> Kansas City, Missouri<br> 64116<br></p>
+<p><a href="https://www.google.com/maps/dir//1751+NW+38th+St,+Kansas+City,+MO/@39.1620484,-94.641075,13z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x87c0f726c81aba25:0x208c7ed7533566e!2m2!1d-94.5998756!2d39.1619891!3e2?entry=ttu">1751 NW 38th St Unit 400<br> Kansas City, Missouri<br> 64116<br></a></p>
 </div>
 <div class="item2 item2Border">
 <!-- Installer Bio -->
