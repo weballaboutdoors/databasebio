@@ -36,7 +36,7 @@ export default () => html `
 </div>
 <div class="item2 item2Border">
 <!-- Installer Bio -->
-<p>Serving Kansas and Missouri since 2014 we provide affordable Solutions for your Windows and Doors. Replace or repair, one window or entire house of windows and doors, we have a Solution for you!</p>
+<p>Serving Kansas and Missouri since 2014 we provide affordable Solutions for your Windows and Doors. Replace or repair, one window or entire house of windows and doors, we have a Solution for you!<br><br> <b>Years of Experience:</b> 9 Years<br><br> <b>Does your company have Insurance?</b> Yes &#x2713;<br><br><b>Type of Insurance?</b> Contact Installer for details <br><br><b>Does your company have a license?</b> Yes &#x2713;<br><br><b>Type of Certification?</b> Contact Installer for details</p>
 </div>
 </div>
 <hr class="spacer">
