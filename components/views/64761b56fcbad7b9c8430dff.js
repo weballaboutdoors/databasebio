@@ -32,7 +32,7 @@ export default () => html `
 <!-- Email -->
 <p><a href="mailto:Olathe@theglassguru.com">Olathe@theglassguru.com</a></p>
 <!-- Address -->
-<p>713 N Lindenwood Dr Unit E<br> Olathe, Kansas<br> 66062<br></p>
+<p><a href="https://www.google.com/maps/dir//713+N+Lindenwood+Dr+e,+Olathe,+KS+66062/@39.0147732,-94.8224882,11z/data=!4m9!4m8!1m0!1m5!1m1!1s0x87c0958a3a631db5:0x27360fe6dd3ab70a!2m2!1d-94.7854859!2d38.8917726!3e2?entry=ttu">713 N Lindenwood Dr Unit E<br> Olathe, Kansas<br> 66062<br></a></p>
 </div>
 <div class="item2 item2Border">
 <!-- Installer Bio -->
