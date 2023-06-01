@@ -3,6 +3,6 @@ export default [
     { title: "States", text: "Start Search"},
     { title: "Installer", text: "Installer Application"},
     { title: "Update", text: "Bio Page Update"},
-    { title: "Customer", text: "Customer Feedback"}
+    { title: "Customer", text: "Review Your Installer"}
     // { title: "Feedback", text: "Installer Feedback"}
   ];
