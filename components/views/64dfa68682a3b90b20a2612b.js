@@ -32,12 +32,22 @@ export default () => html `
 <!-- Email -->
 <p><a href="mailto:pyroplus@aol.com">pyroplus@aol.com</a></p>
 <!-- Address -->
-<p>2505 Anthem Village Dr Ste E577<br> Henderson, Nevada<br> 89052<br></p>
+<p><a href="https://www.google.com/maps/dir//2505+Anthem+Village+Dr+%23+E577,+Henderson,+NV+89052/@35.9784823,-115.0991352,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x80c8cdf48fa2f4dd:0x8d7b79799be5261!2m2!1d-115.0991352!2d35.9784823!3e0?entry=ttu">2505 Anthem Village Dr Ste E577<br> Henderson, Nevada<br> 89052<br></a></p>
 </div>
 <div class="item2 item2Border">
 <!-- Installer Bio -->
 <p>We are a small company that services both residential and commercial. We have been installing or repairing doors for well over 30 years.  We sell and install both doors and windows as well as servicing them if your having problems. Our goal is to make the customer happy the first time so we don't have to come back until you need us for something else! We also do all trim work or kick ins, as well as any type of hardware install or replacement including digital hardware! <br> 
    Also we warranty our labor as well as follow any manufactures warranties. If your patio door is giving you a hard time to open or close, we replace rollers and tracks to keep you from buying a whole new system like many company's do. We fix and sell closet doors, screen doors and most anything to do with any kind of door! We are on the threshold of perfection, so give us a call to handle your situation! Have a great day!  </p>
+<br>
+<b>Years of Experience:</b> 33 Years
+<br><br> 
+<b>Does your company have Insurance?</b> Yes &#x2713;
+<br><br>
+<b>Type of Insurance?</b> Liability Insurance 
+<br><br>
+<b>Does your company have a license?</b> Yes &#x2713;
+<br><br>
+<b>Type of Certification?</b> NLSB 0079064</p>
 </div>
 </div>
 <hr class="spacer">

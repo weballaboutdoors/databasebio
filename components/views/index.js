@@ -1,3 +1,5 @@
+import { fromPairs } from "lodash";
+
 export { default as Installer } from "./Installer";
 export { default as Customer } from "./Customer";
 export { default as Home } from "./Home";
@@ -62,3 +64,4 @@ export { default as Feedback } from "./Feedback";
 export { default as P6475f92fac17a20d9c911e6d } from "./6475f92fac17a20d9c911e6d";
 export { default as P64761b56fcbad7b9c8430dff } from "./64761b56fcbad7b9c8430dff";
 export { default as P64dfa68682a3b90b20a2612b } from "./64dfa68682a3b90b20a2612b";
+export { default as P6526f35fdcd1cae554aa28c5} from "./6526f35fdcd1cae554aa28c5";
