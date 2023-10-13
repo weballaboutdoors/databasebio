@@ -40,6 +40,7 @@ footer > p {
 footer > p > a {
   color: white;
 }
+
 div > h2 > p > a {
   color: #000000;
 }
@@ -71,6 +72,9 @@ body{
   content: " *";
   color: red;
 } */
+#footerLinks > a:hover{
+  color: white;
+}
 #root{
   margin: 0;
   display: flex;
@@ -409,6 +413,7 @@ input {
     nav > ul {
       flex-direction: column;
       background-color: black;
+      
       }
     nav >ul > li {
       margin: 0.8em 0;
