@@ -7,7 +7,7 @@ export default (state) => html `
     <meta name="author" content="Delfino Farfan">
     <title>Privacy</title>
 </head>
-<div class="container text-left">
+<div class="container text-left formPage">
 <button style="margin-bottom:20px" onclick="history.back()"></button>
 <h3>PRIVACY NOTICE</h3>
 <p>By visiting our website and possibly sharing information with us, you are agreeing to our privacy policy as explained here.</p>

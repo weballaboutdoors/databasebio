@@ -8,7 +8,7 @@ export default (state) => html `
 <title>${state.view}</title>
 </head>
 
-<div class="container">
+<div class="container formPage">
 <button onclick="history.back()"></button>
 <h1 class="container text-center">Arizona</h1>
 <div class="row">
@@ -17,7 +17,7 @@ export default (state) => html `
 <input class="col" id="searchbarZip" onkeyup="search_zip()" type="search"
         name="search" placeholder="Search by Zip Code..">
         </div>
-        </div>
+       
 <div class="container text-center">
 <table class="tables" id="myTable">
 </div>
@@ -40,5 +40,6 @@ export default (state) => html `
       })
       .join("")}
   </table>
+  </div>
   </div>
 `;

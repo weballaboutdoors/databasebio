@@ -7,7 +7,7 @@ export default () => html `
     <meta name="author" content="Delfino Farfan">
     <title>Installer Review</title>
 </head>
-<div class="container">
+<div class="container formPage">
 <button onclick="history.back()"></button>
 <h1 class="container text-center">Installer Review</h1>
   <div class="container text-center">
