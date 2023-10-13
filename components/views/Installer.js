@@ -7,14 +7,14 @@ export default () => html `
     <meta name="author" content="Delfino Farfan">
     <title>Installer Application</title>
 </head>
-<div class="container">
+<div class="container formPage">
 <button onclick="history.back()"></button>
 <h1 class="container text-center">Installer Application</h1>
 
  <div class="container text-center">
-  <h6>Please apply to be a listed installer using the form below. Installer Profile page's may take up to 72 hours to be created. If needed, you are able to <a href="/Update">update</a> your existing Profile Page.</h6>
+  <h6>Installer Profile page's may take up to 72 hours to be created. If needed, you are able to <a href="/Update">update</a> your existing Profile Page.</h6>
   </div>
-<div class="formPage">
+<div>
 <h6><strong>* Indicates a required field</strong></h6>
 <form
   action="/"

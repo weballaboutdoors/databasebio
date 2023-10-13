@@ -7,6 +7,7 @@ export default () => html `
     <meta name="author" content="Delfino Farfan">
     <title>State Search</title>
 </head>
+<div class="container formPage">
 <div class="container">
 <button onclick="history.back()"></button>
 <h1 class="container text-center">Search Your State</h1>
@@ -77,6 +78,7 @@ export default () => html `
         </div>
         </div>
         </div>
+    </div>
     </div>
     </div>
 `;

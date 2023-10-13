@@ -7,7 +7,7 @@ export default () => html `
     <meta name="author" content="Delfino Farfan">
     <title>Your Handy Man</title>
 </head>
-<div class="container">
+<div class="container formPage">
 <button onclick="history.back()"></button>
 <div class="container text-center">
 <!-- Company name -->

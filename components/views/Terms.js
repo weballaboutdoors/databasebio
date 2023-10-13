@@ -7,7 +7,7 @@ export default () => html `
     <meta name="author" content="Delfino Farfan">
     <title>Terms and Conditions</title>
 </head>
-<div class="container text-left">
+<div class="container text-left formPage">
 <button style="margin-bottom:20px" onclick="history.back()"></button>
 <h3>TERMS AND CONDITIONS</h3>
 
