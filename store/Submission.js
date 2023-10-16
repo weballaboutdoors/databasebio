@@ -1,4 +1,4 @@
 export default {
-    header:"Form Submitted",
+    header:"",
     view: "Submission"
 };

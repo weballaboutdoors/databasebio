@@ -98,7 +98,7 @@ body{
   border-bottom: 10px solid black;
   border-bottom-width: medium;
 }
-.homeButton{
+/* .homeButton{
   height: 65px;
   display: block;
   width: 50%;
@@ -189,19 +189,50 @@ body{
     transform
     600ms
     cubic-bezier(.3, .7, .4, 1);
+} */
+.myButton {
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	border-radius:40px;
+	border:3px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:22px;
+	font-weight:bold;
+	padding:16px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin: 0 auto;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+  color: #ffffff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
 .submission {
-  padding: 14px 40px;
-  transition-duration: 0.4s;
-  border: 4px solid #45a049;
-}
-.submission > a {
   text-decoration: none;
-  color: #000000;
+  padding: 14px 40px;
+  border: 4px solid #45a049;
+  border-radius: 30px;
 }
-.submission > a:hover {
-  color: #45a049;
+.submission:hover {
+  transition-duration: 0.4s;
+  background-color: #45a049;
+  color: white;
+  
 }
+
 #searchbarState{
   margin:10px;
   border-radius: 5px;
@@ -372,6 +403,9 @@ input {
   .priority-5{
     display: none !important;
   }
+  .myButton{
+    width: 50%;
+  }
 }
 @media (max-width: 774px){
   form > div > div > div.col{
@@ -496,6 +530,9 @@ input {
       }
       #emailUpdate {
         margin-bottom: -10px;
+      }
+      .myButton{
+        width: auto;
       }
     }
 @media (min-width: 806px) {
