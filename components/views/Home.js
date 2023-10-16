@@ -7,16 +7,23 @@ export default (state) => html `
 <meta name="author" content="Delfino Farfan">
 <title>${state.view}</title>
 </head>
-<div class="container text-center">
+<div class="container">
 
         <!-- <h1 class="robotoMain">Find Your Installer</h1> -->
         <!-- <h6>From All About Doors and Windows</h6>
         <p>InstallerBio is the window and door installation destination, after purchasing new parts search this page for installers local to you! Create your free <a href="/Installer">InstallerBio profile page</a>!</p> -->
-<p>
-<button class="homeButton robotoMain"><span class="shadow"></span><span class="edge"></span><a href="/States"><b><span class="homeLayer">Start Your Installer Search</span></b></a></button>
-<button class="homeButton robotoMain"><span class="shadow"></span><span class="edge"></span><a href="/Installer"><b><span class="homeLayer">Installer Application</span></b></a></button>
-<button class="homeButton robotoMain"><span class="shadow"></span><span class="edge"></span><a href="/Customer"><b><span class="homeLayer">Customer Feedback</b></a></button>
-<button class="homeButton robotoMain"><span class="shadow"></span><span class="edge"></span><a href="https://www.allaboutdoors.com/Products" target="_blank" rel="noopener noreferrer"><b><span class="homeLayer">Find Your Product</span></b></a></button>
-</p>
+  
+
+<a href="/States" class="myButton">Find Your Installer</a>
+&nbsp;
+&nbsp;
+<a href="/Installer" class="myButton">Apply to be an Installer</a>
+&nbsp;
+&nbsp;
+<a href="/Customer" class="myButton">Review Your Installer</a>
+&nbsp;
+&nbsp;
+<a href="https://www.allaboutdoors.com/Products" target="_blank" rel="noopener noreferrer" class="myButton">Find Your Product</a>
+
 </div>
 `;
