@@ -9,7 +9,7 @@ export default () => html `
 </head>
 <div class="container formPage">
 <button onclick="history.back()"></button>
-<h1 class="container text-center">Bio Page Update</h1>
+<h1 class="container text-center">Installer Bio Updates</h1>
  <div class="container text-center">
   <h6>Please fill out the form below with your updated information. Be sure to only fill out this form if you have an existing Profile Page.</h6>
   </div>
