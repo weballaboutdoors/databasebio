@@ -20,7 +20,7 @@ export default (state) => html `
 <a href="/Installer" class="myButton">Apply to be an Installer</a>
 &nbsp;
 &nbsp;
-<a href="/Customer" class="myButton">Review Your Installer</a>
+<a href="/Customer" class="myButton">Customer Feedback</a>
 &nbsp;
 &nbsp;
 <a href="https://www.allaboutdoors.com/Products" target="_blank" rel="noopener noreferrer" class="myButton">Find Your Product</a>
