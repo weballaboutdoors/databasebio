@@ -549,6 +549,7 @@ input {
       overflow: hidden;
       position: fixed;
       
+      
     }
     nav > .fa-bars {
       display: none;
@@ -556,15 +557,19 @@ input {
     nav > ul {
       display: flex;
       justify-content: space-evenly;
-      padding: 0 0;
+      align-items: center;
+      
+      /* padding: 0 0; */
     }
     nav > ul > li > a {
+
      color: white;
     }
     nav > ul > li > a:hover {
       color: #45a049;
     }
     nav > ul > li {
+      margin-top: .5em;
       display: inline-block;
       text-decoration: none;
       justify-content: space-evenly;
@@ -572,6 +577,8 @@ input {
    nav > h1 {
     float: left;
     margin-left: 10px;
+    margin-top: .3em;
+    align-items: center;
    }
    nav > h1 > a {
     text-decoration: none;
