@@ -3,7 +3,7 @@ export default [
     { title: "States", text: "Installer Database"},
     { title: "Installer", text: "Installer Application"},
     { title: "Customer", text: "Installer Review"},
-    { title: "Update", text: "Installer Bio Updates"}
+    { title: "Update", text: "InstallerBio Updates"}
     
     // { title: "Feedback", text: "Installer Feedback"}
   ];

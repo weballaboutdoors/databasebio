@@ -2,6 +2,7 @@
   /* overflow-x: hidden; */
   margin: 0;
   padding: 0;
+  font-family:Verdana;
 }
 
 html{
@@ -29,6 +30,7 @@ div{
   overflow-y: hidden;
 }
 nav > ul{
+  
   margin-top: 1%;
 }
 footer{
@@ -191,6 +193,13 @@ body{
     600ms
     cubic-bezier(.3, .7, .4, 1);
 } */
+
+.green{
+  color: #4bac52;
+}
+.green:hover{
+  color: #4bac52;
+}
 .myButton {
 	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
 	background-color:#44c767;
@@ -418,7 +427,7 @@ input {
     display: none !important;
   } 
 }
-@media (max-width: 805px) {
+@media (max-width: 990px) {
     .hidden--mobile {
       display: none !important;
     }
@@ -536,7 +545,7 @@ input {
         width: auto;
       }
     }
-@media (min-width: 806px) {
+@media (min-width: 991px) {
   body {
     padding-top: 10%;
     margin-top: auto;  

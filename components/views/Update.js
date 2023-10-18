@@ -9,9 +9,9 @@ export default () => html `
 </head>
 <div class="container formPage">
 <button onclick="history.back()"></button>
-<h1 class="container text-center">Installer Bio Updates</h1>
+<h1 class="container text-center">InstallerBio Updates</h1>
  <div class="container text-center">
-  <h6>Please fill out the form below with your updated information. Be sure to only fill out this form if you have an existing Profile Page.</h6>
+  <h6>Please fill out the form below with your updated information. Be sure to only fill out this form if you have an existing InstallerBio Page.</h6>
   </div>
 <div class="formPage">
 <h6><strong>* Indicates a required field</strong></h6>
@@ -123,7 +123,7 @@ export default () => html `
       </div>
       </div>
       <div class="container text-center">
-      <p><strong>By Submitting this form I Agree to the <a href="/Terms">Terms and Conditions</a></strong></p>
+      <p><strong>By Submitting this form I Agree to the <a href="/Terms" class="green">Terms and Conditions</a></strong></p>
       </div>
       <input type="submit" value="Submit">
       </div>

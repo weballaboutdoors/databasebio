@@ -18,7 +18,7 @@ Please read the following information carefully.
 California Residents: for more information about Proposition 65, please click here.</p>
 
 <h4>Privacy</h4>
-<p>Please review our <a href="/Privacy">Privacy Notice</a>. This page will help you understand our practices involved with your
+<p>Please review our <a href="/Privacy" class="green">Privacy Notice</a>. This page will help you understand our practices involved with your
 information.</p>
 
 <h4>Communications</h4>
@@ -37,9 +37,7 @@ or services in a false, misleading, derogatory, or otherwise offensive matter. Y
 logo or other proprietary graphic or trademark as part of the link without express written permission.</p>
 
 <h4>Your Account</h4>
-<p>If you use this site, you are responsible for maintaining the confidentiality of your account and password
-and for restricting access to your computer, and you agree to accept responsibility for all activities
-that occur under your account or password. If you are under 18, you may use InstallerBio only with involvement
+<p>If you are under 18, you may use InstallerBio only with involvement
 of a parent or guardian. InstallerBio reserves the right to refuse service, terminate accounts, remove or edit
 content at their sole discretion.</p>
 
