@@ -12,7 +12,7 @@ export default () => html `
 <h1 class="container text-center">Installer Application</h1>
 
  <div class="container text-center">
-  <h6>Installer Profile page's may take up to 72 hours to be created. If needed, you are able to <a href="/Update">update</a> your existing Profile Page.</h6>
+  <h6>Installer Profile page's may take up to 72 hours to be created. If needed, you are able to <a href="/Update" class="green">Update</a> your existing InstallerBio Page.</h6>
   </div>
 <div>
 <h6><strong>* Indicates a required field</strong></h6>
@@ -151,7 +151,7 @@ export default () => html `
         </select>
       </div>
       <div class="container text-center">
-      <p><strong>By Submitting this form I Agree to the <a href="/Terms">Terms and Conditions</a></strong></p>
+      <p><strong>By Submitting this form I Agree to the <a href="/Terms" class="green">Terms and Conditions</a></strong></p>
       </div>
       <input type="submit" value="Submit">
     </form>
