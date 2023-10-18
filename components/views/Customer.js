@@ -11,7 +11,7 @@ export default () => html `
 <button onclick="history.back()"></button>
 <h1 class="container text-center">Installer Review</h1>
   <div class="container text-center">
-  <h6>Please give a review on the Installer you used to resolve your home repair. This review may be shared through the InstallerBio Page to help future customers make more informed decisions about who they select to resolve their issue. Any review that goes against our <a href="/Terms" class="green">Terms and Conditions</a> will not be shared. </h6>
+  <h6>Please give a review on the Installer you used to resolve your home repair. This review may be shared through the InstallerBio Page to help future customers make more informed decisions about who they select to resolve their issue. Any review that goes against our <a href="/Terms" class="green"><strong>Terms and Conditions</strong></a> will not be shared. </h6>
   </div>
 <div class="formPage">
 <h6><strong>All fields required</strong></h6>
