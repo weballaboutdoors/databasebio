@@ -18,7 +18,7 @@ Please read the following information carefully.
 California Residents: for more information about Proposition 65, please click here.</p>
 
 <h4>Privacy</h4>
-<p>Please review our <a href="/Privacy" class="green">Privacy Notice</a>. This page will help you understand our practices involved with your
+<p>Please review our <a href="/Privacy" class="green"><strong>Privacy Notice</strong></a>. This page will help you understand our practices involved with your
 information.</p>
 
 <h4>Communications</h4>

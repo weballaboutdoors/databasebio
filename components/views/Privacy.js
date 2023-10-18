@@ -17,7 +17,7 @@ export default (state) => html `
 
 This information may include but is not limited to:<strong> Name, Email Address, Postal Address, Phone Number, Credit Card (This information is not stored on our servers), Gender, and Birthday.</strong>
 
-We do not intend to collect personally-identifying information from anybody under the age of 13. We do not sell products or offer services for children. If you know your child has created an account with us without your consent, please email us at <a href="mailto:orders@allaboutdoors.com" class="green">orders@allaboutdoors.com</a> the name associated with the account so we can delete it and all its information.</p>
+We do not intend to collect personally-identifying information from anybody under the age of 13. We do not sell products or offer services for children. If you know your child has created an account with us without your consent, please email us at <a href="mailto:orders@allaboutdoors.com" class="green"><strong>orders@allaboutdoors.com</strong></a> the name associated with the account so we can delete it and all its information.</p>
 
 <h4>Why Do We Collect Your Information?</h4>
 <p>To communicate information we feel you need to know regarding significant changes to our policies, major changes in our business plans, recalls, etc.
