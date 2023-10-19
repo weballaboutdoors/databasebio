@@ -12,7 +12,7 @@ export default () => html `
 <h1 class="container text-center">Installer Application</h1>
 
  <div class="container text-center">
-  <h6>Installer Profile page's may take up to 72 hours to be created. If needed, you are able to <a href="/Update" class="green"><strong>Update</strong></a> your existing InstallerBio Page.</h6>
+  <h6>InstallerBio Page's may take 2-3 business days to be created. If needed, you are able to <a href="/Update" class="green"><strong>Update</strong></a> your existing InstallerBio Page.</h6>
   </div>
 <div>
 <h6><strong>* Indicates a required field</strong></h6>
