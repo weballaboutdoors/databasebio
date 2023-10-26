@@ -6,6 +6,7 @@ export default (state) => html `
 <meta name="keywords" content="door installation, window installation, window parts, door parts">
 <meta name="author" content="Delfino Farfan">
 <title>${state.view}</title>
+
 </head>
 <div class="container">
 
