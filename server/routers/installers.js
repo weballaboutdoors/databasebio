@@ -57,7 +57,7 @@ router.put("/:id", (request, response) => {
         instypeSubmission: body.instypeSubmission,
         licenseSubmission: body.licenseSubmission,
         lictypeSubmission: body.lictypeSubmission,
-        professionSubmission: body.professionSubmission
+        professionSubmission: professionSubmission
       }
     },
     {

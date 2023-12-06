@@ -20,7 +20,7 @@ export default () => html `
   method="post"
   >
     <label for="companynameUpdate"></label>
-    <input type="text" id="companynameUpdate" name="companynameUpdate" placeholder="Name/Company *">
+    <input type="text" id="companynameUpdate" name="companynameUpdate" placeholder="Name/Company *"/>
     <label for="emailUpdate"></label>
     <input type="text" id="emailUpdate" name="emailUpdate" placeholder="E-Mail *">
     <label for="stateUpdate"></label>
@@ -87,45 +87,45 @@ export default () => html `
       <div class="bold">
       <label for="professionUpdate"><strong>Add Your Profession(s)</strong></label><br>
       </div>
-      <input type="checkbox" class="items1" id="profession1" name="professionUpdate" value="addlocksmith">
+      <input type="checkbox" class="items1" id="profession1" name="professionUpdate" value="addlocksmith"/>
       <label for="profession1">Add Locksmith</label><br>
-      <input type="checkbox" class="items1" id="profession2" name="professionUpdate" value="adddoorinstaller">
+      <input type="checkbox" class="items1" id="profession2" name="professionUpdate" value="adddoorinstaller"/>
       <label for="profession2">Add Door Installer</label><br>
-      <input type="checkbox" class="items1" id="profession3" name="professionUpdate" value="addwindowinstaller">
+      <input type="checkbox" class="items1" id="profession3" name="professionUpdate" value="addwindowinstaller"/>
       <label for="profession3">Add Window Installer</label><br>
-      <input type="checkbox" class="items1" id="profession4" name="professionUpdate" value="addhandyman">
+      <input type="checkbox" class="items1" id="profession4" name="professionUpdate" value="addhandyman"/>
       <label for="profession4">Add Handyman</label><br>
-      <input type="checkbox" class="items1" id="profession5" name="professionUpdate" value="addglasscontractor">
+      <input type="checkbox" class="items1" id="profession5" name="professionUpdate" value="addglasscontractor"/>
       <label for="profession5">Add Glass Contractor</label><br>
-      <input type="checkbox" class="items1" id="profession6" name="professionUpdate" value="addwindowrepair">
+      <input type="checkbox" class="items1" id="profession6" name="professionUpdate" value="addwindowrepair"/>
       <label for="profession6">Add Window Repair and Service</label><br>
-      <input type="checkbox" class="items1" id="profession7" name="professionUpdate" value="adddoorrepair">
+      <input type="checkbox" class="items1" id="profession7" name="professionUpdate" value="adddoorrepair"/>
       <label for="profession7">Add Door Repair and Service</label><br>
       <label for="addUpdate"></label>
-    <input type="text" id="addUpdate" name="addUpdate" placeholder="Add Other Skill">
+    <input type="text" id="addUpdate" name="addUpdate" placeholder="Add Other Skill"/>
       <p id="remove"><strong>Remove Your Profession(s)</strong></p>
-      <input type="checkbox" class="items1" id="profession8" name="professionUpdate" value="removelocksmith">
+      <input type="checkbox" class="items1" id="profession8" name="professionUpdate" value="removelocksmith"/>
       <label for="profession8">Remove Locksmith</label><br>
-      <input type="checkbox" class="items1" id="profession9" name="professionUpdate" value="removedoorinstaller">
+      <input type="checkbox" class="items1" id="profession9" name="professionUpdate" value="removedoorinstaller"/>
       <label for="profession9">Remove Door Installer</label><br>
-      <input type="checkbox" class="items1" id="profession10" name="professionUpdate" value="removewindowinstaller">
+      <input type="checkbox" class="items1" id="profession10" name="professionUpdate" value="removewindowinstaller"/>
       <label for="profession10">Remove Window Installer</label><br>
-      <input type="checkbox" class="items1" id="profession11" name="professionUpdate" value="removehandyman">
+      <input type="checkbox" class="items1" id="profession11" name="professionUpdate" value="removehandyman"/>
       <label for="profession11">Remove Handyman</label><br>
-      <input type="checkbox" class="items1" id="profession12" name="professionUpdate" value="removeglasscontractor">
+      <input type="checkbox" class="items1" id="profession12" name="professionUpdate" value="removeglasscontractor"/>
       <label for="profession12">Remove Glass Contractor</label><br>
-      <input type="checkbox" class="items1" id="profession13" name="professionUpdate" value="removewindowrepair">
+      <input type="checkbox" class="items1" id="profession13" name="professionUpdate" value="removewindowrepair"/>
       <label for="profession13">Remove Window Repair and Service</label><br>
-      <input type="checkbox" class="items1" id="profession14" name="professionUpdate" value="removedoorrepair">
+      <input type="checkbox" class="items1" id="profession14" name="professionUpdate" value="removedoorrepair"/>
       <label for="profession14">Remove Door Repair and Service</label><br>
       <label for="removeUpdate"></label>
-    <input type="text" id="removeUpdate" name="removeUpdate" placeholder="Remove Other Skill">
+    <input type="text" id="removeUpdate" name="removeUpdate" placeholder="Remove Other Skill"/>
       </div>
       </div>
       <div class="container text-center">
       <p><strong>By Submitting this form I Agree to the <a href="/Terms" class="green">Terms and Conditions</a></strong></p>
       </div>
-      <input type="submit" value="Submit">
+      <input type="submit" value="Submit"/>
       </div>
       </div>
     </form>
