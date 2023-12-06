@@ -67,22 +67,22 @@ function afterRender(state) {
 
         const installerData = {
           companynameSubmission: installerList.companynameSubmission.value,
+          phoneSubmission: installerList.phoneSubmission.value,
+          emailSubmission: installerList.emailSubmission.value,
+          webSubmission: installerList.webSubmission.value,
           addressSubmission: installerList.addressSubmission.value,
           citySubmission: installerList.citySubmission.value,
           stateSubmission: installerList.stateSubmission.value,
           zipcodeSubmission: installerList.zipcodeSubmission.value,
-          phoneSubmission: installerList.phoneSubmission.value,
-          emailSubmission: installerList.emailSubmission.value,
-          webSubmission: installerList.webSubmission.value,
-          bioSubmission: installerList.bioSubmission.value,
-          reviewSubmission: installerList.reviewSubmission.value,
-          otherSubmission: installerList.otherSubmission.value,
           yearSubmission: installerList.yearSubmission.value,
           insuranceSubmission: installerList.insuranceSubmission.value,
           instypeSubmission: installerList.instypeSubmission.value,
           licenseSubmission: installerList.licenseSubmission.value,
           lictypeSubmission: installerList.lictypeSubmission.value,
-          professionSubmission: professionSubmission
+          professionSubmission: professionSubmission,
+          otherSubmission: installerList.otherSubmission.value,
+          bioSubmission: installerList.bioSubmission.value,
+          reviewSubmission: installerList.reviewSubmission.value
         };
 
         axios
@@ -95,6 +95,8 @@ function afterRender(state) {
           .catch(error => {
             alert("Please fill out requirements");
             console.log(error.response.data);
+            console.log(error.response.status);
+            console.log(error.response.headers);
           }); 
       });
     }

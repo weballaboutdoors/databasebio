@@ -21,15 +21,15 @@ export default () => html `
 >
 <div>
 <label for="customer"></label>
-<input type="text" id="name" name="customer" placeholder="Customer Name">
+<input type="text" id="name" name="customer" placeholder="Customer Name"/>
 </div>
 <div>
 <label for="company"></label>
-<input type="text" id="company" name="company" placeholder="Company Name">
+<input type="text" id="company" name="company" placeholder="Company Name"/>
 </div>
 <div>
 <label for="email"></label>
-<input type="text" id="email" name="email" placeholder="E-Mail">
+<input type="text" id="email" name="email" placeholder="E-Mail"/>
 </div>
 <div>
 <label for="feedback"></label>
@@ -37,7 +37,7 @@ export default () => html `
 </div>
 <div class="container text-center">
 <p><strong>By Submitting this form I Agree to the <a href="/Terms" class="green">Terms and Conditions</a></strong></p>
-    <input type="submit" value="Submit">
+    <input type="submit" value="Submit"/>
     </div>
 </form>
 </div>

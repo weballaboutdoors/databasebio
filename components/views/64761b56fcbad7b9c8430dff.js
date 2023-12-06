@@ -26,7 +26,7 @@ export default () => html `
 <div class="item1 item1Border">
 <h4>Contact Info</h4>
 <!-- Company Website -->
-<p><a href="https://www.theglassguru.com/olathe-ks/">https://www.theglassguru.com/olathe-ks/</a></p>
+<p><a href="https://www.theglassguru.com/olathe-ks/">www.theglassguru.com/</a></p>
 <!-- Phone Number -->
 <p><a href="tel:+9137128292">(913)712-8292</a></p>
 <!-- Email -->

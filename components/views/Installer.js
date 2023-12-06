@@ -23,19 +23,19 @@ export default () => html `
   <div class="rows">
   <div class="columns">
     <label for="companynameSubmission"></label>
-    <input type="text" id="companynameSubmission" name="companynameSubmission" placeholder="Name/Company *">
+    <input type="text" id="companynameSubmission" name="companynameSubmission" placeholder="Name/Company *"/>
     <label for="phoneSubmission"></label>
-    <input type="text" id="phoneSubmission" name="phoneSubmission" placeholder="Phone *">
+    <input type="text" id="phoneSubmission" name="phoneSubmission" placeholder="Phone *"/>
     <label for="emailSubmission"></label>
-    <input type="text" id="emailSubmission" name="emailSubmission" placeholder="E-Mail *">
+    <input type="text" id="emailSubmission" name="emailSubmission" placeholder="E-Mail *"/>
     <label for="webSubmission"></label>
-    <input type="text" id="webSubmission" name="webSubmission" placeholder="Website">
+    <input type="text" id="webSubmission" name="webSubmission" placeholder="Website"/>
     </div>
     <div class="columns">
     <label for="addressSubmission"></label>
-    <input type="text" id="addressSubmission" name="addressSubmission" placeholder="Address *">
+    <input type="text" id="addressSubmission" name="addressSubmission" placeholder="Address *"/>
     <label for="citySubmission"></label>
-    <input type="text" id="citySubmission" name="citySubmission" placeholder="City *">
+    <input type="text" id="citySubmission" name="citySubmission" placeholder="City *"/>
     <label for="stateSubmission"></label>
     <select id="stateSubmission" name="state">
     <option value="empty">States *</option>
@@ -91,13 +91,13 @@ export default () => html `
       <option value="wisconsin">Wisconsin</option>
     </select>
     <label for="zipcodeSubmission"></label>
-    <input type="text" id="zipcodeSubmission" name="zipcodeSubmission" placeholder="Zip Code *">
+    <input type="text" id="zipcodeSubmission" name="zipcodeSubmission" placeholder="Zip Code *"/>
     </div>
     </div>
     <div class="rows">
     <div class="columns">
     <label for="yearSubmission"></label>
-    <input type="text" id="yearSubmission" name="yearSubmission" placeholder="Years of Experience *">
+    <input type="text" id="yearSubmission" name="yearSubmission" placeholder="Years of Experience *"/>
     <label for="insuranceSubmission"><strong>Does your business have Insurance? *</strong></label>
         <select id="insuranceSubmission" name="review">
           <option value="empty">Select Option *</option>
@@ -105,7 +105,7 @@ export default () => html `
           <option value="no">No</option>
         </select>
         <label for="instypeSubmission"></label>
-    <input type="text" id="instypeSubmission" name="instypeSubmission" placeholder="Type of Insurance">
+    <input type="text" id="instypeSubmission" name="instypeSubmission" placeholder="Type of Insurance"/>
         <label for="licenseSubmission"><strong>Does your business have a License/Certification? *</strong></label>
         <select id="licenseSubmission" name="review">
           <option value="empty">Select Option *</option>
@@ -113,29 +113,29 @@ export default () => html `
           <option value="no">No</option>
         </select>
         <label for="lictypeSubmission"></label>
-    <input type="text" id="lictypeSubmission" name="lictypeSubmission" placeholder="Type of License/Certification">
+    <input type="text" id="lictypeSubmission" name="lictypeSubmission" placeholder="Type of License/Certification"/>
       </div>
       <div class="columns">
       <div id="profession">
         <div class="bold">
       <label for="professionSubmission"><strong>Choose Your Profession(s) *</strong></label><br>
       </div>
-      <input type="checkbox" class="items1" id="profession1" name="professionSubmission" value="locksmith">
+      <input type="checkbox" class="items1" id="profession1" name="professionSubmission" value="locksmith"/>
       <label for="profession1">Locksmith</label><br>
-      <input type="checkbox" class="items1" id="profession2" name="professionSubmission" value="doorinstaller">
+      <input type="checkbox" class="items1" id="profession2" name="professionSubmission" value="doorinstaller"/>
       <label for="profession2">Door Installer</label><br>
-      <input type="checkbox" class="items1" id="profession3" name="professionSubmission" value="windowinstaller">
+      <input type="checkbox" class="items1" id="profession3" name="professionSubmission" value="windowinstaller"/>
       <label for="profession3">Window Installer</label><br>
-      <input type="checkbox" class="items1" id="profession4" name="professionSubmission" value="handyman">
+      <input type="checkbox" class="items1" id="profession4" name="professionSubmission" value="handyman"/>
       <label for="profession4">Handyman</label><br>
-      <input type="checkbox" class="items1" id="profession5" name="professionSubmission" value="glasscontractor">
+      <input type="checkbox" class="items1" id="profession5" name="professionSubmission" value="glasscontractor"/>
       <label for="profession5">Glass Contractor</label><br>
-      <input type="checkbox" class="items1" id="profession6" name="professionSubmission" value="windowrepair">
+      <input type="checkbox" class="items1" id="profession6" name="professionSubmission" value="windowrepair"/>
       <label for="profession6">Window Repair and Service</label><br>
-      <input type="checkbox" class="items1" id="profession7" name="professionSubmission" value="doorrepair">
+      <input type="checkbox" class="items1" id="profession7" name="professionSubmission" value="doorrepair"/>
       <label for="profession7">Door Repair and Service</label><br>
       <label for="otherSubmission"></label>
-    <input type="text" id="otherSubmission" name="otherSubmission" placeholder="Other Skill">
+    <input type="text" id="otherSubmission" name="otherSubmission" placeholder="Other Skill"/>
       </div>
       </div>
       </div>
@@ -153,7 +153,7 @@ export default () => html `
       <div class="container text-center">
       <p><strong>By Submitting this form I Agree to the <a href="/Terms" class="green">Terms and Conditions</a></strong></p>
       </div>
-      <input type="submit" value="Submit">
+      <input type="submit" value="Submit"/>
     </form>
 </div>
 </div>
