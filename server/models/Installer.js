@@ -3,17 +3,17 @@ const mongoose = require("mongoose");
 const installerSchema = new mongoose.Schema({
   companynameSubmission: {
     type: String,
-    required: true,
+    // required: true,
     validate: /^[A-Za-z0-9 ]*$/
   },
   addressSubmission: {
     type: String,
-    required: true,
+    // required: true,
     validate: /^[A-Za-z0-9 ]*$/
   },
   citySubmission: {
     type: String,
-    required: true,
+    required : true,
     validate: /^[A-Za-z0-9 ]*$/
   },
   stateSubmission: {

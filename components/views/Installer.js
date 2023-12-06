@@ -23,11 +23,11 @@ export default () => html `
   <div class="rows">
   <div class="columns">
     <label for="companynameSubmission"></label>
-    <input type="text" id="companynameSubmission" name="companynameSubmission" placeholder="Name/Company *"/>
+    <input type="text" id="companynameSubmission" name="companynameSubmission" placeholder="Name/Company *" />
     <label for="phoneSubmission"></label>
-    <input type="text" id="phoneSubmission" name="phoneSubmission" placeholder="Phone *"/>
+    <input type="text" id="phoneSubmission" name="phoneSubmission" placeholder="Phone *" />
     <label for="emailSubmission"></label>
-    <input type="text" id="emailSubmission" name="emailSubmission" placeholder="E-Mail *"/>
+    <input type="text" id="emailSubmission" name="emailSubmission" placeholder="E-Mail *" />
     <label for="webSubmission"></label>
     <input type="text" id="webSubmission" name="webSubmission" placeholder="Website"/>
     </div>
