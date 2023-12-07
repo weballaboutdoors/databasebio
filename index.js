@@ -66,11 +66,11 @@ function afterRender(state) {
         }
 
         const installerData = {
-          companynameSubmission: installerList.businessName.value,
+          businessName: installerList.businessName.value,
           phoneSubmission: installerList.phoneSubmission.value,
           emailSubmission: installerList.emailSubmission.value,
           webSubmission: installerList.webSubmission.value,
-          addressSubmission: installerList.businessAddress.value,
+          businessAddress: installerList.businessAddress.value,
           citySubmission: installerList.citySubmission.value,
           stateSubmission: installerList.stateSubmission.value,
           zipcodeSubmission: installerList.zipcodeSubmission.value,
