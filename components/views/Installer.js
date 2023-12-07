@@ -22,8 +22,8 @@ export default () => html `
   >
   <div class="rows">
   <div class="columns">
-    <label for="companynameSubmission"></label>
-    <input type="text" id="companynameSubmission" name="companynameSubmission" placeholder="Name/Company *" />
+    <label for="businessName"></label>
+    <input type="text" id="businessName" name="businessName" placeholder="Name/Company *" />
     <label for="phoneSubmission"></label>
     <input type="text" id="phoneSubmission" name="phoneSubmission" placeholder="Phone *" />
     <label for="emailSubmission"></label>
@@ -32,8 +32,8 @@ export default () => html `
     <input type="text" id="webSubmission" name="webSubmission" placeholder="Website"/>
     </div>
     <div class="columns">
-    <label for="addressSubmission"></label>
-    <input type="text" id="addressSubmission" name="addressSubmission" placeholder="Address *"/>
+    <label for="businessAddress"></label>
+    <input type="text" id="businessAddress" name="businessAddress" placeholder="Address *"/>
     <label for="citySubmission"></label>
     <input type="text" id="citySubmission" name="citySubmission" placeholder="City *"/>
     <label for="stateSubmission"></label>

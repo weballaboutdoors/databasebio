@@ -41,8 +41,8 @@ router.put("/:id", (request, response) => {
     request.params.id,
     {
       $set: {
-        companynameSubmission: body.companynameSubmission,
-        addressSubmission: body.addressSubmission,
+        businessName: body.businessName,
+        businessAddress: body.businessAddress,
         citySubmission: body.citySubmission,
         stateSubmission: body.stateSubmission,
         zipcodeSubmission: body.zipcodeSubmission,
