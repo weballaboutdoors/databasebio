@@ -17,7 +17,7 @@ export default () => html `
 
 <div class="container text-center">
 <!-- Service(s) offered -->
-<h4> Door Installer | Window Installer | Handy Man | Window Repair | Door Repair </h4>
+<h4> Door Installer | Window Installer | Handyman | Window Repair and Service | Door Repair and Service </h4>
 <hr class="spacer">
 </div>
 
@@ -36,24 +36,24 @@ export default () => html `
 </div>
 <div class="item2 item2Border">
 <!-- Installer Bio -->
-<p>Am presently retired so licenses and insurance aren’t necessary however should it become necessary, we can get compliant.
+<p>I'm presently retired so licenses and insurance aren’t necessary however should it become necessary, we can get compliant.
 Presently I’m researching how I might secure part-time work at the very least to adjust to a changing economy and move forward! I also work on Framing and Finishing Custom Railings. </p>
 <br>
 <b>Years of Experience:</b> 55 Years
 <br><br> 
 <b>Does your company have Insurance?</b> No &#x2717;
 <br><br>
-<!-- <b>Type of Insurance?</b> Commercial Insurance  -->
+<b>Type of Insurance?</b> No Insurance information provided 
 <br><br>
 <b>Does your company have a license?</b> No &#x2717;
 <br><br>
-<!-- <b>Type of Certification?</b> Locksmith License</p> -->
+<b>Type of Certification?</b> No License information provided</p>
 </div>
 </div>
 <hr class="spacer">
 <!-- Cusomer Reviews -->
-<!-- <h4>Customer Reviews</h4>
-<div class="grid-container">
+<h4>Customer Reviews</h4>
+<!-- <div class="grid-container">
 
     <div class="item3">
 <div class="reviewBox">

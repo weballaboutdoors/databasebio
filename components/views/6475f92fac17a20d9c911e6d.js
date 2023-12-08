@@ -42,17 +42,17 @@ export default () => html `
 <br><br> 
 <b>Does your company have Insurance?</b> Yes &#x2713;
 <br><br>
-<b>Type of Insurance?</b> Contact Installer for details 
+<b>Type of Insurance?</b> No Insurance information provided 
 <br><br>
 <b>Does your company have a license?</b> Yes &#x2713;
 <br><br>
-<b>Type of Certification?</b> Contact Installer for details</p>
+<b>Type of Certification?</b> No License information provided</p>
 </div>
 </div>
 <hr class="spacer">
 <!-- Cusomer Reviews -->
-<!-- <h4>Customer Reviews</h4>
-<div class="grid-container">
+<h4>Customer Reviews</h4>
+<!-- <div class="grid-container">
 
     <div class="item3">
 <div class="reviewBox">

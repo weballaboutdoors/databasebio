@@ -17,7 +17,7 @@ export default () => html `
 
 <div class="container text-center">
 <!-- Service(s) offered -->
-<h4> Locksmith | Door Repair </h4>
+<h4> Locksmith | Door Repair and Service</h4>
 <hr class="spacer">
 </div>
 
@@ -32,27 +32,27 @@ export default () => html `
 <!-- Email -->
 <p><a href="mailto:economylock1@verizon.net">economylock1@verizon.net</a></p>
 <!-- Address -->
-<p><a href="https://google.com/maps/dir//1019+Oyster+Bay+Rd,+East+Norwich,+NY+11732/@40.8439603,-73.5357511,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x89c283a19d6c5be1:0xf4226f489c5363ef!2m2!1d-73.5331762!2d40.8439603!3e0?authuser=0&entry=ttu">5077 Fruitville Rd<br> Sarasota, FL<br> 34235<br></a></p>
+<p><a href="https://www.google.com/maps/dir//5077+Fruitville+Rd,+Sarasota,+FL+34232/@27.3383217,-82.4710086,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x88c347510d20ac53:0x2b2ce24aac232624!2m2!1d-82.4684283!2d27.3383217!3e0?entry=ttu">5077 Fruitville Rd<br> Sarasota, FL<br> 34235<br></a></p>
 </div>
 <div class="item2 item2Border">
 <!-- Installer Bio -->
-<p>Serving customers needs with integrity. Open and repair safes rekey and master key  lock installation. </p>
+<p>Serving customers needs with integrity. Open and repair safes, rekey and master key lock installation. </p>
 <br>
 <b>Years of Experience:</b> 39 Years
 <br><br> 
-<!-- <b>Does your company have Insurance?</b> Yes &#x2713; -->
+<b>Does your company have Insurance?</b> No Insurance information provided
 <br><br>
-<!-- <b>Type of Insurance?</b> Commercial Insurance  -->
+<b>Type of Insurance?</b> No Insurance information provided
 <br><br>
 <b>Does your company have a license?</b> Yes &#x2713;
 <br><br>
-<!-- <b>Type of Certification?</b> Locksmith License</p> -->
+<b>Type of Certification?</b> No License information provided</p>
 </div>
 </div>
 <hr class="spacer">
 <!-- Cusomer Reviews -->
-<!-- <h4>Customer Reviews</h4>
-<div class="grid-container">
+<h4>Customer Reviews</h4>
+<!-- <div class="grid-container">
 
     <div class="item3">
 <div class="reviewBox">
@@ -73,8 +73,8 @@ export default () => html `
 <div class="reviewBox">
 <h6>Sam | 01/20/23</h6>
 <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-</div> -->
 </div>
+</div> -->
 </div>
 </div>
 </div>

@@ -38,13 +38,18 @@ export default () => html `
 <!-- Installer Bio -->
 <p>The Glass Guru is your local one-stop shop for Glass Repair, Mirrors, Shower Enclosures, Windows, Doors, Screens, Hardware, and more!
 
-Our teams of glass professionals will offer you the broadest range of solutions to address your individual needs, including niche specialty services such as Foggy Window Repair, In-Glass Pet Doors & Custom Mirror Frames, that you simply won't find anywhere else or with any other glass company. <br><br> <b>Years of Experience:</b> 5 Years<br><br> <b>Does your company have Insurance?</b> Yes &#x2713;<br><br><b>Type of Insurance?</b> Business Umbrella <br><br><b>Does your company have a license?</b> Yes &#x2713;<br><br><b>Type of Certification?</b> Retail Registration Certification</p>
+Our teams of glass professionals will offer you the broadest range of solutions to address your individual needs, including niche specialty services such as Foggy Window Repair, In-Glass Pet Doors & Custom Mirror Frames, that you simply won't find anywhere else or with any other glass company. <br><br>
+ <b>Years of Experience:</b> 5 Years<br><br>
+  <b>Does your company have Insurance?</b> Yes &#x2713;<br><br>
+  <b>Type of Insurance?</b> Business Umbrella <br><br>
+  <b>Does your company have a license?</b> Yes &#x2713;<br><br>
+  <b>Type of Certification?</b> Retail Registration Certification</p>
 </div>
 </div>
 <hr class="spacer">
-<!-- Cusomer Reviews -->
-<!-- <h4>Customer Reviews</h4>
-<div class="grid-container">
+<!-- Customer Reviews -->
+<h4>Customer Reviews</h4>
+<!-- <div class="grid-container">
 
     <div class="item3">
 <div class="reviewBox">

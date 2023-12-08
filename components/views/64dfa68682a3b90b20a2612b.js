@@ -17,7 +17,7 @@ export default () => html `
 
 <div class="container text-center">
 <!-- Service(s) offered -->
-<h4>Window Part Installer | Door Part Installer | Locksmith | Handyman | Window Repair and Service</h4>
+<h4>Window Part Installer | Door Part Installer | Locksmith | Handyman | Window Repair and Service | Door Repair and Service</h4>
 <hr class="spacer">
 </div>
 
@@ -52,8 +52,8 @@ export default () => html `
 </div>
 <hr class="spacer">
 <!-- Cusomer Reviews -->
-<!-- <h4>Customer Reviews</h4>
-<div class="grid-container">
+<h4>Customer Reviews</h4>
+<!-- <div class="grid-container">
 
     <div class="item3">
 <div class="reviewBox">

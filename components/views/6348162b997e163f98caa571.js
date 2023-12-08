@@ -7,6 +7,8 @@ export default () => html `
     <meta name="author" content="Delfino Farfan">
     <title>Billy Can Do It</title>
 </head>
+
+<!-- DEMO PROFILE PAGE -->
 <div class="container formPage">
 <button onclick="history.back()"></button>
 <div class="container text-center">
