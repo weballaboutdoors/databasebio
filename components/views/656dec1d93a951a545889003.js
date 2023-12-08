@@ -32,7 +32,7 @@ export default () => html `
 <!-- Email -->
 <p><a href="mailto:leonardlockandkey@gmail.com">leonardlockandkey@gmail.com</a></p>
 <!-- Address -->
-<p><a href="https://google.com/maps/dir//1019+Oyster+Bay+Rd,+East+Norwich,+NY+11732/@40.8439603,-73.5357511,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x89c283a19d6c5be1:0xf4226f489c5363ef!2m2!1d-73.5331762!2d40.8439603!3e0?authuser=0&entry=ttu">10 Telura<br> Rancho Santa Margarita, CA<br> 92688<br></a></p>
+<p><a href="https://www.google.com/maps/dir//10+Telura,+Rancho+Santa+Margarita,+CA/@27.3383217,-82.4710086,17z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x80dceb8d7c502685:0xd56f244dc5f81024!2m2!1d-117.617584!2d33.6142511!3e0?entry=ttu">10 Telura<br> Rancho Santa Margarita, CA<br> 92688<br></a></p>
 </div>
 <div class="item2 item2Border">
 <!-- Installer Bio -->
@@ -42,17 +42,17 @@ export default () => html `
 <br><br> 
 <b>Does your company have Insurance?</b> No &#x2717;
 <br><br>
-<!-- <b>Type of Insurance?</b> Commercial Insurance  -->
+<b>Type of Insurance?</b> No Insurance information provided
 <br><br>
 <b>Does your company have a license?</b> Yes &#x2713;
 <br><br>
-<b>Type of Certification?</b> #LC0178 </p>
+<b>Type of Certification?</b> No License information provided </p>
 </div>
 </div>
 <hr class="spacer">
 <!-- Cusomer Reviews -->
-<!-- <h4>Customer Reviews</h4>
-<div class="grid-container">
+<h4>Customer Reviews</h4>
+<!-- <div class="grid-container">
 
     <div class="item3">
 <div class="reviewBox">

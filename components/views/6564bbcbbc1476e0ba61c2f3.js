@@ -2,7 +2,7 @@ import html from "html-literal";
 
 export default () => html `
 <head>
-<meta name="description" content="Integral Windstorm Productsn, installerbio, door repair, window repair, window installer, door installer, window part installer, door part installer, handyman, door help, window help, search states">
+<meta name="description" content="Integral Windstorm Products, installerbio, door repair, window repair, window installer, door installer, window part installer, door part installer, handyman, door help, window help, search states">
     <meta name="keywords" content="Integral Windstorm Products, state search installer bio, installerbio, door installation, window installation, window, door">
     <meta name="author" content="Delfino Farfan">
     <title>Your Handy Man</title>
@@ -17,7 +17,7 @@ export default () => html `
 
 <div class="container text-center">
 <!-- Service(s) offered -->
-<h4>Glass Contractor| Window Repair and Service | Door Repair and Service</h4>
+<h4>Window Repair and Service | Glass Contractor | Door Repair and Service</h4>
 <hr class="spacer">
 </div>
 
@@ -50,9 +50,9 @@ export default () => html `
 </div>
 </div>
 <hr class="spacer">
-<!-- Cusomer Reviews -->
-<!-- <h4>Customer Reviews</h4>
-<div class="grid-container">
+<!-- Customer Reviews -->
+<h4>Customer Reviews</h4>
+<!-- <div class="grid-container">
 
     <div class="item3">
 <div class="reviewBox">
