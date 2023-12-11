@@ -3,8 +3,7 @@ const mongoose = require("mongoose");
 const massachusettsSchema = new mongoose.Schema({
   companyName: {
     type: String,
-    required: true,
-    validate: /^[A-Za-z0-9 ]*$/
+    required: true
   },
   address: {
     type: String,

@@ -3,13 +3,11 @@ const mongoose = require("mongoose");
 const customerSchema = new mongoose.Schema({
   customer: {
     type: String,
-    required: true,
-    validate: /^[A-Za-z0-9 ]*$/
+    required: true
   },
   company: {
     type: String,
-    required: true,
-    validate: /^[A-Za-z0-9 ]*$/
+    required: true
   },
   email: {
     type: String,
