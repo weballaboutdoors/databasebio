@@ -45,9 +45,9 @@ Presently I’m researching how I might secure part-time work at the very least 
 <br><br>
 <b>Type of Insurance?</b> No Insurance information provided 
 <br><br>
-<b>Does your company have a license?</b> No &#x2717;
+<b>Does your company have a Certification?</b> No &#x2717;
 <br><br>
-<b>Type of Certification?</b> No License information provided</p>
+<b>Type of Certification?</b> No Certification information provided</p>
 </div>
 </div>
 <hr class="spacer">

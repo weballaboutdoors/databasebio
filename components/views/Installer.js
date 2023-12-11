@@ -106,14 +106,14 @@ export default () => html `
         </select>
         <label for="instypeSubmission"></label>
     <input type="text" id="instypeSubmission" name="instypeSubmission" placeholder="Type of Insurance"/>
-        <label for="licenseSubmission"><strong>Does your business have a License/Certification? *</strong></label>
+        <label for="licenseSubmission"><strong>Does your business have a Certification? *</strong></label>
         <select id="licenseSubmission" name="review">
           <option value="empty">Select Option *</option>
           <option value="yes">Yes</option>
           <option value="no">No</option>
         </select>
         <label for="lictypeSubmission"></label>
-    <input type="text" id="lictypeSubmission" name="lictypeSubmission" placeholder="Type of License/Certification"/>
+    <input type="text" id="lictypeSubmission" name="lictypeSubmission" placeholder="Type of Certification"/>
       </div>
       <div class="columns">
       <div id="profession">

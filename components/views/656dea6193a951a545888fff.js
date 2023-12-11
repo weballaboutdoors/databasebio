@@ -44,7 +44,7 @@ export default () => html `
 <br><br>
 <b>Type of Insurance?</b> Commercial Insurance 
 <br><br>
-<b>Does your company have a license?</b> Yes &#x2713;
+<b>Does your company have a Certification?</b> Yes &#x2713;
 <br><br>
 <b>Type of Certification?</b> Locksmith License</p>
 </div>

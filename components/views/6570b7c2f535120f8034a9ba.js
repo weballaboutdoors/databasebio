@@ -41,7 +41,7 @@ export default () => html `
 <b>Years of Experience:</b> 28 Years<br><br> 
 <b>Does your company have Insurance?</b> Yes &#x2713;<br><br>
 <b>Type of Insurance?</b> General Liability & Workers Comp <br><br>
-<b>Does your company have a license?</b> Yes &#x2713;<br><br
+<b>Does your company have a Certification?</b> Yes &#x2713;<br><br
 ><b>Type of Certification?</b> Miami Dade License / Department of Regulatory</p>
 </div>
 </div>

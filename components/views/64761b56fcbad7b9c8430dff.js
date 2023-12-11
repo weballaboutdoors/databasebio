@@ -42,7 +42,7 @@ Our teams of glass professionals will offer you the broadest range of solutions 
  <b>Years of Experience:</b> 5 Years<br><br>
   <b>Does your company have Insurance?</b> Yes &#x2713;<br><br>
   <b>Type of Insurance?</b> Business Umbrella <br><br>
-  <b>Does your company have a license?</b> Yes &#x2713;<br><br>
+  <b>Does your company have a Certification?</b> Yes &#x2713;<br><br>
   <b>Type of Certification?</b> Retail Registration Certification</p>
 </div>
 </div>
