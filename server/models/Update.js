@@ -3,8 +3,7 @@ const mongoose = require("mongoose");
 const updateSchema = new mongoose.Schema({
   companynameUpdate: {
     type: String,
-    required: true,
-    validate: /^[A-Za-z0-9 ]*$/
+    required: true
   },
   stateUpdate: {
     type: String,
