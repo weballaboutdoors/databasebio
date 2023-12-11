@@ -36,7 +36,7 @@ export default () => html `
 </div>
 <div class="item2 item2Border">
 <!-- Installer Bio -->
-<p> Here to Help with door and window problems 
+<p> Here to Help with door and window problems.
 <br><br> 
 <b>Years of Experience:</b> 40 Years<br><br> 
 <b>Does your company have Insurance?</b> Yes &#x2713;<br><br>
