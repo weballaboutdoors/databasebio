@@ -20,12 +20,12 @@ export default () => html `
   method="post"
   >
     <label for="companynameUpdate"></label>
-    <input type="text" id="companynameUpdate" name="companynameUpdate" placeholder="Name/Company *"/>
+    <input type="text" id="companynameUpdate" name="companynameUpdate" placeholder="Name/Company *" aria-required="true" required/>
     <label for="emailUpdate"></label>
-    <input type="text" id="emailUpdate" name="emailUpdate" placeholder="E-Mail *">
+    <input type="text" id="emailUpdate" name="emailUpdate" placeholder="E-Mail *" aria-required="true" required>
     <label for="stateUpdate"></label>
     <select id="stateUpdate" name="stateUpdate">
-    <option value="empty">States *</option>
+    <option value="empty">State *</option>
       <option value="alabama">Alabama</option>
       <option value="alaska">Alaska</option>
       <option value="arizona">Arizona</option>
