@@ -38,7 +38,7 @@ export default () => html `
     <input type="text" id="citySubmission" name="citySubmission" placeholder="City *"/>
     <label for="stateSubmission"></label>
     <select id="stateSubmission" name="state">
-    <option value="empty">States *</option>
+    <option value="empty">State *</option>
       <option value="alabama">Alabama</option>
       <option value="alaska">Alaska</option>
       <option value="arizona">Arizona</option>
