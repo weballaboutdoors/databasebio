@@ -47,7 +47,7 @@ function afterRender(state) {
             router.navigate("/Submission");
           })
           .catch(error => {
-            alert("Please fill out requirements");
+            // alert("Please fill out requirements");
             console.log("It didn't submit", error);
           });
       });
@@ -93,7 +93,7 @@ function afterRender(state) {
             router.navigate("/Submission");
           })
           .catch(error => {
-            alert("Please fill out requirements");
+            // alert("Please fill out requirements");
             console.log(error.response.data);
             console.log(error.response.status);
             console.log(error.response.headers);
@@ -131,7 +131,7 @@ function afterRender(state) {
             router.navigate("/Submission");
           })
           .catch(error => {
-            alert("Please fill out requirements");
+            // alert("Please fill out requirements");
             console.log("It didn't submit", error);
           });
       });
