@@ -4,4 +4,3 @@ dist
 node_modules
 *.sw*
 .parcel-cache
-.env
