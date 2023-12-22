@@ -22,22 +22,22 @@ export default () => html `
   >
   <div class="rows">
   <div class="columns">
-    <label for="businessName" class="form-label"></label>
-    <input type="text" id="businessName" name="businessName" class="form-control" placeholder="Name/Company *" required>
+    <label for="businessName"></label>
+    <input type="text" id="businessName" name="businessName"  placeholder="Name/Company *" aria-required="true" required/>
     <label for="phoneSubmission"></label>
-    <input type="text" id="phoneSubmission" name="phoneSubmission" placeholder="Phone *" required>
+    <input type="text" id="phoneSubmission" name="phoneSubmission" placeholder="Phone *" aria-required="true" required/>
     <label for="emailSubmission"></label>
-    <input type="text" id="emailSubmission" name="emailSubmission" placeholder="E-Mail *" required>
+    <input type="text" id="emailSubmission" name="emailSubmission" placeholder="E-Mail *" aria-required="true" required/>
     <label for="webSubmission"></label>
     <input type="text" id="webSubmission" name="webSubmission" placeholder="Website">
     </div>
     <div class="columns">
     <label for="businessAddress"></label>
-    <input type="text" id="businessAddress" name="businessAddress" placeholder="Address *" required>
+    <input type="text" id="businessAddress" name="businessAddress" placeholder="Address *" aria-required="true" required/>
     <label for="citySubmission"></label>
-    <input type="text" id="citySubmission" name="citySubmission" placeholder="City *" required>
+    <input type="text" id="citySubmission" name="citySubmission" placeholder="City *" aria-required="true" required/>
     <label for="stateSubmission"></label>
-    <select id="stateSubmission" name="state">
+    <select id="stateSubmission" name="state" aria-required="true" required>
     <option value="empty">State *</option>
       <option value="alabama">Alabama</option>
       <option value="alaska">Alaska</option>
@@ -91,15 +91,15 @@ export default () => html `
       <option value="wisconsin">Wisconsin</option>
     </select>
     <label for="zipcodeSubmission"></label>
-    <input type="text" id="zipcodeSubmission" name="zipcodeSubmission" placeholder="Zip Code *" required>
+    <input type="text" id="zipcodeSubmission" name="zipcodeSubmission" placeholder="Zip Code *" aria-required="true" required/>
     </div>
     </div>
     <div class="rows">
     <div class="columns">
     <label for="yearSubmission"></label>
-    <input type="text" id="yearSubmission" name="yearSubmission" placeholder="Years of Experience *" required>
+    <input type="text" id="yearSubmission" name="yearSubmission" placeholder="Years of Experience *" aria-required="true" required/>
     <label for="insuranceSubmission"><strong>Does your business have Insurance? *</strong></label>
-        <select id="insuranceSubmission" name="review">
+        <select id="insuranceSubmission" name="review" aria-required="true" required>
           <option value="empty">Select Option *</option>
           <option value="yes">Yes</option>
           <option value="no">No</option>
@@ -107,7 +107,7 @@ export default () => html `
         <label for="instypeSubmission"></label>
     <input type="text" id="instypeSubmission" name="instypeSubmission" placeholder="Type of Insurance">
         <label for="licenseSubmission"><strong>Does your business have a Certification? *</strong></label>
-        <select id="licenseSubmission" name="review">
+        <select id="licenseSubmission" name="review" aria-required="true" required>
           <option value="empty">Select Option *</option>
           <option value="yes">Yes</option>
           <option value="no">No</option>
@@ -141,10 +141,10 @@ export default () => html `
       </div>
       
       <label for="bioSubmission"></label>
-    <textarea id="bioSubmission" name="bioSubmission" rows="11" cols="170" style="max-width:100%" placeholder="Company Description & Goals *"></textarea>
+    <textarea id="bioSubmission" name="bioSubmission" rows="11" cols="170" style="max-width:100%" placeholder="Company Description & Goals *" aria-required="true" required></textarea>
     <div id="review">
         <label for="reviewSubmission"><strong>Allow customer reviews on Profile page? *</strong></label>
-        <select id="reviewSubmission" name="review">
+        <select id="reviewSubmission" name="review" aria-required="true" required>
           <option value="empty">Select Option *</option>
           <option value="yes">Yes</option>
           <option value="no">No</option>
@@ -152,8 +152,8 @@ export default () => html `
       </div>
       <div class="container text-center">
       <p><strong>By Submitting this form I Agree to the <a href="/Terms" class="green">Terms and Conditions</a></strong></p>
-      </div>
       <input type="submit" value="Submit">
+      </div>
     </form>
 </div>
 </div>
