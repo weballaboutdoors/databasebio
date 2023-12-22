@@ -2,11 +2,11 @@ const mongoose = require("mongoose");
 
 const installerSchema = new mongoose.Schema({
   businessName: {
-    type: String,
+    type: String
     // required: true
   },
   businessAddress: {
-    type: String,
+    type: String
     // required: true
   },
   citySubmission: {
@@ -25,25 +25,25 @@ const installerSchema = new mongoose.Schema({
     validate: /^[A-Za-z0-9 ]*$/
   },
   phoneSubmission: {
-    type: String,
+    type: String
     // required: true
   },  
   emailSubmission: {
-    type: String,
+    type: String
     // required: true
   },
   bioSubmission: {
-    type: String,
+    type: String
     // required: true
   },
   otherSubmission: {
-    type: String,
+    type: String
   },
   webSubmission: {
-    type: String,
+    type: String
   },
   yearSubmission: {
-    type: String,
+    type: String
     // required: true
   },
   instypeSubmission: {
