@@ -2,22 +2,22 @@ import html from "html-literal";
 
 export default () => html `
 <head>
-<meta name="description" content="Pyro Plus Construction, installerbio, door repair, window repair, window installer, door installer, window part installer, door part installer, handyman, door help, window help, search states">
-    <meta name="keywords" content="Pyro Plus Construction, state search installer bio, installerbio, door installation, window installation, window, door">
+<meta name="description" content="Doors Plus by Russ, installerbio, door repair, window repair, window installer, door installer, window part installer, door part installer, handyman, door help, window help, search states">
+    <meta name="keywords" content="Doors Plus by Russ, state search installer bio, installerbio, door installation, window installation, window, door">
     <meta name="author" content="Delfino Farfan">
-    <title>Pyro Plus Construction</title>
+    <title>Doors Plus by Russ</title>
 </head>
 <div class="container formPage">
 <button onclick="history.back()"></button>
 <div class="container text-center">
 <!-- Company name -->
-<h1>Pyro Plus Construction</h1>
+<h1>Doors Plus by Russ</h1>
 <hr class="spacer">
 </div>
 
 <div class="container text-center">
 <!-- Service(s) offered -->
-<h4>Window Part Installer | Door Part Installer | Locksmith | Handyman | Window Repair and Service | Door Repair and Service</h4>
+<h4>Window Part Installer | Door Part Installer | Locksmith | Handyman | Window Repair and Service | Door Repair and Service | Glass Contractor | Licensed Contractor</h4>
 <hr class="spacer">
 </div>
 
@@ -30,16 +30,15 @@ export default () => html `
 <!-- Phone Number -->
 <p><a href="tel:+17024266999">(702)426-6999</a></p>
 <!-- Email -->
-<p><a href="mailto:pyroplus@aol.com">pyroplus@aol.com</a></p>
+<p><a href="mailto:doorsplusbyruss@gmail.com">doorsplusbyruss@gmail.com</a></p>
 <!-- Address -->
 <p><a href="https://www.google.com/maps/dir//2505+Anthem+Village+Dr+%23+E577,+Henderson,+NV+89052/@35.9784823,-115.0991352,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x80c8cdf48fa2f4dd:0x8d7b79799be5261!2m2!1d-115.0991352!2d35.9784823!3e0?entry=ttu">2505 Anthem Village Dr Ste E577<br> Henderson, Nevada<br> 89052<br></a></p>
 </div>
 <div class="item2 item2Border">
 <!-- Installer Bio -->
-<p>We are a small company that services both residential and commercial. We have been installing or repairing doors for well over 30 years.  We sell and install both doors and windows as well as servicing them if your having problems. Our goal is to make the customer happy the first time so we don't have to come back until you need us for something else! We also do all trim work or kick ins, as well as any type of hardware install or replacement including digital hardware! <br> 
-   Also we warranty our labor as well as follow any manufactures warranties. If your patio door is giving you a hard time to open or close, we replace rollers and tracks to keep you from buying a whole new system like many company's do. We fix and sell closet doors, screen doors and most anything to do with any kind of door! We are on the threshold of perfection, so give us a call to handle your situation! Have a great day!  </p>
+<p>We started off as a repair company. We fix or repair and replace doors, windows locks and more! I have seen many different styles of hardware so lots of knowledge gained in 35 years of business! Hundreds of satisfied customers! Looking forward to helping you!</p>
 <br>
-<b>Years of Experience:</b> 33 Years
+<b>Years of Experience:</b> 35 Years
 <br><br> 
 <b>Does your company have Insurance?</b> Yes &#x2713;
 <br><br>
