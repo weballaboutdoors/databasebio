@@ -12,7 +12,7 @@
     "author": "Delfino Farfan",
     "license": "ISC",
     "dependencies": {
-        "axios": "^0.27.2",
+        "axios": "^1.6.0",
         "dotenv": "^16.0.3",
         "express": "^4.18.1",
         "html-literal": "^1.1.0",
