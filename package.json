@@ -12,13 +12,17 @@
     "author": "Delfino Farfan",
     "license": "ISC",
     "dependencies": {
-        "axios": "^0.27.2",
+        "axios": "^1.6.0",
         "dotenv": "^16.0.3",
         "express": "^4.18.1",
         "html-literal": "^1.1.0",
         "install": "^0.13.0",
         "lodash": "^4.17.21",
+<<<<<<< HEAD
         "mongoose": "^6.12.5",
+=======
+        "mongoose": "^6.12.5", 
+>>>>>>> 4e8e443c7faa895bd1a3896103ae7b6d1cb5a282
         "navigo": "^8.11.1",
         "parcel": "^2.7.0",
         "yargs-parser": "^21.1.1"
