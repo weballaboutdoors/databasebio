@@ -5,7 +5,7 @@ export default (state) => html `
 <meta name="description" content="Arizona installerbio, Arizona door repair, Arizona window repair, Arizona window installer, Arizona door installer, Arizona window part installer, Arizona door part installer, Arizona handyman, Arizona door help, Arizona window help">
 <meta name="keywords" content="door installation, window installation, Arizona window, Arizona door">
 <meta name="author" content="Delfino Farfan">
-<title>${state.view}</title>
+<title>${state.view} Installers | InstallerBio</title>
 </head>
 
 <div class="container formPage">

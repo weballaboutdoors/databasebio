@@ -5,7 +5,7 @@ export default () => html `
 <meta name="description" content="All About Doors & Windows, installerbio, door repair, window repair, window installer, door installer, window part installer, door part installer, handyman, door help, window help, search states">
     <meta name="keywords" content="All About Doors & Windows, state search installer bio, installerbio, door installation, window installation, window, door">
     <meta name="author" content="Delfino Farfan">
-    <title>All About Doors & Windows</title>
+    <title>All About Doors & Windows | InstallerBio</title>
 </head>
 <div class="container formPage">
 <button onclick="history.back()"></button>

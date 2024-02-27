@@ -5,7 +5,7 @@ export default () => html `
 <meta name="description" content="Quick Key Locksmith, installerbio, door repair, window repair, window installer, door installer, window part installer, door part installer, handyman, door help, window help, search states">
     <meta name="keywords" content="Quick Key Locksmith, state search installer bio, installerbio, door installation, window installation, window, door">
     <meta name="author" content="Delfino Farfan">
-    <title>Quick Key Locksmith</title>
+    <title>Quick Key Locksmith | InstallerBio</title>
 </head>
 <div class="container formPage">
 <button onclick="history.back()"></button>

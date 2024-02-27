@@ -5,7 +5,7 @@ export default (state) => html `
 <meta name="description" content="Washington installerbio, Washington door repair, Washington window repair, Washington window installer, Washington door installer, Washington window part installer, Washington door part installer, Washington handyman, Washington door help, Washington window help">
 <meta name="keywords" content="door installation, window installation, Washington window, Washington door">
 <meta name="author" content="Delfino Farfan">
-<title>${state.view}</title>
+<title>${state.view} Installers | InstallerBio</title>
 </head>
 <div class="container formPage">
 <button onclick="history.back()"></button>

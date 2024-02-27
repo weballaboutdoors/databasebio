@@ -5,7 +5,7 @@ export default (state) => html `
 <meta name="description" content="Tennessee installerbio, Tennessee door repair, Tennessee window repair, Tennessee window installer, Tennessee door installer, Tennessee window part installer, Tennessee door part installer, Tennessee handyman, Tennessee door help, Tennessee window help">
 <meta name="keywords" content="door installation, window installation, Tennessee window, Tennessee door">
 <meta name="author" content="Delfino Farfan">
-<title>${state.view}</title>
+<title>${state.view} Installers | InstallerBio</title>
 </head>
 <div class="container formPage">
 <button onclick="history.back()"></button>
