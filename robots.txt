@@ -1,12 +1,2 @@
 User-agent: *
-Disallow: /Submission
-Disallow: /Update
-Disallow: /Feedback
-Disallow: /css/
-Disallow: /js/
-Disallow: /html/
-
-
-
-User-agent: *
 Allow: /
