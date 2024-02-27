@@ -5,7 +5,7 @@ export default () => html `
 <meta name="description" content="Integral Windstorm Products, installerbio, door repair, window repair, window installer, door installer, window part installer, door part installer, handyman, door help, window help, search states">
     <meta name="keywords" content="Integral Windstorm Products, state search installer bio, installerbio, door installation, window installation, window, door">
     <meta name="author" content="Delfino Farfan">
-    <title>Integral Windstorm Products</title>
+    <title>Integral Windstorm Products | InstallerBio</title>
 </head>
 <div class="container formPage">
 <button onclick="history.back()"></button>

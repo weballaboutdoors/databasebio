@@ -5,7 +5,7 @@ export default (state) => html `
 <meta name="description" content="Rhode Island installerbio, Rhode Island door repair, Rhode Island window repair, Rhode Island window installer, Rhode Island door installer, Rhode Island window part installer, Rhode Island door part installer, Rhode Island handyman, Rhode Island door help, Rhode Island window help">
 <meta name="keywords" content="door installation, window installation, Rhode Island window, Rhode Island door">
 <meta name="author" content="Delfino Farfan">
-<title>Rhode Island</title>
+<title>${state.view} Installers | InstallerBio</title>
 </head>
 <div class="container formPage">
 <button onclick="history.back()"></button>

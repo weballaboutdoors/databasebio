@@ -2,10 +2,10 @@ import html from "html-literal";
 
 export default () => html `
 <head>
-<meta name="description" content="Doors Plus by Russ, installerbio, door repair, window repair, window installer, door installer, window part installer, door part installer, handyman, door help, window help, search states">
+<meta name="description" content="Doors Plus by Russ - We started off as a repair company. We fix or repair and replace doors, windows locks and more! I have seen many different styles of hardware so lots of knowledge gained in 35 years of business! Hundreds of satisfied customers! Looking forward to helping you!">
     <meta name="keywords" content="Doors Plus by Russ, state search installer bio, installerbio, door installation, window installation, window, door">
     <meta name="author" content="Delfino Farfan">
-    <title>Doors Plus by Russ</title>
+    <title>Doors Plus by Russ | InstallerBio</title>
 </head>
 <div class="container formPage">
 <button onclick="history.back()"></button>

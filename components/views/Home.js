@@ -5,7 +5,7 @@ export default (state) => html `
 <meta name="description" content="installerbio, door repair, window repair, window installer, door installer, window part installer, Alabama door part installer, handyman, door help, window help, installation">
 <meta name="keywords" content="door installation, window installation, window parts, door parts">
 <meta name="author" content="Delfino Farfan">
-<title>${state.view}</title>
+<title>${state.view} | InstallerBio</title>
 
 </head>
 <div class="container">
