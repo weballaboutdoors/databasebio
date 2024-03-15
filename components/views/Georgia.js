@@ -4,7 +4,6 @@ export default (state) => html `
 <head>
 <meta name="description" content="Georgia installerbio, Georgia door repair, Georgia window repair, Georgia window installer, Georgia door installer, Georgia window part installer, Georgia door part installer, Georgia handyman, Georgia door help, Georgia window help">
 <meta name="keywords" content="door installation, window installation, Georgia window, Georgia door">
-<meta name="author" content="Delfino Farfan">
 <title>${state.view} Installers | InstallerBio</title>
 </head>
 <div class="container formPage">

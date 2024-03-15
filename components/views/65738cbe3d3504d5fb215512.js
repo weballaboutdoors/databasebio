@@ -2,9 +2,8 @@ import html from "html-literal";
 
 export default () => html `
 <head>
-<meta name="description" content="All About Doors & Windows, installerbio, door repair, window repair, window installer, door installer, window part installer, door part installer, handyman, door help, window help, search states">
+<meta name="description" content="All About Doors & Windows - Here to Help with door and window problems.">
     <meta name="keywords" content="All About Doors & Windows, state search installer bio, installerbio, door installation, window installation, window, door">
-    <meta name="author" content="Delfino Farfan">
     <title>All About Doors & Windows | InstallerBio</title>
 </head>
 <div class="container formPage">

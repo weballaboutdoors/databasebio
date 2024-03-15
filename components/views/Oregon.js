@@ -4,7 +4,6 @@ export default (state) => html `
 <head>
 <meta name="description" content="Oregon installerbio, Oregon door repair, Oregon window repair, Oregon window installer, Oregon door installer, Oregon window part installer, Oregon door part installer, Oregon handyman, Oregon door help, Oregon window help">
 <meta name="keywords" content="door installation, window installation, Oregon window, Oregon door">
-<meta name="author" content="Delfino Farfan">
 <title>${state.view} Installers | InstallerBio</title>
 </head>
 <div class="container formPage">

@@ -4,7 +4,6 @@ export default (state) => html `
 <head>
 <meta name="description" content="Delaware installerbio, Delaware door repair, Delaware window repair, Delaware window installer, Delaware door installer, Delaware window part installer, Delaware door part installer, Delaware handyman, Delaware door help, Delaware window help">
 <meta name="keywords" content="door installation, window installation, Delaware window, Delaware door">
-<meta name="author" content="Delfino Farfan">
 <title>${state.view} Installers | InstallerBio</title>
 </head>
 <div class="container formPage">

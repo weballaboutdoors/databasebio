@@ -2,9 +2,8 @@ import html from "html-literal";
 
 export default () => html `
 <head>
-<meta name="description" content="Integral Windstorm Products, installerbio, door repair, window repair, window installer, door installer, window part installer, door part installer, handyman, door help, window help, search states">
+<meta name="description" content="Integral Windstorm Products - Glass and Glazing contractor since 2009. We repair Hoppe, GU, and other multipoint door locks.">
     <meta name="keywords" content="Integral Windstorm Products, state search installer bio, installerbio, door installation, window installation, window, door">
-    <meta name="author" content="Delfino Farfan">
     <title>Integral Windstorm Products | InstallerBio</title>
 </head>
 <div class="container formPage">

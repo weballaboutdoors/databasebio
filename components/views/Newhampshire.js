@@ -4,7 +4,6 @@ export default (state) => html `
 <head>
 <meta name="description" content="New Hampshire installerbio, New Hampshire door repair, New Hampshire window repair, New Hampshire window installer, New Hampshire door installer, New Hampshire window part installer, New Hampshire door part installer, New Hampshire handyman, New Hampshire door help, New Hampshire window help">
 <meta name="keywords" content="door installation, window installation, New Hampshire window, New Hampshire door">
-<meta name="author" content="Delfino Farfan">
 <title>${state.view} Installers | InstallerBio</title>
 </head>
 <div class="container formPage">

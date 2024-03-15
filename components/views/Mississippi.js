@@ -4,7 +4,6 @@ export default (state) => html `
 <head>
 <meta name="description" content="Mississippi installerbio, Mississippi door repair, Mississippi window repair, Mississippi window installer, Mississippi door installer, Mississippi window part installer, Mississippi door part installer, Mississippi handyman, Mississippi door help, Mississippi window help">
 <meta name="keywords" content="door installation, window installation, Mississippi window, Mississippi door">
-<meta name="author" content="Delfino Farfan">
 <title>${state.view} Installers | InstallerBio</title>
 </head>
 <div class="container formPage">

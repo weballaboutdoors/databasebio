@@ -2,9 +2,8 @@ import html from "html-literal";
 
 export default () => html `
 <head>
-<meta name="description" content="US Locksmith, installerbio, door repair, window repair, window installer, door installer, window part installer, door part installer, handyman, door help, window help, search states">
+<meta name="description" content="US Locksmith - Over 30 years experience. Specialize in Residential, Commercial, Car keys, Access Control, Safes, and CCTV.">
     <meta name="keywords" content="US Locksmith, state search installer bio, installerbio, door installation, window installation, window, door">
-    <meta name="author" content="Delfino Farfan">
     <title>US Locksmith | InstallerBio</title>
 </head>
 <div class="container formPage">
@@ -36,7 +35,7 @@ export default () => html `
 </div>
 <div class="item2 item2Border">
 <!-- Installer Bio -->
-<p>Over 30 years experience. Specialize in Residential, Commercial, Car keys, Access Control, Safes, and CCTV.
+<p>Over 30 years experience. Specialize in Residential, Commercial, Car keys, Access Control, Safes, and CCTV.</p>
 <br><br> 
 <b>Years of Experience:</b> 28 Years<br><br> 
 <b>Does your company have Insurance?</b> Yes &#x2713;<br><br>
