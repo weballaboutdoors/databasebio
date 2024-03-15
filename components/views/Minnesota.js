@@ -4,7 +4,6 @@ export default (state) => html `
 <head>
 <meta name="description" content="Minnesota installerbio, Minnesota door repair, Minnesota window repair, Minnesota window installer, Minnesota door installer, Minnesota window part installer, Minnesota door part installer, Minnesota handyman, Minnesota door help, Minnesota window help">
 <meta name="keywords" content="door installation, window installation, Minnesota window, Minnesota door">
-<meta name="author" content="Delfino Farfan">
 <title>${state.view} Installers | InstallerBio</title>
 </head>
 <div class="container formPage">

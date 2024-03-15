@@ -2,9 +2,8 @@ import html from "html-literal";
 
 export default () => html `
 <head>
-<meta name="description" content="The Glass Guru of Olathe, installerbio, door repair, window repair, window installer, door installer, window part installer, door part installer, handyman, door help, window help, search states">
+<meta name="description" content="The Glass Guru of Olathe - The Glass Guru is your local one-stop shop for Glass Repair, Mirrors, Shower Enclosures, Windows, Doors, Screens, Hardware, and more! Our teams of glass professionals will offer you the broadest range of solutions to address your individual needs, including niche specialty services such as Foggy Window Repair, In-Glass Pet Doors & Custom Mirror Frames, that you simply won't find anywhere else or with any other glass company.">
     <meta name="keywords" content="The Glass Guru of Olathe, state search installer bio, installerbio, door installation, window installation, window, door">
-    <meta name="author" content="Delfino Farfan">
     <title>The Glass Guru of Olathe | InstallerBio</title>
 </head>
 <div class="container formPage">

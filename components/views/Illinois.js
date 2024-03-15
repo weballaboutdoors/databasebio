@@ -4,7 +4,6 @@ export default (state) => html `
 <head>
 <meta name="description" content="Illinois installerbio, Illinois door repair, Illinois window repair, Illinois window installer, Illinois door installer, Illinois window part installer, Illinois door part installer, Illinois handyman, Illinois door help, Illinois window help">
 <meta name="keywords" content="door installation, window installation, Illinois window, Illinois door">
-<meta name="author" content="Delfino Farfan">
 <title>${state.view} Installers | InstallerBio</title>
 </head>
 <div class="container formPage">

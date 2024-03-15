@@ -4,7 +4,6 @@ export default (state) => html `
 <head>
 <meta name="description" content="installerbio, door repair, window repair, window installer, door installer, window part installer, door part installer, handyman, door help, window help, privacy feedback, privacy">
     <meta name="keywords" content="privacy, privacy conditions, installer bio, installerbio, door installation, window installation, window, door">
-    <meta name="author" content="Delfino Farfan">
     <title>Privacy | InstallerBio</title>
 </head>
 <div class="container text-left formPage">

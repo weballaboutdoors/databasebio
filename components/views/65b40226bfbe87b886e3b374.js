@@ -2,9 +2,8 @@ import html from "html-literal";
 
 export default () => html `
 <head>
-<meta name="description" content="Quick Key Locksmith, installerbio, door repair, window repair, window installer, door installer, window part installer, door part installer, handyman, door help, window help, search states">
+<meta name="description" content="Quick Key Locksmith - Our professional locksmiths provide the best residential, commercial, and automotive locksmith services throughout the Chicagoland area. Whether dealing with a lockout, lock replacement, lock change, re-key, access control system setup, or custom hardware installation, our experienced team of locksmiths can help you with all of your security needs.">
     <meta name="keywords" content="Quick Key Locksmith, state search installer bio, installerbio, door installation, window installation, window, door">
-    <meta name="author" content="Delfino Farfan">
     <title>Quick Key Locksmith | InstallerBio</title>
 </head>
 <div class="container formPage">

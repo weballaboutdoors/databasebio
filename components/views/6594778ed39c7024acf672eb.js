@@ -2,9 +2,8 @@ import html from "html-literal";
 
 export default () => html `
 <head>
-<meta name="description" content="Door Systems Inc, installerbio, door repair, window repair, window installer, door installer, window part installer, door part installer, handyman, door help, window help, search states">
+<meta name="description" content="Door Systems Inc - We specialize in both installation and service of all makes and brands of residential and commercial swing, sliding, French, atrium, patio, and garage doors. We have service experience working on doors with multipoint lock hardware and are familiar with a variety of locking mechanisms.">
     <meta name="keywords" content="Door Systems Inc, state search installer bio, installerbio, door installation, window installation, window, door">
-    <meta name="author" content="Delfino Farfan">
     <title>Door Systems Inc | InstallerBio</title>
 </head>
 <div class="container formPage">

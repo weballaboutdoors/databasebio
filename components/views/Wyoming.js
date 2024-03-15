@@ -4,7 +4,6 @@ export default (state) => html `
 <head>
 <meta name="description" content="Wyoming installerbio, Wyoming door repair, Wyoming window repair, Wyoming window installer, Wyoming door installer, Wyoming window part installer, Wyoming door part installer, Wyoming handyman, Wyoming door help, Wyoming window help">
 <meta name="keywords" content="door installation, window installation, Wyoming window, Wyoming door">
-<meta name="author" content="Delfino Farfan">
 <title>${state.view} Installers | InstallerBio</title>
 </head>
 <div class="container formPage">

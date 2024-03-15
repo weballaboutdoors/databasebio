@@ -4,7 +4,6 @@ export default (state) => html `
 <head>
 <meta name="description" content="West Virginia installerbio, West Virginia door repair, West Virginia window repair, West Virginia window installer, West Virginia door installer, West Virginia window part installer, West Virginia door part installer, West Virginia handyman, West Virginia door help, West Virginia window help">
 <meta name="keywords" content="door installation, window installation, West Virginia window, West Virginia door">
-<meta name="author" content="Delfino Farfan">
 <title>${state.view} Installers | InstallerBio</title>
 </head>
 <div class="container formPage">

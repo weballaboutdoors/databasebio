@@ -2,9 +2,8 @@ import html from "html-literal";
 
 export default () => html `
 <head>
-<meta name="description" content="A1 On Track Sliding Door & Window Repair, installerbio, door repair, window repair, window installer, door installer, window part installer, door part installer, handyman, door help, window help, search states">
+<meta name="description" content="A1 On Track Sliding Door & Window Repair - A1 On Track was founded in the Bay Area in 1989. Our goal was to offer a low cost alternative to replacing sliding glass patio doors. Since then we have repaired hundreds of thousands of patio doors, pocket doors, closet doors and tub enclosures. We have literally fixed more sliding doors and windows in the Bay Area than anyone, period. We provide prompt professional service and we show up prepared. ">
     <meta name="keywords" content="A1 On Track Sliding Door & Window Repair, state search installer bio, installerbio, door installation, window installation, window, door">
-    <meta name="author" content="Delfino Farfan">
     <title>A1 On Track Sliding Door & Window Repair | InstallerBio</title>
 </head>
 <div class="container formPage">

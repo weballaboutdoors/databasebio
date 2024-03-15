@@ -2,9 +2,9 @@ import html from "html-literal";
 
 export default () => html `
 <head>
-<meta name="description" content="Blomquist Builders, installerbio, door repair, window repair, window installer, door installer, window part installer, door part installer, handyman, door help, window help, search states">
+<meta name="description" content="Blomquist Builders - I'm presently retired so licenses and insurance aren’t necessary however should it become necessary, we can get compliant.
+Presently I’m researching how I might secure part-time work at the very least to adjust to a changing economy and move forward! I also work on Framing and Finishing Custom Railings">
     <meta name="keywords" content="Blomquist Builders, state search installer bio, installerbio, door installation, window installation, window, door">
-    <meta name="author" content="Delfino Farfan">
     <title>Blomquist Builders | InstallerBio</title>
 </head>
 <div class="container formPage">

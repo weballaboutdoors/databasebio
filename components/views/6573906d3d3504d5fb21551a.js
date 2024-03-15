@@ -2,9 +2,8 @@ import html from "html-literal";
 
 export default () => html `
 <head>
-<meta name="description" content="California Sliding Door Repair, installerbio, door repair, window repair, window installer, door installer, window part installer, door part installer, handyman, door help, window help, search states">
+<meta name="description" content="California Sliding Door Repair - Expert Sliding glass patio door repair. Locks, handles, rollers, tracks. Problem solver.  We can give advise with some photos on the phone if not in our area. We know people in this business in other cities. Expert advise and solutions for old-obsolete sliding door problems.">
     <meta name="keywords" content="California Sliding Door Repair, state search installer bio, installerbio, door installation, window installation, window, door">
-    <meta name="author" content="Delfino Farfan">
     <title>California Sliding Door Repair | InstallerBio</title>
 </head>
 <div class="container formPage">

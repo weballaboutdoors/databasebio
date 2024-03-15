@@ -2,9 +2,8 @@ import html from "html-literal";
 
 export default () => html `
 <head>
-<meta name="description" content="Leonard Lock and Key, installerbio, door repair, window repair, window installer, door installer, window part installer, door part installer, handyman, door help, window help, search states">
+<meta name="description" content="Leonard Lock and Key - Family based locksmith service since 2004.">
     <meta name="keywords" content="Leonard Lock and Key, state search installer bio, installerbio, door installation, window installation, window, door">
-    <meta name="author" content="Delfino Farfan">
     <title>Leonard Lock and Key | InstallerBio</title>
 </head>
 <div class="container formPage">

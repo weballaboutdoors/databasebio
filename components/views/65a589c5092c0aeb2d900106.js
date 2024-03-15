@@ -4,7 +4,6 @@ export default () => html `
 <head>
 <meta name="description" content="Doors Plus by Russ - We started off as a repair company. We fix or repair and replace doors, windows locks and more! I have seen many different styles of hardware so lots of knowledge gained in 35 years of business! Hundreds of satisfied customers! Looking forward to helping you!">
     <meta name="keywords" content="Doors Plus by Russ, state search installer bio, installerbio, door installation, window installation, window, door">
-    <meta name="author" content="Delfino Farfan">
     <title>Doors Plus by Russ | InstallerBio</title>
 </head>
 <div class="container formPage">

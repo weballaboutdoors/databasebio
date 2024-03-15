@@ -4,7 +4,6 @@ export default (state) => html `
 <head>
 <meta name="description" content="New Mexico installerbio, New Mexico door repair, New Mexico window repair, New Mexico window installer, New Mexico door installer, New Mexico window part installer, New Mexico door part installer, New Mexico handyman, New Mexico door help, New Mexico window help">
 <meta name="keywords" content="door installation, window installation, New Mexico window, New Mexico door">
-<meta name="author" content="Delfino Farfan">
 <title>${state.view} Installers | InstallerBio</title>
 </head>
 <div class="container formPage">
