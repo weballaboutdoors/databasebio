@@ -1,7 +1,7 @@
-
-const express = require("express");
-const dotenv = require("dotenv");
-const mongoose = require("mongoose");
+// Import necessary modules and routers
+const express = require("express"); // Import Express.js framework
+const dotenv = require("dotenv"); // Import dotenv for environment variables
+const mongoose = require("mongoose"); // Import Mongoose for MongoDB interaction
 const alabamas = require("./routers/alabamas");
 const alaskas = require("./routers/alaskas");
 const arizonas = require("./routers/arizonas");
@@ -57,15 +57,19 @@ const customers = require("./routers/customers");
 const installers = require("./routers/installers");
 const updates = require("./routers/updates");
 
-const app = express();
-
+// Load environment variables from .env file
 dotenv.config();
 
+// Create an instance of Express
+const app = express(); // Create Express app
+
+
+// Define the port number, using environment variable PORT or defaulting to 4040
 const PORT = process.env.PORT || 4040;
 
-mongoose.connect(process.env.MONGODB);
-const db = mongoose.connection;
-db.on("error", console.error.bind(console, "Connection Error:"));
+mongoose.connect(process.env.MONGODB); // Connect to MongoDB using the URI from environment variables
+const db = mongoose.connection; // Get the default connection to MongoDB
+db.on("error", console.error.bind(console, "Connection Error:")); 
 db.once(
   "open",
   console.log.bind(console, "Successfully opened connection to Mongo!")
