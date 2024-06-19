@@ -20,14 +20,14 @@
         "install": "^0.13.0",
         "lodash": "^4.17.21",
         "mongodb": "^6.7.0",
-        "mongoose": "^6.13.0",
+        "mongoose": "^8.4.3",
         "navigo": "^8.11.1",
         "parcel": "^2.7.0",
         "yargs-parser": "^21.1.1"
     },
     "devDependencies": {
         "buffer": "^6.0.3",
-        "nodemon": "^2.0.20",
+        "nodemon": "^2.0.22",
         "os-browserify": "^0.3.0",
         "path-browserify": "^1.0.1",
         "process": "^0.11.10",
