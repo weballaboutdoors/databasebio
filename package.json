@@ -19,7 +19,7 @@
         "html-literal": "^1.1.0",
         "install": "^0.13.0",
         "lodash": "^4.17.21",
-        "mongoose": "^6.12.9",
+        "mongoose": "^6.13.0",
         "navigo": "^8.11.1",
         "parcel": "^2.7.0",
         "yargs-parser": "^21.1.1"
